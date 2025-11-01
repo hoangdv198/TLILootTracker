@@ -282,7 +282,7 @@ class App(Tk):
     
     def reshow(self):
         import index as main_module
-        import config
+        from app import config
         with open("full_table.json", 'r', encoding="utf-8") as f:
             full_table = json.load(f)
         self.label_map_count.config(text=f"🎫 {main_module.map_count}")

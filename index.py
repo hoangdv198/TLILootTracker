@@ -26,14 +26,14 @@ Lưu ý:
 """
 import time
 import _thread
-from ui import App
-from app import MyThread
-from drop_handler import pending_items
-from price_handler import price_update
-import config
+from ui.ui import App
+from app.app import MyThread
+from core.drop_handler import pending_items
+from core.price_handler import price_update
+from app import config
 
 # Initialize config for drop_handler
-from drop_handler import config_data as dh_config_data
+from core.drop_handler import config_data as dh_config_data
 dh_config_data.update(config.config_data)
 
 # Global state variables

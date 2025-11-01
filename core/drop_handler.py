@@ -28,7 +28,7 @@ Global variables:
 import time
 import json
 from datetime import datetime
-from log_parser import convert_from_log_structure, scanned_log
+from .log_parser import convert_from_log_structure, scanned_log
 
 
 # Global state variables (will be initialized in main)

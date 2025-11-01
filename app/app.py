@@ -17,8 +17,8 @@ Class chính:
 """
 import time
 import threading
-from drop_handler import deal_change
-from price_handler import get_price_info
+from core.drop_handler import deal_change
+from core.price_handler import get_price_info
 
 
 class MyThread(threading.Thread):
@@ -26,7 +26,7 @@ class MyThread(threading.Thread):
     history = ""
     
     def run(self):
-        import config
+        from . import config
         import index as main_module
         
         self.history = open(config.position_log, "r", encoding="utf-8")
@@ -40,7 +40,7 @@ class MyThread(threading.Thread):
                 get_price_info(things)
                 
                 # Sync global state from drop_handler to main module
-                from drop_handler import drop_list as dh_drop_list, drop_list_all as dh_drop_list_all, income as dh_income, income_all as dh_income_all
+                from core.drop_handler import drop_list as dh_drop_list, drop_list_all as dh_drop_list_all, income as dh_income, income_all as dh_income_all
                 main_module.drop_list = dh_drop_list
                 main_module.drop_list_all = dh_drop_list_all
                 main_module.income = dh_income
