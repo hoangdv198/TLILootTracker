@@ -1,57 +1,63 @@
 # FurTorch
- FurTorch 火炬之光收益统计器 测试版
-# Archive的说明
- 因为官方更新了日志结构，原有的日志识别方式需要更改，综合考虑因为Tkinter组件不支持鼠标穿透，后续更新会使用PyQt5，并采用视觉方式进行掉落识别，我们暂时不建议基于该项目进行开发，故暂时对该项目进行只读。
- 预计在1-2天后更新项目
-## 打包方式
+ FurTorch Torchlight Loot Statistics Tool (Beta)
+
+# Archive Notice
+Due to official log structure updates, the original log identification method needs to be changed. After comprehensive consideration, since Tkinter components do not support mouse transparency, future updates will use PyQt5 and adopt visual methods for loot identification. We temporarily do not recommend development based on this project, so the project is temporarily set to read-only.
+
+The project is expected to be updated in 1-2 days.
+
+## Build Instructions
 ``` 
 pip install -r requirements.txt
 python setup.py py2exe
 ```
 
-## 代码解释
-<s>由于本来只打算自己用，所以代码写的说不上乱七八糟，那也算是七零八落，所以为了防止未来只有上帝知道每一段的意思，也为了方便二次开发，所以写了这一段</s>
+## Code Documentation
+~~Since this was originally intended only for personal use, the code isn't exactly messy, but it's definitely scattered. To prevent a future where only God knows what each section means, and to facilitate secondary development, this section was written.~~
 
-### 全局变量释义
-| 变量名   | 释义               |
-|--------|------------------|
-| `t` |地图开始的时间戳，用于统计地图用时|
-| `show_all`| 显示当前地图掉落/总计掉落|
-|`is_in_map`| 是否在地图中|
+### Global Variables
+| Variable Name | Description               |
+|--------------|--------------------------|
+| `t` | Timestamp when map starts, used for calculating map duration |
+| `show_all`| Display current map loot / total loot |
+| `is_in_map`| Whether currently in a map |
 
-### UI组件名
-| 组件名              | 释义              |
-|------------------|-----------------|
-| `label_time`     | 显示地图耗时，标签       |
-| `label_drop`     | 显示掉落，标签         |
-| `label_drop_all` | 显示掉落物的初火源质价值，标签 |
-| `button_change`  | 切换当前地图掉落/总掉落 显示，按钮 |
+### UI Component Names
+| Component Name        | Description              |
+|----------------------|--------------------------|
+| `label_time`     | Display map duration, label       |
+| `label_drop`     | Display loot, label         |
+| `label_drop_all` | Display loot value in Primordial Fire Essence, label |
+| `button_change`  | Toggle between current map loot / total loot display, button |
 
-### 函数释义
-| 函数名               | 释义                                                             |
-|-------------------|----------------------------------------------------------------|
-| `parse_log_structure`| 解析日志结构为json格式（主体AI生成后修改）                                       |
-| `scanned_log`| 搜索日志文件中关于掉落的部分，传递到parse函数                                      |
-|`deal_change`| 搜索进入/离开地图的信息<br>并传入scanner_log搜索掉落<br>并解析掉落的物品类别，数量<br>将信息写入数组 |
-|`change_states`| 由`button_change`触发，更改掉落显示|
-|`get_price_info`| 在您在交易所查价时，自动读取日志文件<br>更新通货价格（前30卖单平均数）|
-### 配置文件结构
+### Function Descriptions
+| Function Name               | Description                                                             |
+|---------------------------|------------------------------------------------------------------------|
+| `parse_log_structure`| Parse log structure into JSON format (mainly AI-generated, then modified)                                       |
+| `scanned_log`| Search for loot-related sections in log files, pass to parse function                                      |
+| `deal_change`| Search for map enter/exit information<br>Pass to scanner_log to search for loot<br>Parse loot item types and quantities<br>Write information to array |
+| `change_states`| Triggered by `button_change`, changes loot display |
+| `get_price_info`| When checking prices in the exchange, automatically reads log files<br>Updates currency prices (average of top 30 sell orders) |
+
+### Configuration File Structure
 ### id_table.conf 
-匹配日志文件的ID和掉落物名称
+Matches log file IDs with loot item names
 ```
-<物品ID>[空格]<物品名称>
-示例：
-100200 初火灵砂
-100300 初火源质
+<Item ID>[Space]<Item Name>
+Example:
+100200 Primordial Fire Sand
+100300 Primordial Fire Essence
 ```
+
 ### price.json
-物品价格文件
-```
+Item price file
+```json
 {
-    "<物品名称>":<物品价格>,
-    "初火灵砂":999,
-    "初火源质":0
+    "<Item Name>":<Item Price>,
+    "Primordial Fire Sand":999,
+    "Primordial Fire Essence":0
 }
 ```
 
-当您发现掉落物不存在于id_table.conf或者价格有巨大变动时，您可以发ISSUE或在更改后发送PUSH,感谢
+If you find that a loot item does not exist in id_table.conf or there are significant price changes, please create an ISSUE or send a PUSH after making changes. Thank you.
+
