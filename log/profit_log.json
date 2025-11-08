@@ -38,5 +38,15 @@
         "profit": 21000254.53,
         "duration_seconds": 199.58,
         "duration_formatted": "3m19s"
+    },
+    {
+        "timestamp": 1762636732,
+        "datetime": "2025-11-09 04:18:51",
+        "map_count": 1,
+        "income": 118.59,
+        "cost": 4.0,
+        "profit": 118.59,
+        "duration_seconds": 85.74,
+        "duration_formatted": "1m25s"
     }
 ]

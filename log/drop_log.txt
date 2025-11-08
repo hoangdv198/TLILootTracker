@@ -393,3 +393,43 @@
 [2025.11.08-20.03.06:468][PickItems] BagItem PageId = 102 SlotId = 13 ConfigBaseId = 200029 Num = 2792 Name = Rare Ash Price = 0.0
 
 ==========================END MAP================
+[2025.11.08-21.17.36:664][PickItems] BagItem PageId = 102 SlotId = 3 ConfigBaseId = 100200 Num = 651 Name = Flame Sand Price = 0.001
+[2025.11.08-21.17.38:411][PickItems] BagItem PageId = 102 SlotId = 7 ConfigBaseId = 5028 Num = 672 Name = Netherrealm Resonance Price = 0.18
+[2025.11.08-21.17.42:460][PickItems] BagItem PageId = 102 SlotId = 3 ConfigBaseId = 100200 Num = 652 Name = Flame Sand Price = 0.001
+[2025.11.08-21.18.01:678][PickItems] BagItem PageId = 102 SlotId = 3 ConfigBaseId = 100200 Num = 657 Name = Flame Sand Price = 0.001
+[2025.11.08-21.18.05:499][PickItems] BagItem PageId = 102 SlotId = 39 ConfigBaseId = 5140 Num = 691 Name = Memory Fragments Price = 0.0
+[2025.11.08-21.18.05:942][PickItems] BagItem PageId = 102 SlotId = 3 ConfigBaseId = 100200 Num = 660 Name = Flame Sand Price = 0.001
+[2025.11.08-21.18.06:842][PickItems] BagItem PageId = 102 SlotId = 3 ConfigBaseId = 100200 Num = 662 Name = Flame Sand Price = 0.001
+[2025.11.08-21.18.10:709][PickItems] BagItem PageId = 102 SlotId = 39 ConfigBaseId = 5140 Num = 692 Name = Memory Fragments Price = 0.0
+[2025.11.08-21.18.12:759][PickItems] BagItem PageId = 102 SlotId = 3 ConfigBaseId = 100200 Num = 664 Name = Flame Sand Price = 0.001
+[2025.11.08-21.18.13:675][PickItems] BagItem PageId = 102 SlotId = 3 ConfigBaseId = 100200 Num = 665 Name = Flame Sand Price = 0.001
+[2025.11.08-21.18.13:976][PickItems] BagItem PageId = 103 SlotId = 98 ConfigBaseId = 6003 Num = 21 Name = Crow's Lament Price = 0.0
+[2025.11.08-21.18.14:259][PickItems] BagItem PageId = 102 SlotId = 44 ConfigBaseId = 370101 Num = 171 Name = Prism Caliper - Rare Price = 0.0
+[2025.11.08-21.18.16:540][PickItems] BagItem PageId = 102 SlotId = 13 ConfigBaseId = 200029 Num = 2793 Name = Rare Ash Price = 0.0
+[2025.11.08-21.18.18:942][PickItems] BagItem PageId = 102 SlotId = 7 ConfigBaseId = 5028 Num = 675 Name = Netherrealm Resonance Price = 0.18
+[2025.11.08-21.18.20:292][PickItems] BagItem PageId = 102 SlotId = 3 ConfigBaseId = 100200 Num = 666 Name = Flame Sand Price = 0.001
+[2025.11.08-21.18.26:393][PickItems] BagItem PageId = 103 SlotId = 72 ConfigBaseId = 10190 Num = 22 Name = Maze Compass Price = 0.0
+[2025.11.08-21.18.26:613][PickItems] BagItem PageId = 102 SlotId = 3 ConfigBaseId = 100200 Num = 668 Name = Flame Sand Price = 0.001
+[2025.11.08-21.18.28:216][PickItems] BagItem PageId = 102 SlotId = 3 ConfigBaseId = 100200 Num = 669 Name = Flame Sand Price = 0.001
+[2025.11.08-21.18.28:894][PickItems] BagItem PageId = 102 SlotId = 3 ConfigBaseId = 100200 Num = 670 Name = Flame Sand Price = 0.001
+[2025.11.08-21.18.30:743][PickItems] BagItem PageId = 102 SlotId = 3 ConfigBaseId = 100200 Num = 671 Name = Flame Sand Price = 0.001
+[2025.11.08-21.18.31:427][PickItems] BagItem PageId = 102 SlotId = 3 ConfigBaseId = 100200 Num = 677 Name = Flame Sand Price = 0.001
+[2025.11.08-21.18.31:662][PickItems] BagItem PageId = 102 SlotId = 3 ConfigBaseId = 100200 Num = 678 Name = Flame Sand Price = 0.001
+[2025.11.08-21.18.31:860][PickItems] BagItem PageId = 103 SlotId = 69 ConfigBaseId = 10220 Num = 43 Name = Doll Compass Price = 0.0
+[2025.11.08-21.18.32:543][PickItems] BagItem PageId = 102 SlotId = 3 ConfigBaseId = 100200 Num = 683 Name = Flame Sand Price = 0.001
+[2025.11.08-21.18.33:927][PickItems] BagItem PageId = 102 SlotId = 3 ConfigBaseId = 100200 Num = 684 Name = Flame Sand Price = 0.001
+[2025.11.08-21.18.34:560][PickItems] BagItem PageId = 102 SlotId = 3 ConfigBaseId = 100200 Num = 686 Name = Flame Sand Price = 0.001
+[2025.11.08-21.18.34:778][PickItems] BagItem PageId = 102 SlotId = 3 ConfigBaseId = 100200 Num = 688 Name = Flame Sand Price = 0.001
+[2025.11.08-21.18.35:226][PickItems] BagItem PageId = 102 SlotId = 3 ConfigBaseId = 100200 Num = 689 Name = Flame Sand Price = 0.001
+[2025.11.08-21.18.35:460][PickItems] BagItem PageId = 102 SlotId = 3 ConfigBaseId = 100200 Num = 700 Name = Flame Sand Price = 0.001
+[2025.11.08-21.18.36:793][PickItems] BagItem PageId = 102 SlotId = 3 ConfigBaseId = 100200 Num = 701 Name = Flame Sand Price = 0.001
+[2025.11.08-21.18.37:926][PickItems] BagItem PageId = 102 SlotId = 3 ConfigBaseId = 100200 Num = 702 Name = Flame Sand Price = 0.001
+[2025.11.08-21.18.39:759][PickItems] BagItem PageId = 102 SlotId = 3 ConfigBaseId = 100200 Num = 703 Name = Flame Sand Price = 0.001
+[2025.11.08-21.18.39:993][PickItems] BagItem PageId = 102 SlotId = 3 ConfigBaseId = 100200 Num = 704 Name = Flame Sand Price = 0.001
+[2025.11.08-21.18.41:358][PickItems] BagItem PageId = 102 SlotId = 3 ConfigBaseId = 100200 Num = 724 Name = Flame Sand Price = 0.001
+[2025.11.08-21.18.43:192][PickItems] BagItem PageId = 102 SlotId = 3 ConfigBaseId = 100200 Num = 725 Name = Flame Sand Price = 0.001
+[2025.11.08-21.18.43:741][PickItems] BagItem PageId = 102 SlotId = 1 ConfigBaseId = 100300 Num = 388 Name = Flame Elementium Price = 0.0
+[2025.11.08-21.18.44:058][PickItems] BagItem PageId = 102 SlotId = 42 ConfigBaseId = 360403 Num = 69 Name = Basic Component Price = 0.0
+[2025.11.08-21.18.49:489][PickItems] BagItem PageId = 102 SlotId = 7 ConfigBaseId = 5028 Num = 677 Name = Netherrealm Resonance Price = 0.18
+
+==========================END MAP================
