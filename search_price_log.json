@@ -1,8 +1,8 @@
 [
     {
         "idItem": "5703",
-        "price": 60.0,
-        "last_update": 1762589663,
+        "price": 2.4673,
+        "last_update": 1762636445,
         "type": "Tower Materials"
     },
     {
@@ -13,26 +13,27 @@
     },
     {
         "idItem": "140004",
-        "price": 9.5,
-        "last_update": 1762591381,
+        "price": 9.0428,
+        "last_update": 1762636400,
         "type": "Dream Materials"
     },
     {
         "idItem": "140005",
-        "price": 6.8,
-        "last_update": 1762591377,
+        "price": 6.9101,
+        "last_update": 1762636395,
         "type": "Dream Materials"
     },
     {
         "idItem": "140006",
-        "price": 25.0,
-        "last_update": 1762591375,
+        "name": "Pale Dream Words - Accessory",
+        "price": 25.5125,
+        "last_update": 1762636551,
         "type": "Dream Materials"
     },
     {
         "idItem": "5028",
-        "price": 50000.0,
-        "last_update": 1762590975,
+        "price": 0.18,
+        "last_update": 1762636404,
         "type": "Hard Currency"
     },
     {
@@ -67,14 +68,32 @@
     },
     {
         "idItem": "200030",
-        "price": 6.0,
-        "last_update": 1762591152,
-        "type": "装备材料"
+        "price": 6.236,
+        "last_update": 1762636402,
+        "type": "Equipment Materials"
     },
     {
         "idItem": "5250",
         "price": 18.0,
         "last_update": 1762591464,
         "type": "Cube Materials"
+    },
+    {
+        "idItem": "5031",
+        "price": 190.0,
+        "last_update": 1762630566,
+        "type": "Special Items"
+    },
+    {
+        "idItem": "360502",
+        "price": 999.0,
+        "last_update": 1762631106,
+        "type": "Unknown"
+    },
+    {
+        "idItem": "370201",
+        "price": 0.2217,
+        "last_update": 1762636409,
+        "type": "Overlap Materials"
     }
 ]

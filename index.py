@@ -36,24 +36,29 @@ from app import config
 from core.drop_handler import config_data as dh_config_data
 dh_config_data.update(config.config_data)
 
-# Global state variables
-is_in_map = False
-drop_list = {}
-drop_list_all = {}
-income = 0
-income_all = 0
-t = time.time()
-show_all = False
-total_time = 0
-map_count = 0
-root = None
+# Import state module và initialize
+from app import state
+state.t = time.time()
 
 # Initialize app
 root = App()
 root.wm_attributes('-topmost', 1)
+state.root = root
 
 # Start log monitoring thread
 MyThread().start()
+
+# Export state để backward compatibility (nếu có code cũ còn dùng)
+# Các module mới nên import từ app.state thay vì index
+is_in_map = state.is_in_map
+drop_list = state.drop_list
+drop_list_all = state.drop_list_all
+income = state.income
+income_all = state.income_all
+t = state.t
+show_all = state.show_all
+total_time = state.total_time
+map_count = state.map_count
 
 # TODO: Re-enable price sync thread sau khi hoàn thiện
 # Start price update thread

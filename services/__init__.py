@@ -16,9 +16,29 @@ from .price_service import (
     get_user
 )
 
+from .log_scan_service import (
+    scan_init_bag,
+    scan_drop_log,
+    scan_price_search
+)
+
+from .item_service import (
+    get_item_info,
+    get_item_name,
+    get_item_price,
+    clear_cache as clear_item_cache
+)
+
 __all__ = [
     'get_price_info',
     'price_update',
-    'get_user'
+    'get_user',
+    'scan_init_bag',
+    'scan_drop_log',
+    'scan_price_search',
+    'get_item_info',
+    'get_item_name',
+    'get_item_price',
+    'clear_item_cache'
 ]
 

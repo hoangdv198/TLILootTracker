@@ -13,12 +13,15 @@ Service này sử dụng repositories để giao tiếp với external APIs.
 import time
 import json
 import re
+from core.logger import log_debug
 from repositories.price_api_client import (
     fetch_all_prices,
     fetch_item_by_id,
     submit_price,
     register_user
 )
+from .log_scan_service import scan_price_search
+from .item_service import get_item_info
 
 
 def get_user():
@@ -59,102 +62,76 @@ def get_price_info(text):
     Extract và update giá từ exchange search results trong log
     
     Business logic:
-    - Parse log để tìm price information
+    - Sử dụng scan_price_search() để scan và extract giá từ log
     - Tính toán average price từ exchange data
-    - Ghi log vào search_price_log.json (giá đắt nhất)
+    - Ghi log vào search_price_log.json (giá cao nhất - max value)
     - Submit price lên server
     
     Args:
         text (str): Log text từ game
     """
     try:
-        # Load id_table.json một lần để tối ưu performance
-        try:
-            with open("id_table.json", 'r', encoding="utf-8") as f:
-                id_table = json.load(f)
-        except Exception as e:
-            print(f'Error reading id_table.json: {e}')
-            id_table = {}
         
-        pattern_id = r'XchgSearchPrice----SynId = (\d+).*?\+refer \[(\d+)\]'
-        match = re.findall(pattern_id, text, re.DOTALL)
-        result = list(match)
-        for i, item in enumerate(result, 1):
-            ids = item[1]
-            synid = item[0]
-            pattern = re.compile(
-                rf'----Socket RecvMessage STT----XchgSearchPrice----SynId = {synid}\s+'  # Match target SynId
-                r'\[.*?\]\s*GameLog: Display: \[Game\]\s+'  # Match time and fixed prefix
-                r'(.*?)(?=----Socket RecvMessage STT----|$)',  # Match data block content (to next block or end)
-                re.DOTALL  # Allow . to match newlines
-            )
-
-            # Find target data block
-            match = pattern.search(text)
-            data_block = match.group(1)
-            if not match:
-                print(f'Found record: ID:{item[1]}, Price:-1')
-            if int(item[1]) == 100300:
+        # Sử dụng scan_price_search để scan và extract giá
+        price_results = scan_price_search(text)
+        
+        for result in price_results:
+            item_id = result.get("itemId")
+            highest_price = result.get("highest_price", -1)
+            average_price = result.get("average_price", -1)
+            
+            if average_price <= 0:
                 continue
-            # Extract all numeric values from +number [value] (ignore currency)
-            value_pattern = re.compile(r'\+\d+\s+\[([\d.]+)\]')  # Match +number [x.x] format
-            values = value_pattern.findall(data_block)
-            # Get average of first 30 values, but if values length is less than 30, take average of all
-            if len(values) == 0:
-                average_value = -1
-                highest_price = -1
-            else:
-                num_values = min(len(values), 30)
-                sum_values = sum(float(values[i]) for i in range(num_values))
-                average_value = sum_values / num_values
-                # Lấy giá cuối cùng (giá đắt nhất) - giá cuối cùng trong list
-                highest_price = float(values[-1])
             
-            # Lấy type và name từ id_table.json (đã dịch sang tiếng Anh)
-            item_type = id_table.get(ids, {}).get('type', 'Unknown')
-            item_name = id_table.get(ids, {}).get('name', f'Item {ids}')
+            # Lấy type và name từ item_service
+            item_info = get_item_info(item_id, apply_tax=False)
+            item_type = item_info.get("type", "Unknown")
+            item_name = item_info.get("name", f"Item {item_id}")
             
-            print(f'Updated item value: ID:{ids}, Name:{item_name}, Price:{round(average_value, 4)}')
+            # Print thông tin: average (giá được lưu) và highest (để tham khảo)
+            log_debug(f'Updated item value: ID:{item_id}, Name:{item_name}, Average Price:{average_price}, Highest Price:{highest_price}')
             
-            # Ghi vào search_price_log.json
-            if highest_price > 0:
+            # Ghi vào search_price_log.json (lưu average_price - giá trung bình của tất cả giá trị)
+            try:
+                # Đọc file log hiện tại hoặc tạo mới
                 try:
-                    # Đọc file log hiện tại hoặc tạo mới
-                    try:
-                        with open("search_price_log.json", 'r', encoding="utf-8") as f:
-                            price_log = json.load(f)
-                    except FileNotFoundError:
-                        price_log = []
-                    
-                    # Tạo entry mới
-                    log_entry = {
-                        "idItem": ids,
-                        "price": round(highest_price, 4),
-                        "last_update": round(time.time()),
-                        "type": item_type
-                    }
-                    
-                    # Tìm xem đã có entry với idItem này chưa
-                    found = False
-                    for idx, entry in enumerate(price_log):
-                        if entry.get("idItem") == ids:
-                            price_log[idx] = log_entry  # Update entry cũ
-                            found = True
-                            break
-                    
-                    if not found:
-                        price_log.append(log_entry)  # Thêm entry mới
-                    
-                    # Ghi lại file
-                    with open("search_price_log.json", 'w', encoding="utf-8") as f:
-                        json.dump(price_log, f, indent=4, ensure_ascii=False)
-                    
-                    print(f'Logged to search_price_log.json: ID:{ids}, Price:{round(highest_price, 4)}, Type:{item_type}')
-                except Exception as e:
-                    print(f'Error writing to search_price_log.json: {e}')
+                    with open("search_price_log.json", 'r', encoding="utf-8") as f:
+                        price_log = json.load(f)
+                except FileNotFoundError:
+                    price_log = []
+                
+                # Tạo entry mới
+                # Làm tròn price về 4 chữ số thập phân (ví dụ: 0.001)
+                rounded_price = round(average_price, 4) if average_price > 0 else 0.0
+                log_entry = {
+                    "idItem": item_id,
+                    "name": item_name,
+                    "price": rounded_price,
+                    "last_update": round(time.time()),
+                    "type": item_type
+                }
+                
+                # Tìm xem đã có entry với idItem này chưa
+                found = False
+                for idx, entry in enumerate(price_log):
+                    if entry.get("idItem") == item_id:
+                        price_log[idx] = log_entry  # Update entry cũ
+                        found = True
+                        break
+                
+                if not found:
+                    price_log.append(log_entry)  # Thêm entry mới
+                
+                # Ghi lại file
+                with open("search_price_log.json", 'w', encoding="utf-8") as f:
+                    json.dump(price_log, f, indent=4, ensure_ascii=False)
+                
+                log_debug(f'Logged to search_price_log.json: ID:{item_id}, Price:{average_price}, Type:{item_type}')
+            except Exception as e:
+                print(f'Error writing to search_price_log.json: {e}')
             
             # TODO: Re-enable submit price to server
-            # submit_price(ids, round(average_value, 4), get_user())
+            # submit_price(item_id, average_price, get_user())
     except Exception as e:
         print(e)
 

@@ -24,6 +24,8 @@ import ctypes
 from tkinter import *
 from tkinter.ttk import *
 from tkinter import ttk
+from app import state
+from app import config
 
 
 class App(Tk):
@@ -32,6 +34,13 @@ class App(Tk):
     # Correct, Circle, Wrong
     status = ["✔", "◯", "✘"]
     cost = 0
+    
+    # Cache data để tránh đọc file nhiều lần
+    _id_table_cache = None
+    _id_table_cache_time = 0
+    _price_log_cache = None
+    _price_log_cache_time = 0
+    _cache_ttl = 5  # Cache 5 giây
     
     def __init__(self):
         super().__init__()
@@ -116,6 +125,8 @@ class App(Tk):
         self.inner_pannel_drop.attributes('-toolwindow', True)
         # Move to right side of main window
         self.inner_pannel_drop.geometry('+0+0')
+        # Hide window ngay sau khi tạo để tránh hiển thị
+        self.inner_pannel_drop.withdraw()
         inner_pannel_drop_left = ttk.Frame(self.inner_pannel_drop)
         inner_pannel_drop_left.grid(row=0, column=0)
         words = StringVar()
@@ -173,6 +184,8 @@ class App(Tk):
         self.inner_pannel_settings.attributes('-toolwindow', True)
         # Move to right side of main window
         self.inner_pannel_settings.geometry('+300+0')
+        # Hide window ngay sau khi tạo để tránh hiển thị
+        self.inner_pannel_settings.withdraw()
         # Label + Text box
         label_setting_1 = ttk.Label(self.inner_pannel_settings, text="Cost per Map:")
         label_setting_1.grid(row=0, column=0, padx=5, pady=5)
@@ -203,6 +216,7 @@ class App(Tk):
         self.scale_setting_2.set(config_data["opacity"])
         self.change_opacity(config_data["opacity"])
         self.change_cost(config_data["cost_per_map"])
+        # Đảm bảo cả 2 windows đều bị ẩn khi khởi động (đã withdraw ở trên, nhưng gọi lại để chắc chắn)
         self.inner_pannel_drop.withdraw()
         self.inner_pannel_settings.withdraw()
         self.inner_pannel_drop.protocol("WM_DELETE_WINDOW", self.close_diaoluo)
@@ -222,9 +236,9 @@ class App(Tk):
             json.dump(config_data, f, ensure_ascii=False, indent=4)
 
     def change_states(self):
-        import index as main_module
-        main_module.show_all = not main_module.show_all
-        if not main_module.show_all:
+        """Switch giữa Current Map và Total Drops view"""
+        state.show_all = not state.show_all
+        if not state.show_all:
             self.words.set("Current: Current Map Drops Click to Switch to Total Drops")
             self.words_short.set("Current Map")
         else:
@@ -281,40 +295,74 @@ class App(Tk):
         self.inner_pannel_settings.attributes('-alpha', float(value))
     
     def reshow(self):
-        import index as main_module
-        from app import config
+        """
+        Rerender/Reload UI - Refresh drops list và các labels
         
-        # Load id_table.json để lấy name và type
-        id_table = {}
-        try:
-            with open("id_table.json", 'r', encoding="utf-8") as f:
-                id_table = json.load(f)
-        except Exception as e:
-            print(f'Error reading id_table.json: {e}')
+        Chức năng:
+            - Load data từ id_table.json và search_price_log.json (với cache)
+            - Update labels: map_count, current_earn
+            - Xóa và render lại toàn bộ drops list trong listbox
+            - Hiển thị items theo filter (show_type)
+            - Tính toán status (✔/◯/✘) dựa trên last_update time
         
-        # Load search_price_log.json để lấy price và last_update
+        Được gọi khi:
+            - Có drops mới (từ drop_handler.py)
+            - User thay đổi filter (show_all_type, show_tonghuo, ...)
+            - User switch giữa Current Map và Total Drops
+        
+        Note: Hàm này được schedule từ main thread qua root.after() để tránh blocking
+        """
+        # Load id_table.json với cache để tránh đọc file nhiều lần
+        now = time.time()
+        if (self._id_table_cache is None or 
+            now - self._id_table_cache_time > self._cache_ttl):
+            try:
+                with open("id_table.json", 'r', encoding="utf-8") as f:
+                    self._id_table_cache = json.load(f)
+                    self._id_table_cache_time = now
+            except Exception as e:
+                print(f'Error reading id_table.json: {e}')
+                if self._id_table_cache is None:
+                    self._id_table_cache = {}
+        
+        id_table = self._id_table_cache
+        
+        # Load search_price_log.json với cache để tránh đọc file nhiều lần
         price_log_dict = {}
-        try:
-            with open("search_price_log.json", 'r', encoding="utf-8") as f:
-                price_log = json.load(f)
-            for entry in price_log:
-                item_id = entry.get("idItem")
-                if item_id:
-                    price_log_dict[str(item_id)] = {
-                        "price": entry.get("price", 0),
-                        "last_update": entry.get("last_update", 0)
-                    }
-        except Exception as e:
-            print(f'Error reading search_price_log.json: {e}')
+        if (self._price_log_cache is None or 
+            now - self._price_log_cache_time > self._cache_ttl):
+            try:
+                with open("search_price_log.json", 'r', encoding="utf-8") as f:
+                    price_log = json.load(f)
+                self._price_log_cache = {}
+                for entry in price_log:
+                    item_id = entry.get("idItem")
+                    if item_id:
+                        self._price_log_cache[str(item_id)] = {
+                            "price": entry.get("price", 0),
+                            "last_update": entry.get("last_update", 0)
+                        }
+                self._price_log_cache_time = now
+            except Exception as e:
+                print(f'Error reading search_price_log.json: {e}')
+                if self._price_log_cache is None:
+                    self._price_log_cache = {}
         
-        self.label_map_count.config(text=f"🎫 {main_module.map_count}")
-        if main_module.show_all:
-            tmp = main_module.drop_list_all
-            self.label_current_earn.config(text=f"🔥 {round(main_module.income_all, 2)}")
+        price_log_dict = self._price_log_cache
+        
+        # Update labels: map count và current earnings
+        self.label_map_count.config(text=f"🎫 {state.map_count}")
+        if state.show_all:
+            tmp = state.drop_list_all
+            self.label_current_earn.config(text=f"🔥 {round(state.income_all, 2)}")
         else:
-            tmp = main_module.drop_list
-            self.label_current_earn.config(text=f"🔥 {round(main_module.income, 2)}")
+            tmp = state.drop_list
+            self.label_current_earn.config(text=f"🔥 {round(state.income, 2)}")
+        
+        # Xóa toàn bộ items cũ trong listbox (giữ lại header ở index 0)
         self.inner_pannel_drop_listbox.delete(1, END)
+        
+        # Render lại từng item trong drops list
         for i in tmp.keys():
             item_id = str(i)
             
@@ -323,6 +371,7 @@ class App(Tk):
             item_name = item_data.get("name", f"Item {item_id}")
             item_type = item_data.get("type", "Unknown")
             
+            # Filter theo show_type (skip items không match filter)
             if item_type not in self.show_type:
                 continue
             
@@ -331,15 +380,22 @@ class App(Tk):
             now = time.time()
             last_time = price_data.get("last_update", 0)
             time_passed = now - last_time
+            
+            # Tính status dựa trên thời gian update:
+            # ✔ = < 3 phút (fresh), ◯ = 3-15 phút (stale), ✘ = > 15 phút (outdated)
             if time_passed < 180:
-                status = self.status[0]
+                status = self.status[0]  # ✔
             elif time_passed < 900:
-                status = self.status[1]
+                status = self.status[1]  # ◯
             else:
-                status = self.status[2]
+                status = self.status[2]  # ✘
+            
+            # Tính giá (apply tax nếu có)
             item_price = price_data.get("price", 0)
             if config.config_data.get("tax", 0) == 1 and item_id != "100300":
-                item_price = item_price * 0.875
+                item_price = item_price * 0.875  # Apply 12.5% tax
+            
+            # Insert item vào listbox: status + name + quantity + total value
             self.inner_pannel_drop_listbox.insert(END, f"{status} {item_name} x{tmp[i]} [{tmp[i] * item_price}]")
 
     def show_all_type(self):
