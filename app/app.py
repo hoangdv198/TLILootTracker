@@ -36,7 +36,9 @@ class MyThread(threading.Thread):
                 time.sleep(1)
                 things = self.history.read()
                 # print(things)
+                # deal_change: Xử lý drops từ log - phát hiện vào/ra map, scan drops, cập nhật statistics và UI
                 deal_change(things)
+                # get_price_info: Extract giá từ exchange search results trong log
                 get_price_info(things)
                 
                 # Sync global state from drop_handler to main module

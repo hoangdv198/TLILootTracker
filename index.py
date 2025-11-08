@@ -55,8 +55,9 @@ root.wm_attributes('-topmost', 1)
 # Start log monitoring thread
 MyThread().start()
 
+# TODO: Re-enable price sync thread sau khi hoàn thiện
 # Start price update thread
-_thread.start_new_thread(lambda: price_update(lambda: pending_items), ())
+# _thread.start_new_thread(lambda: price_update(lambda: pending_items), ())
 
 # Start main loop
 root.mainloop()

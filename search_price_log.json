@@ -1,0 +1,80 @@
+[
+    {
+        "idItem": "5703",
+        "price": 60.0,
+        "last_update": 1762589663,
+        "type": "Tower Materials"
+    },
+    {
+        "idItem": "100200",
+        "price": 0.001,
+        "last_update": 1762590969,
+        "type": "Hard Currency"
+    },
+    {
+        "idItem": "140004",
+        "price": 9.5,
+        "last_update": 1762591381,
+        "type": "Dream Materials"
+    },
+    {
+        "idItem": "140005",
+        "price": 6.8,
+        "last_update": 1762591377,
+        "type": "Dream Materials"
+    },
+    {
+        "idItem": "140006",
+        "price": 25.0,
+        "last_update": 1762591375,
+        "type": "Dream Materials"
+    },
+    {
+        "idItem": "5028",
+        "price": 50000.0,
+        "last_update": 1762590975,
+        "type": "Hard Currency"
+    },
+    {
+        "idItem": "5210",
+        "price": 0.024,
+        "last_update": 1762589790,
+        "type": "Cube Materials"
+    },
+    {
+        "idItem": "400008",
+        "price": 23.5,
+        "last_update": 1762590247,
+        "type": "Map Tickets"
+    },
+    {
+        "idItem": "5011",
+        "price": 0.9545,
+        "last_update": 1762590972,
+        "type": "Hard Currency"
+    },
+    {
+        "idItem": "5080",
+        "price": 0.02,
+        "last_update": 1762590977,
+        "type": "Equipment Materials"
+    },
+    {
+        "idItem": "300006",
+        "price": 8.9074,
+        "last_update": 1762590979,
+        "type": "Equipment Materials"
+    },
+    {
+        "idItem": "200030",
+        "price": 6.0,
+        "last_update": 1762591152,
+        "type": "装备材料"
+    },
+    {
+        "idItem": "5250",
+        "price": 18.0,
+        "last_update": 1762591464,
+        "type": "Cube Materials"
+    }
+]

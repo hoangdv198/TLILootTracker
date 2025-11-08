@@ -1,0 +1,245 @@
+# FurTorch Project - Cursor Rules
+# Clean Python Code Standards
+
+## Project Structure
+```
+FurTorch/
+├── app/              # Application layer (threads, config)
+├── core/             # Core utilities (log parser, handlers)
+├── services/         # Service layer (business logic)
+├── repositories/     # Data access layer (API clients)
+├── ui/              # Presentation layer (Tkinter UI)
+└── index.py         # Entry point
+```
+
+## Code Standards
+
+### 1. Python Style Guide (PEP 8)
+- Use 4 spaces for indentation (no tabs)
+- Maximum line length: 100 characters (prefer 80 when possible)
+- Use snake_case for functions and variables
+- Use PascalCase for classes
+- Use UPPER_CASE for constants
+- Import statements should be grouped: standard library, third-party, local
+- Use absolute imports, not relative imports
+
+### 2. Code Organization
+- **Single Responsibility Principle**: Each function/class should do one thing well
+- **Separation of Concerns**: 
+  - Repositories: Only data access (HTTP requests, file I/O)
+  - Services: Business logic and orchestration
+  - Core: Utilities and shared logic
+  - UI: Presentation only
+- **DRY (Don't Repeat Yourself)**: Extract common logic into reusable functions
+- **KISS (Keep It Simple, Stupid)**: Prefer simple, readable solutions
+
+### 3. Function Design
+- Functions should be small and focused (ideally < 50 lines)
+- Use descriptive function names that explain what they do
+- Functions should have clear input/output
+- Avoid side effects when possible
+- Use type hints for function parameters and return types (Python 3.6+)
+
+Example:
+```python
+def calculate_average_price(prices: list[float], max_items: int = 30) -> float:
+    """
+    Calculate average price from a list of prices.
+    
+    Args:
+        prices: List of price values
+        max_items: Maximum number of items to consider (default: 30)
+    
+    Returns:
+        Average price value
+    
+    Raises:
+        ValueError: If prices list is empty
+    """
+    if not prices:
+        raise ValueError("Prices list cannot be empty")
+    
+    num_values = min(len(prices), max_items)
+    return sum(prices[:num_values]) / num_values
+```
+
+### 4. Error Handling
+- Always use specific exception types, not bare `except:`
+- Provide meaningful error messages
+- Log errors appropriately
+- Use try-except blocks for expected errors
+- Let unexpected errors propagate
+
+Example:
+```python
+try:
+    data = fetch_data()
+except requests.RequestException as e:
+    logger.error(f"Failed to fetch data: {e}")
+    return None
+except FileNotFoundError:
+    logger.warning("Config file not found, using defaults")
+    return default_config
+```
+
+### 5. Documentation
+- All public functions/classes must have docstrings
+- Use Google-style docstrings
+- Include: description, Args, Returns, Raises
+- Add comments for complex logic, not obvious code
+
+Example:
+```python
+def process_item(item_id: str) -> dict:
+    """
+    Process a single item and return its information.
+    
+    Args:
+        item_id: Unique identifier for the item
+    
+    Returns:
+        Dictionary containing item information with keys:
+        - id: Item identifier
+        - name: Item name
+        - price: Current price
+        - type: Item type
+    
+    Raises:
+        ValueError: If item_id is invalid
+        FileNotFoundError: If item data file is missing
+    """
+```
+
+### 6. Variable Naming
+- Use descriptive names: `item_price` not `p`, `user_id` not `uid`
+- Avoid abbreviations unless widely understood
+- Use boolean names that read like questions: `is_valid`, `has_permission`
+- Use plural for collections: `items`, `prices`, `users`
+
+### 7. Code Structure
+- Group related code together
+- Use blank lines to separate logical sections
+- Keep functions at module level, avoid deep nesting
+- Maximum nesting level: 3-4 levels
+
+### 8. File Organization
+- Each file should have a clear purpose
+- Module-level docstring explaining the file's purpose
+- Imports at the top
+- Constants after imports
+- Functions/classes in logical order
+- `if __name__ == "__main__":` block for entry points
+
+### 9. Data Structures
+- Prefer dictionaries for key-value mappings
+- Use lists for ordered collections
+- Use sets for unique collections
+- Use namedtuples or dataclasses for structured data
+
+### 10. String Formatting
+- Use f-strings (Python 3.6+): `f"Item {item_id} has price {price}"`
+- For complex formatting, use `.format()` or template strings
+- Avoid `%` formatting
+
+### 11. Type Hints (Recommended)
+- Add type hints for function parameters and return types
+- Use `typing` module for complex types
+- Use `Optional[T]` for nullable values
+- Use `Union[T, U]` for multiple possible types
+
+Example:
+```python
+from typing import Optional, Dict, List
+
+def get_item_price(item_id: str) -> Optional[float]:
+    """Get price for an item."""
+    pass
+
+def process_items(items: List[Dict[str, any]]) -> Dict[str, float]:
+    """Process multiple items."""
+    pass
+```
+
+### 12. Constants and Configuration
+- Define constants at module level in UPPER_CASE
+- Group related constants together
+- Use configuration files for user-configurable values
+- Avoid magic numbers/strings in code
+
+Example:
+```python
+# Constants
+DEFAULT_TIMEOUT = 10
+MAX_RETRY_ATTEMPTS = 3
+DEFAULT_CURRENCY_ID = "100300"
+
+# Configuration
+SERVER_URL = "serverp.furtorch.heili.tech"
+LOG_FILE_PATH = "search_price_log.json"
+```
+
+### 13. Testing Considerations
+- Write testable code (pure functions when possible)
+- Avoid global state when possible
+- Use dependency injection for external dependencies
+- Make functions easy to mock
+
+### 14. Performance
+- Don't optimize prematurely
+- Profile before optimizing
+- Use appropriate data structures
+- Avoid unnecessary file I/O operations
+- Cache expensive computations when appropriate
+
+### 15. Git and Version Control
+- Write meaningful commit messages
+- Keep commits focused and atomic
+- Don't commit generated files or sensitive data
+- Use `.gitignore` appropriately
+
+## Project-Specific Rules
+
+### Architecture Patterns
+- **Repository Pattern**: All external data access goes through repositories
+- **Service Pattern**: Business logic lives in services
+- **Dependency Direction**: UI → Services → Repositories (never reverse)
+
+### File Naming
+- Use lowercase with underscores: `price_service.py`, `drop_handler.py`
+- Match file name to main class/function when possible
+
+### Module Organization
+- Keep modules focused on a single domain
+- Use `__init__.py` to expose public API
+- Document module purpose in `__init__.py`
+
+### Logging
+- Use appropriate log levels: DEBUG, INFO, WARNING, ERROR, CRITICAL
+- Include context in log messages
+- Don't log sensitive information
+
+### Comments
+- Write self-documenting code first
+- Add comments for "why", not "what"
+- Update comments when code changes
+- Remove commented-out code (use git history instead)
+
+## Code Review Checklist
+- [ ] Follows PEP 8 style guide
+- [ ] Functions are small and focused
+- [ ] Proper error handling
+- [ ] Documentation is complete
+- [ ] No magic numbers/strings
+- [ ] Type hints where appropriate
+- [ ] No code duplication
+- [ ] Tests pass
+- [ ] Performance considerations addressed
+
+## When Writing Code
+1. Think about the problem first, then code
+2. Write tests if possible
+3. Refactor as you go
+4. Keep functions small
+5. Make it work, then make it clean
+6. Review your own code before committing
+

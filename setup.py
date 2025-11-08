@@ -11,5 +11,5 @@ setup(
     options=options,
     description="TorchFurry 火炬之光收益统计器 测试版",
     console=['index.py'],
-    data_files=[('',['full_table.json',"更新日志.txt","注意事项.txt"])]
+    data_files=[('',['id_table.json',"更新日志.txt","注意事项.txt"])]
 )

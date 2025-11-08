@@ -1,962 +1,962 @@
 {
     "1001": {
-        "name": "星星鹅火",
-        "type": "记忆荧光"
+        "name": "Star Goose Fire",
+        "type": "Memory Fluorescence"
     },
     "1009": {
-        "name": "长条四格复制石板",
-        "type": "魔方材料"
+        "name": "Long Four-Grid Replication Slate",
+        "type": "Cube Materials"
     },
     "1011": {
-        "name": "重星归所",
-        "type": "记忆荧光"
+        "name": "Heavy Star Return",
+        "type": "Memory Fluorescence"
     },
     "1012": {
-        "name": "饿货燎原之刻",
-        "type": "记忆荧光"
+        "name": "Hungry Fire Moment",
+        "type": "Memory Fluorescence"
     },
     "5011": {
-        "name": "遗忘之水",
-        "type": "硬通货"
+        "name": "Water of Forgetting",
+        "type": "Hard Currency"
     },
     "5028": {
-        "name": "异界回响",
-        "type": "硬通货"
+        "name": "Otherworld Echo",
+        "type": "Hard Currency"
     },
     "5029": {
-        "name": "逆转发条",
-        "type": "硬通货"
+        "name": "Reverse Spring",
+        "type": "Hard Currency"
     },
     "5030": {
-        "name": "孪生倒影",
-        "type": "特殊道具"
+        "name": "Twin Reflection",
+        "type": "Special Items"
     },
     "5031": {
-        "name": "传奇降生之鸭",
-        "type": "特殊道具"
+        "name": "Legendary Birth Duck",
+        "type": "Special Items"
     },
     "5080": {
-        "name": "能量核心",
-        "type": "装备材料"
+        "name": "Energy Core",
+        "type": "Equipment Materials"
     },
     "5140": {
-        "name": "追忆碎絮",
-        "type": "追忆材料"
+        "name": "Memory Fragments",
+        "type": "Memory Materials"
     },
     "5143": {
-        "name": "追忆游丝-稀有",
-        "type": "追忆材料"
+        "name": "Memory Threads - Rare",
+        "type": "Memory Materials"
     },
     "5144": {
-        "name": "追忆游丝-卓越",
-        "type": "追忆材料"
+        "name": "Memory Threads - Excellent",
+        "type": "Memory Materials"
     },
     "5201": {
-        "name": "神格残片",
-        "type": "魔方材料"
+        "name": "Divinity Fragment",
+        "type": "Cube Materials"
     },
     "5202": {
-        "name": "神格契约-残片",
-        "type": "魔方材料"
+        "name": "Divinity Contract - Fragment",
+        "type": "Cube Materials"
     },
     "5210": {
-        "name": "神威辉石",
-        "type": "魔方材料"
+        "name": "Divine Radiance Stone",
+        "type": "Cube Materials"
     },
     "5220": {
-        "name": "升华之楔（魔法）",
-        "type": "魔方材料"
+        "name": "Ascension Wedge(Magic)",
+        "type": "Cube Materials"
     },
     "5230": {
-        "name": "升华之楔（稀有）",
-        "type": "魔方材料"
+        "name": "Ascension Wedge(Rare)",
+        "type": "Cube Materials"
     },
     "5240": {
-        "name": "归一之楔",
-        "type": "魔方材料"
+        "name": "Unity Wedge",
+        "type": "Cube Materials"
     },
     "5250": {
-        "name": "升华之楔（传奇）",
-        "type": "魔方材料"
+        "name": "Ascension Wedge(Legendary)",
+        "type": "Cube Materials"
     },
     "5300": {
-        "name": "永恒残页",
-        "type": "特殊道具"
+        "name": "Eternal Fragment",
+        "type": "Special Items"
     },
     "5310": {
-        "name": "迷城残响-瞬息",
-        "type": "玩法门票"
+        "name": "Maze Echo - Instant",
+        "type": "Gameplay Tickets"
     },
     "5311": {
-        "name": "迷城残响-永恒",
-        "type": "玩法门票"
+        "name": "Maze Echo - Eternal",
+        "type": "Gameplay Tickets"
     },
     "5401": {
-        "name": "神格契约-巨力之神",
-        "type": "魔方材料"
+        "name": "Divinity Contract - God of Might",
+        "type": "Cube Materials"
     },
     "5402": {
-        "name": "神格契约-勇者",
-        "type": "魔方材料"
+        "name": "Divinity Contract - Brave",
+        "type": "Cube Materials"
     },
     "5403": {
-        "name": "神格契约-猛袭者",
-        "type": "魔方材料"
+        "name": "Divinity Contract - Berserker",
+        "type": "Cube Materials"
     },
     "5404": {
-        "name": "神格契约-督军",
-        "type": "魔方材料"
+        "name": "Divinity Contract - Warlord",
+        "type": "Cube Materials"
     },
     "5405": {
-        "name": "神格契约-狩猎之神",
-        "type": "魔方材料"
+        "name": "Divinity Contract - God of Hunt",
+        "type": "Cube Materials"
     },
     "5406": {
-        "name": "神格契约-神射手",
-        "type": "魔方材料"
+        "name": "Divinity Contract - Sharpshooter",
+        "type": "Cube Materials"
     },
     "5407": {
-        "name": "神格契约-刀锋行者",
-        "type": "魔方材料"
+        "name": "Divinity Contract - Blade Walker",
+        "type": "Cube Materials"
     },
     "5408": {
-        "name": "神格契约-德鲁伊",
-        "type": "魔方材料"
+        "name": "Divinity Contract - Druid",
+        "type": "Cube Materials"
     },
     "5409": {
-        "name": "神格契约-知识之神",
-        "type": "魔方材料"
+        "name": "Divinity Contract - God of Knowledge",
+        "type": "Cube Materials"
     },
     "5410": {
-        "name": "神格契约-魔导师",
-        "type": "魔方材料"
+        "name": "Divinity Contract - Archmage",
+        "type": "Cube Materials"
     },
     "5411": {
-        "name": "神格契约-秘术师",
-        "type": "魔方材料"
+        "name": "Divinity Contract - Occultist",
+        "type": "Cube Materials"
     },
     "5412": {
-        "name": "神格契约-元素师",
-        "type": "魔方材料"
+        "name": "Divinity Contract - Elementalist",
+        "type": "Cube Materials"
     },
     "5413": {
-        "name": "神格契约-征战之神",
-        "type": "魔方材料"
+        "name": "Divinity Contract - God of War",
+        "type": "Cube Materials"
     },
     "5414": {
-        "name": "神格契约-影舞者",
-        "type": "魔方材料"
+        "name": "Divinity Contract - Shadow Dancer",
+        "type": "Cube Materials"
     },
     "5415": {
-        "name": "神格契约-神行武士",
-        "type": "魔方材料"
+        "name": "Divinity Contract - Divine Warrior",
+        "type": "Cube Materials"
     },
     "5416": {
-        "name": "神格契约-游侠",
-        "type": "魔方材料"
+        "name": "Divinity Contract - Ranger",
+        "type": "Cube Materials"
     },
     "5417": {
-        "name": "神格契约-欺诈之神",
-        "type": "魔方材料"
+        "name": "Divinity Contract - God of Deceit",
+        "type": "Cube Materials"
     },
     "5418": {
-        "name": "神格契约-奴影者",
-        "type": "魔方材料"
+        "name": "Divinity Contract - Shadow Slave",
+        "type": "Cube Materials"
     },
     "5419": {
-        "name": "神格契约-异能者",
-        "type": "魔方材料"
+        "name": "Divinity Contract - Psychic",
+        "type": "Cube Materials"
     },
     "5420": {
-        "name": "神格契约-暗影术士",
-        "type": "魔方材料"
+        "name": "Divinity Contract - Shadow Sorcerer",
+        "type": "Cube Materials"
     },
     "5421": {
-        "name": "神格契约-机械之神",
-        "type": "魔方材料"
+        "name": "Divinity Contract - God of Machinery",
+        "type": "Cube Materials"
     },
     "5422": {
-        "name": "神格契约-机械师",
-        "type": "魔方材料"
+        "name": "Divinity Contract - Mechanic",
+        "type": "Cube Materials"
     },
     "5423": {
-        "name": "神格契约-钢铁先锋",
-        "type": "魔方材料"
+        "name": "Divinity Contract - Steel Vanguard",
+        "type": "Cube Materials"
     },
     "5424": {
-        "name": "神格契约-炼金术士",
-        "type": "魔方材料"
+        "name": "Divinity Contract - Alchemist",
+        "type": "Cube Materials"
     },
     "5425": {
-        "name": "神格契约-斗士",
-        "type": "魔方材料"
+        "name": "Divinity Contract - Fighter",
+        "type": "Cube Materials"
     },
     "5426": {
-        "name": "神格契约-刺客",
-        "type": "魔方材料"
+        "name": "Divinity Contract - Assassin",
+        "type": "Cube Materials"
     },
     "5427": {
-        "name": "神格契约-先知",
-        "type": "魔方材料"
+        "name": "Divinity Contract - Prophet",
+        "type": "Cube Materials"
     },
     "5428": {
-        "name": "神格契约-铁卫",
-        "type": "魔方材料"
+        "name": "Divinity Contract - Iron Guard",
+        "type": "Cube Materials"
     },
     "5429": {
-        "name": "神格契约-巫妖",
-        "type": "魔方材料"
+        "name": "Divinity Contract - Lich",
+        "type": "Cube Materials"
     },
     "5430": {
-        "name": "神格契约-巧匠",
-        "type": "魔方材料"
+        "name": "Divinity Contract - Artisan",
+        "type": "Cube Materials"
     },
     "5700": {
-        "name": "高塔筹码-能量",
-        "type": "高塔材料"
+        "name": "Tower Chip - Energy",
+        "type": "Tower Materials"
     },
     "5701": {
-        "name": "高塔筹码-荧光",
-        "type": "高塔材料"
+        "name": "Tower Chip - Fluorescence",
+        "type": "Tower Materials"
     },
     "5702": {
-        "name": "高塔筹码-词缀",
-        "type": "高塔材料"
+        "name": "Tower Chip - Affix",
+        "type": "Tower Materials"
     },
     "5703": {
-        "name": "高塔筹码-未定宿命",
-        "type": "高塔材料"
+        "name": "Tower Chip - Undetermined Fate",
+        "type": "Tower Materials"
     },
     "5704": {
-        "name": "高塔筹码-侵蚀",
-        "type": "高塔材料"
+        "name": "Tower Chip - Erosion",
+        "type": "Tower Materials"
     },
     "5705": {
-        "name": "高塔筹码-珍品",
-        "type": "高塔材料"
+        "name": "Tower Chip - Treasure",
+        "type": "Tower Materials"
     },
     "6002": {
-        "name": "寒渊的秘密",
-        "type": "记忆荧光"
+        "name": "Frozen Abyss Secret",
+        "type": "Memory Fluorescence"
     },
     "6003": {
-        "name": "乌鸦的悲鸣",
-        "type": "记忆荧光"
+        "name": "Crow's Lament",
+        "type": "Memory Fluorescence"
     },
     "6004": {
-        "name": "黑历的巧技",
-        "type": "记忆荧光"
+        "name": "Black History Skill",
+        "type": "Memory Fluorescence"
     },
     "6006": {
-        "name": "征兆之月",
-        "type": "记忆荧光"
+        "name": "Omen Moon",
+        "type": "Memory Fluorescence"
     },
     "6007": {
-        "name": "遗落的密藏",
-        "type": "记忆荧光"
+        "name": "Lost Treasure",
+        "type": "Memory Fluorescence"
     },
     "6008": {
-        "name": "不残酷的代价",
-        "type": "记忆荧光"
+        "name": "Not Cruel Price",
+        "type": "Memory Fluorescence"
     },
     "6019": {
-        "name": "日心的奇怪石头",
-        "type": "记忆荧光"
+        "name": "Sun Core Strange Stone",
+        "type": "Memory Fluorescence"
     },
     "6026": {
-        "name": "安东尼奥之助",
-        "type": "记忆荧光"
+        "name": "Antonio's Aid",
+        "type": "Memory Fluorescence"
     },
     "6027": {
-        "name": "日冕的奇怪石头",
-        "type": "记忆荧光"
+        "name": "Corona Strange Stone",
+        "type": "Memory Fluorescence"
     },
     "6054": {
-        "name": "学者的奇思",
-        "type": "记忆荧光"
+        "name": "Scholar's Whim",
+        "type": "Memory Fluorescence"
     },
     "6111": {
-        "name": "福瑞控爆发",
-        "type": "记忆荧光"
+        "name": "Furry Control Burst",
+        "type": "Memory Fluorescence"
     },
     "6118": {
-        "name": "万神的回声",
-        "type": "记忆荧光"
+        "name": "Echo of Ten Thousand Gods",
+        "type": "Memory Fluorescence"
     },
     "6119": {
-        "name": "离群的萤火",
-        "type": "记忆荧光"
+        "name": "Stray Firefly",
+        "type": "Memory Fluorescence"
     },
     "6125": {
-        "name": "亿倍横财",
-        "type": "记忆荧光"
+        "name": "Hundred Million Fortune",
+        "type": "Memory Fluorescence"
     },
     "6127": {
-        "name": "重火俱焚",
-        "type": "记忆荧光"
+        "name": "Heavy Fire Burns",
+        "type": "Memory Fluorescence"
     },
     "6135": {
-        "name": "亵渎星群",
-        "type": "记忆荧光"
+        "name": "Profane Star Cluster",
+        "type": "Memory Fluorescence"
     },
     "6139": {
-        "name": "神の超新星",
-        "type": "记忆荧光"
+        "name": "God's Supernova",
+        "type": "Memory Fluorescence"
     },
     "6141": {
-        "name": "空心人之😚",
-        "type": "记忆荧光"
+        "name": "Hollow Man 😚",
+        "type": "Memory Fluorescence"
     },
     "6143": {
-        "name": "第二重神格",
-        "type": "记忆荧光"
+        "name": "Second Divinity",
+        "type": "Memory Fluorescence"
     },
     "6147": {
-        "name": "十分之一的孪生倒影",
-        "type": "记忆荧光"
+        "name": "One-Tenth Twin Reflection",
+        "type": "Memory Fluorescence"
     },
     "6148": {
-        "name": "百分之一的孪生倒影",
-        "type": "记忆荧光"
+        "name": "One-Hundredth Twin Reflection",
+        "type": "Memory Fluorescence"
     },
     "6153": {
-        "name": "明日的航向",
-        "type": "记忆荧光"
+        "name": "Tomorrow's Course",
+        "type": "Memory Fluorescence"
     },
     "6205": {
-        "name": "莫测的航向",
-        "type": "记忆荧光"
+        "name": "Unpredictable Course",
+        "type": "Memory Fluorescence"
     },
     "6216": {
-        "name": "五分之一的独行者之靴",
-        "type": "记忆荧光"
+        "name": "One-Fifth Lone Walker Boots",
+        "type": "Memory Fluorescence"
     },
     "6217": {
-        "name": "无拘星群",
-        "type": "记忆荧光"
+        "name": "Unbound Star Cluster",
+        "type": "Memory Fluorescence"
     },
     "6218": {
-        "name": "前尘的终日",
-        "type": "记忆荧光"
+        "name": "Past's End Day",
+        "type": "Memory Fluorescence"
     },
     "6219": {
-        "name": "前尘的蛋日",
-        "type": "记忆荧光"
+        "name": "Past's Egg Day",
+        "type": "Memory Fluorescence"
     },
     "6220": {
-        "name": "星罗万象",
-        "type": "记忆荧光"
+        "name": "Star Array Myriad",
+        "type": "Memory Fluorescence"
     },
     "6221": {
-        "name": "犹在镜中",
-        "type": "记忆荧光"
+        "name": "Still in Mirror",
+        "type": "Memory Fluorescence"
     },
     "8604": {
-        "name": "精密-律己",
-        "type": "特殊道具"
+        "name": "Precision - Self - Discipline",
+        "type": "Special Items"
     },
     "8608": {
-        "name": "精密-贯注增效",
-        "type": "特殊道具"
+        "name": "Precision - Focus Enhancement",
+        "type": "Special Items"
     },
     "8611": {
-        "name": "精密-超能共生",
-        "type": "特殊道具"
+        "name": "Precision - Super Symbiosis",
+        "type": "Special Items"
     },
     "8614": {
-        "name": "精密-节流",
-        "type": "特殊道具"
+        "name": "Precision - Throttle",
+        "type": "Special Items"
     },
     "10001": {
-        "name": "罪孽之劫掠罗盘",
-        "type": "罗盘"
+        "name": "Sin Plunder Compass",
+        "type": "Compass"
     },
     "10002": {
-        "name": "罪孽之劫掠罗盘（遗珍）",
-        "type": "罗盘"
+        "name": "Sin Plunder Compass(Relic)",
+        "type": "Compass"
     },
     "10003": {
-        "name": "重罪之劫掠罗盘",
-        "type": "罗盘"
+        "name": "Felony Plunder Compass",
+        "type": "Compass"
     },
     "10010": {
-        "name": "珍奇罗盘",
-        "type": "罗盘"
+        "name": "Rare Compass",
+        "type": "Compass"
     },
     "10011": {
-        "name": "琳琅之珍奇罗盘",
-        "type": "罗盘"
+        "name": "Gorgeous Rare Compass",
+        "type": "Compass"
     },
     "10012": {
-        "name": "破军之珍奇罗盘",
-        "type": "罗盘"
+        "name": "Army Breaker Rare Compass",
+        "type": "Compass"
     },
     "10022": {
-        "name": "小兵罗盘",
-        "type": "罗盘"
+        "name": "Minion Compass",
+        "type": "Compass"
     },
     "10023": {
-        "name": "众武之小兵罗盘",
-        "type": "罗盘"
+        "name": "All Weapons Minion Compass",
+        "type": "Compass"
     },
     "10032": {
-        "name": "精兵罗盘",
-        "type": "罗盘"
+        "name": "Elite Compass",
+        "type": "Compass"
     },
     "10033": {
-        "name": "克敌之精兵罗盘",
-        "type": "罗盘"
+        "name": "Enemy Breaker Elite Compass",
+        "type": "Compass"
     },
     "10042": {
-        "name": "劲敌罗盘",
-        "type": "罗盘"
+        "name": "Rival Compass",
+        "type": "Compass"
     },
     "10043": {
-        "name": "优渥的劲敌罗盘",
-        "type": "罗盘"
+        "name": "Prosperous Rival Compass",
+        "type": "Compass"
     },
     "10044": {
-        "name": "富饶之劲敌罗盘",
-        "type": "罗盘"
+        "name": "Rich Rival Compass",
+        "type": "Compass"
     },
     "10046": {
-        "name": "BOSS罗盘",
-        "type": "罗盘"
+        "name": "BOSS Compass",
+        "type": "Compass"
     },
     "10050": {
-        "name": "信标罗盘",
-        "type": "罗盘"
+        "name": "Beacon Compass",
+        "type": "Compass"
     },
     "10051": {
-        "name": "进益之信标罗盘",
-        "type": "罗盘"
+        "name": "Progress Beacon Compass",
+        "type": "Compass"
     },
     "10052": {
-        "name": "黄道罗盘",
-        "type": "罗盘"
+        "name": "Zodiac Compass",
+        "type": "Compass"
     },
     "10053": {
-        "name": "浩瀚之黄道罗盘",
-        "type": "罗盘"
+        "name": "Vast Zodiac Compass",
+        "type": "Compass"
     },
     "10054": {
-        "name": "荣升之黄道罗盘",
-        "type": "罗盘"
+        "name": "Promoted Zodiac Compass",
+        "type": "Compass"
     },
     "10060": {
-        "name": "威名之利器罗盘",
-        "type": "罗盘"
+        "name": "Famed Weapon Compass",
+        "type": "Compass"
     },
     "10071": {
-        "name": "武装罗盘",
-        "type": "罗盘"
+        "name": "Armed Compass",
+        "type": "Compass"
     },
     "10072": {
-        "name": "珍品之武装罗盘",
-        "type": "罗盘"
+        "name": "Treasure Armed Compass",
+        "type": "Compass"
     },
     "10073": {
-        "name": "饰品之武装罗盘",
-        "type": "罗盘"
+        "name": "Accessory Armed Compass",
+        "type": "Compass"
     },
     "10081": {
-        "name": "灰烬罗盘",
-        "type": "罗盘"
+        "name": "Ash Compass",
+        "type": "Compass"
     },
     "10082": {
-        "name": "倍赏之灰烬罗盘",
-        "type": "罗盘"
+        "name": "Double Reward Ash Compass",
+        "type": "Compass"
     },
     "10083": {
-        "name": "甄选之灰烬罗盘",
-        "type": "罗盘"
+        "name": "Selected Ash Compass",
+        "type": "Compass"
     },
     "10101": {
-        "name": "荧光罗盘",
-        "type": "罗盘"
+        "name": "Fluorescence Compass",
+        "type": "Compass"
     },
     "10102": {
-        "name": "缤纷的荧光罗盘",
-        "type": "罗盘"
+        "name": "Colorful Fluorescence Compass",
+        "type": "Compass"
     },
     "10103": {
-        "name": "聚光之荧光罗盘",
-        "type": "罗盘"
+        "name": "Focus Fluorescence Compass",
+        "type": "Compass"
     },
     "10110": {
-        "name": "繁荣之众神罗盘",
-        "type": "罗盘"
+        "name": "Prosperous Gods Compass",
+        "type": "Compass"
     },
     "10120": {
-        "name": "征战罗盘",
-        "type": "罗盘"
+        "name": "War Compass",
+        "type": "Compass"
     },
     "10122": {
-        "name": "骁勇之征战罗盘",
-        "type": "罗盘"
+        "name": "Valiant War Compass",
+        "type": "Compass"
     },
     "10130": {
-        "name": "巨力罗盘",
-        "type": "罗盘"
+        "name": "Mighty Compass",
+        "type": "Compass"
     },
     "10131": {
-        "name": "繁荣之巨力罗盘",
-        "type": "罗盘"
+        "name": "Prosperous Mighty Compass",
+        "type": "Compass"
     },
     "10133": {
-        "name": "神武之巨力罗盘",
-        "type": "罗盘"
+        "name": "Divine Mighty Compass",
+        "type": "Compass"
     },
     "10134": {
-        "name": "机甲之巨力罗盘（遗珍）",
-        "type": "罗盘"
+        "name": "Mecha Mighty Compass(Relic)",
+        "type": "Compass"
     },
     "10140": {
-        "name": "狩猎罗盘",
-        "type": "罗盘"
+        "name": "Hunt Compass",
+        "type": "Compass"
     },
     "10142": {
-        "name": "将军の狩猎罗盘",
-        "type": "罗盘"
+        "name": "General's Hunt Compass",
+        "type": "Compass"
     },
     "10150": {
-        "name": "机械罗盘",
-        "type": "罗盘"
+        "name": "Mechanical Compass",
+        "type": "Compass"
     },
     "10151": {
-        "name": "辉煌之机械罗盘",
-        "type": "罗盘"
+        "name": "Brilliant Mechanical Compass",
+        "type": "Compass"
     },
     "10153": {
-        "name": "分化之机械罗盘",
-        "type": "罗盘"
+        "name": "Differentiated Mechanical Compass",
+        "type": "Compass"
     },
     "10154": {
-        "name": "巡航之机械罗盘（遗珍）",
-        "type": "罗盘"
+        "name": "Cruise Mechanical Compass(Relic)",
+        "type": "Compass"
     },
     "10160": {
-        "name": "黑潮罗盘",
-        "type": "罗盘"
+        "name": "Black Tide Compass",
+        "type": "Compass"
     },
     "10161": {
-        "name": "匪首之黑潮罗盘",
-        "type": "罗盘"
+        "name": "Bandit Leader Black Tide Compass",
+        "type": "Compass"
     },
     "10162": {
-        "name": "神兵之黑潮罗盘",
-        "type": "罗盘"
+        "name": "Divine Weapon Black Tide Compass",
+        "type": "Compass"
     },
     "10170": {
-        "name": "黑帆罗盘",
-        "type": "罗盘"
+        "name": "Black Sail Compass",
+        "type": "Compass"
     },
     "10171": {
-        "name": "复临之黑帆罗盘",
-        "type": "罗盘"
+        "name": "Return Black Sail Compass",
+        "type": "Compass"
     },
     "10180": {
-        "name": "魔方罗盘",
-        "type": "罗盘"
+        "name": "Cube Compass",
+        "type": "Compass"
     },
     "10181": {
-        "name": "双极之魔方罗盘",
-        "type": "罗盘"
+        "name": "Bipolar Cube Compass",
+        "type": "Compass"
     },
     "10182": {
-        "name": "极欲之魔方罗盘",
-        "type": "罗盘"
+        "name": "Extreme Desire Cube Compass",
+        "type": "Compass"
     },
     "10190": {
-        "name": "迷城罗盘",
-        "type": "罗盘"
+        "name": "Maze Compass",
+        "type": "Compass"
     },
     "10191": {
-        "name": "眷族之迷城罗盘",
-        "type": "罗盘"
+        "name": "Clan Maze Compass",
+        "type": "Compass"
     },
     "10200": {
-        "name": "梦寐罗盘",
-        "type": "罗盘"
+        "name": "Dream Compass",
+        "type": "Compass"
     },
     "10210": {
-        "name": "怪谈罗盘",
-        "type": "罗盘"
+        "name": "Tale Compass",
+        "type": "Compass"
     },
     "10211": {
-        "name": "异乡客之怪谈罗盘",
-        "type": "罗盘"
+        "name": "Stranger Tale Compass",
+        "type": "Compass"
     },
     "10220": {
-        "name": "玩偶罗盘",
-        "type": "罗盘"
+        "name": "Doll Compass",
+        "type": "Compass"
     },
     "10221": {
-        "name": "典藏之玩偶罗盘",
-        "type": "罗盘"
+        "name": "Collection Doll Compass",
+        "type": "Compass"
     },
     "10222": {
-        "name": "典藏之玩偶罗盘（遗珍）",
-        "type": "罗盘"
+        "name": "Collection Doll Compass(Relic)",
+        "type": "Compass"
     },
     "10230": {
-        "name": "画雪罗盘",
-        "type": "罗盘"
+        "name": "Snow Painting Compass",
+        "type": "Compass"
     },
     "10231": {
-        "name": "丰收之画雪罗盘",
-        "type": "罗盘"
+        "name": "Harvest Snow Painting Compass",
+        "type": "Compass"
     },
     "10240": {
-        "name": "塔罗罗盘",
-        "type": "罗盘"
+        "name": "Tarot Compass",
+        "type": "Compass"
     },
     "10241": {
-        "name": "底牌之塔罗罗盘",
-        "type": "罗盘"
+        "name": "Bottom Card Tarot Compass",
+        "type": "Compass"
     },
     "10242": {
-        "name": "命定之塔罗罗盘",
-        "type": "罗盘"
+        "name": "Destined Tarot Compass",
+        "type": "Compass"
     },
     "10250": {
-        "name": "大亨罗盘",
-        "type": "罗盘"
+        "name": "Tycoon Compass",
+        "type": "Compass"
     },
     "10260": {
-        "name": "通缉罗盘",
-        "type": "罗盘"
+        "name": "Wanted Compass",
+        "type": "Compass"
     },
     "10261": {
-        "name": "悬赏之通缉罗盘",
-        "type": "罗盘"
+        "name": "Bounty Wanted Compass",
+        "type": "Compass"
     },
     "10262": {
-        "name": "警戒之通缉罗盘",
-        "type": "罗盘"
+        "name": "Alert Wanted Compass",
+        "type": "Compass"
     },
     "10270": {
-        "name": "囚笼罗盘",
-        "type": "罗盘"
+        "name": "Cage Compass",
+        "type": "Compass"
     },
     "10272": {
-        "name": "黄金之囚笼罗盘",
-        "type": "罗盘"
+        "name": "Golden Cage Compass",
+        "type": "Compass"
     },
     "12000": {
-        "name": "繁荣之幽邃探针",
-        "type": "罗盘"
+        "name": "Prosperous Abyssal Probe",
+        "type": "Compass"
     },
     "12001": {
-        "name": "繁荣之深空探针",
-        "type": "罗盘"
+        "name": "Prosperous Deep Space Probe",
+        "type": "Compass"
     },
     "12010": {
-        "name": "装备之幽邃探针",
-        "type": "罗盘"
+        "name": "Equipment Abyssal Probe",
+        "type": "Compass"
     },
     "12011": {
-        "name": "装备之深空探针",
-        "type": "罗盘"
+        "name": "Equipment Deep Space Probe",
+        "type": "Compass"
     },
     "12020": {
-        "name": "灰烬之幽邃探针",
-        "type": "罗盘"
+        "name": "Ash Abyssal Probe",
+        "type": "Compass"
     },
     "12021": {
-        "name": "灰烬之深空探针",
-        "type": "罗盘"
+        "name": "Ash Deep Space Probe",
+        "type": "Compass"
     },
     "12030": {
-        "name": "荧光之幽邃探针",
-        "type": "罗盘"
+        "name": "Fluorescence Abyssal Probe",
+        "type": "Compass"
     },
     "12031": {
-        "name": "荧光之深空探针",
-        "type": "罗盘"
+        "name": "Fluorescence Deep Space Probe",
+        "type": "Compass"
     },
     "12040": {
-        "name": "罗盘之幽邃探针",
-        "type": "罗盘"
+        "name": "Compass Abyssal Probe",
+        "type": "Compass"
     },
     "12041": {
-        "name": "罗盘之深空探针",
-        "type": "罗盘"
+        "name": "Compass Deep Space Probe",
+        "type": "Compass"
     },
     "12050": {
-        "name": "信标之幽邃探针",
-        "type": "罗盘"
+        "name": "Beacon Abyssal Probe",
+        "type": "Compass"
     },
     "100001": {
-        "name": "罪孽之劫掠罗盘",
-        "type": "罗盘"
+        "name": "Sin Plunder Compass",
+        "type": "Compass"
     },
     "100200": {
-        "name": "初火灵砂",
-        "type": "硬通货"
+        "name": "Primordial Fire Sand",
+        "type": "Hard Currency"
     },
     "100300": {
-        "name": "初火源质",
-        "type": "硬通货"
+        "name": "Primordial Fire Essence",
+        "type": "Hard Currency"
     },
     "140004": {
-        "name": "浅白梦语-武器",
-        "type": "做梦材料"
+        "name": "Pale Dream Words - Weapon",
+        "type": "Dream Materials"
     },
     "140005": {
-        "name": "浅白梦语-防具",
-        "type": "做梦材料"
+        "name": "Pale Dream Words - Armor",
+        "type": "Dream Materials"
     },
     "140006": {
-        "name": "浅白梦语-饰品",
-        "type": "做梦材料"
+        "name": "Pale Dream Words - Accessory",
+        "type": "Dream Materials"
     },
     "200003": {
-        "name": "优质灰烬",
-        "type": "装备材料"
+        "name": "Quality Ash",
+        "type": "Equipment Materials"
     },
     "200021": {
-        "name": "真理化石",
-        "type": "装备材料"
+        "name": "Truth Fossil",
+        "type": "Equipment Materials"
     },
     "200028": {
-        "name": "珍贵灰烬",
-        "type": "装备材料"
+        "name": "Precious Ash",
+        "type": "Equipment Materials"
     },
     "200029": {
-        "name": "稀世灰烬",
-        "type": "装备材料"
+        "name": "Rare Ash",
+        "type": "Equipment Materials"
     },
     "200030": {
-        "name": "至臻灰烬",
-        "type": "装备材料"
+        "name": "Ultimate Ash",
+        "type": "Equipment Materials"
     },
     "210000": {
-        "name": "异魔之核",
-        "type": "侵蚀材料"
+        "name": "Otherworld Demon Core",
+        "type": "Erosion Materials"
     },
     "210001": {
-        "name": "使魔之核",
-        "type": "侵蚀材料"
+        "name": "Familiar Core",
+        "type": "Erosion Materials"
     },
     "210002": {
-        "name": "腐朽轴心",
-        "type": "侵蚀材料"
+        "name": "Decayed Axis",
+        "type": "Erosion Materials"
     },
     "210003": {
-        "name": "辉煌轴心",
-        "type": "侵蚀材料"
+        "name": "Brilliant Axis",
+        "type": "Erosion Materials"
     },
     "300006": {
-        "name": "神圣化石",
-        "type": "装备材料"
+        "name": "Sacred Fossil",
+        "type": "Equipment Materials"
     },
     "330001": {
-        "name": "雪纸碎片",
-        "type": "特殊道具"
+        "name": "Snow Paper Fragment",
+        "type": "Special Items"
     },
     "338002": {
-        "name": "捕星网",
-        "type": "特殊道具"
+        "name": "Star Catcher Net",
+        "type": "Special Items"
     },
     "339001": {
-        "name": "疯狂灵感素",
-        "type": "特殊道具"
+        "name": "Mad Inspiration",
+        "type": "Special Items"
     },
     "360403": {
-        "name": "基础元件",
-        "type": "高塔材料"
+        "name": "Basic Component",
+        "type": "Tower Materials"
     },
     "360404": {
-        "name": "扩展元件-术士",
-        "type": "高塔材料"
+        "name": "Extension Component - Warlock",
+        "type": "Tower Materials"
     },
     "360405": {
-        "name": "扩展元件-近卫",
-        "type": "高塔材料"
+        "name": "Extension Component - Guard",
+        "type": "Tower Materials"
     },
     "360406": {
-        "name": "扩展元件-狙击",
-        "type": "高塔材料"
+        "name": "Extension Component - Sniper",
+        "type": "Tower Materials"
     },
     "360407": {
-        "name": "扩展元件-重装",
-        "type": "高塔材料"
+        "name": "Extension Component - Heavy",
+        "type": "Tower Materials"
     },
     "370101": {
-        "name": "棱镜校尺-稀有",
-        "type": "叠界材料"
+        "name": "Prism Caliper - Rare",
+        "type": "Overlap Materials"
     },
     "370201": {
-        "name": "棱镜校尺-传奇",
-        "type": "叠界材料"
+        "name": "Prism Caliper - Legendary",
+        "type": "Overlap Materials"
     },
     "400006": {
-        "name": "冰封寒渊的信标（时刻7）",
-        "type": "地图门票"
+        "name": "Frozen Abyss Beacon(Moment 7)",
+        "type": "Map Tickets"
     },
     "400007": {
-        "name": "冰封寒渊的信标（时刻8）",
-        "type": "地图门票"
+        "name": "Frozen Abyss Beacon(Moment 8)",
+        "type": "Map Tickets"
     },
     "400008": {
-        "name": "深空信标",
-        "type": "地图门票"
+        "name": "Deep Space Beacon",
+        "type": "Map Tickets"
     },
     "400014": {
-        "name": "沸涌炎海的信标（时刻7）",
-        "type": "地图门票"
+        "name": "Boiling Sea Beacon(Moment 7)",
+        "type": "Map Tickets"
     },
     "400015": {
-        "name": "沸涌炎海的信标（时刻8）",
-        "type": "地图门票"
+        "name": "Boiling Sea Beacon(Moment 8)",
+        "type": "Map Tickets"
     },
     "400021": {
-        "name": "钢铁炼境的信标（时刻7）",
-        "type": "地图门票"
+        "name": "Steel Forge Beacon(Moment 7)",
+        "type": "Map Tickets"
     },
     "400022": {
-        "name": "钢铁炼境的信标（时刻8）",
-        "type": "地图门票"
+        "name": "Steel Forge Beacon(Moment 8)",
+        "type": "Map Tickets"
     },
     "400027": {
-        "name": "雷鸣废土的信标（时刻7）",
-        "type": "地图门票"
+        "name": "Thunder Wasteland Beacon(Moment 7)",
+        "type": "Map Tickets"
     },
     "400028": {
-        "name": "雷鸣废土的信标（时刻8）",
-        "type": "地图门票"
+        "name": "Thunder Wasteland Beacon(Moment 8)",
+        "type": "Map Tickets"
     },
     "400032": {
-        "name": "幽夜暗域的信标（时刻7）",
-        "type": "地图门票"
+        "name": "Dark Night Beacon(Moment 7)",
+        "type": "Map Tickets"
     },
     "400033": {
-        "name": "幽夜暗域的信标（时刻8）",
-        "type": "地图门票"
+        "name": "Dark Night Beacon(Moment 8)",
+        "type": "Map Tickets"
     },
     "410101": {
-        "name": "敕令：答题",
-        "type": "BOSS 门票"
+        "name": "Edict: Answer",
+        "type": "BOSS Tickets"
     },
     "410102": {
-        "name": "敕令：迪沃",
-        "type": "BOSS 门票"
+        "name": "Edict: Divo",
+        "type": "BOSS Tickets"
     },
     "410103": {
-        "name": "敕令：鲁音",
-        "type": "BOSS 门票"
+        "name": "Edict: Luyin",
+        "type": "BOSS Tickets"
     },
     "410104": {
-        "name": "敕令：杜牧",
-        "type": "BOSS 门票"
+        "name": "Edict: Dumu",
+        "type": "BOSS Tickets"
     },
     "410201": {
-        "name": "虚海请柬-渴求",
-        "type": "BOSS 门票"
+        "name": "Void Sea Invitation - Desire",
+        "type": "BOSS Tickets"
     },
     "410202": {
-        "name": "虚海请柬-狂喜",
-        "type": "BOSS 门票"
+        "name": "Void Sea Invitation - Ecstasy",
+        "type": "BOSS Tickets"
     },
     "410203": {
-        "name": "虚海请柬-哎呦喂",
-        "type": "BOSS 门票"
+        "name": "Void Sea Invitation - Aiyo",
+        "type": "BOSS Tickets"
     },
     "410301": {
-        "name": "欲念原核-记录",
-        "type": "BOSS 门票"
+        "name": "Desire Core - Record",
+        "type": "BOSS Tickets"
     },
     "410302": {
-        "name": "欲念原核-造物",
-        "type": "BOSS 门票"
+        "name": "Desire Core - Creation",
+        "type": "BOSS Tickets"
     },
     "410303": {
-        "name": "欲念原核-毁灭",
-        "type": "BOSS 门票"
+        "name": "Desire Core - Destruction",
+        "type": "BOSS Tickets"
     },
     "410401": {
-        "name": "王后🕯-囚困",
-        "type": "BOSS 门票"
+        "name": "Queen🕯-Imprisoned",
+        "type": "BOSS Tickets"
     },
     "410402": {
-        "name": "王后🕯-追逐",
-        "type": "BOSS 门票"
+        "name": "Queen🕯-Chase",
+        "type": "BOSS Tickets"
     },
     "410403": {
-        "name": "王后🕯-学恨",
-        "type": "BOSS 门票"
+        "name": "Queen🕯-Learn Hate",
+        "type": "BOSS Tickets"
     },
     "410501": {
-        "name": "女王恩宠-征伐",
-        "type": "BOSS 门票"
+        "name": "Queen's Favor - Conquest",
+        "type": "BOSS Tickets"
     },
     "410502": {
-        "name": "女王恩宠-权力",
-        "type": "BOSS 门票"
+        "name": "Queen's Favor - Power",
+        "type": "BOSS Tickets"
     },
     "410503": {
-        "name": "女王恩宠-美欲",
-        "type": "BOSS 门票"
+        "name": "Queen's Favor - Beauty Desire",
+        "type": "BOSS Tickets"
     },
     "430000": {
-        "name": "原初伊始",
-        "type": "BOSS 门票"
+        "name": "Primordial Beginning",
+        "type": "BOSS Tickets"
     },
     "430001": {
-        "name": "原初终末",
-        "type": "BOSS 门票"
+        "name": "Primordial End",
+        "type": "BOSS Tickets"
     },
     "430002": {
-        "name": "终末之初",
-        "type": "BOSS 门票"
+        "name": "End's Beginning",
+        "type": "BOSS Tickets"
     },
     "440001": {
-        "name": "神威纹章-机械",
-        "type": "神威纹章"
+        "name": "Divine Seal - Mechanical",
+        "type": "Divine Seal"
     },
     "440002": {
-        "name": "神威纹章-巨力",
-        "type": "神威纹章"
+        "name": "Divine Seal - Mighty",
+        "type": "Divine Seal"
     },
     "440003": {
-        "name": "神威纹章-征战",
-        "type": "神威纹章"
+        "name": "Divine Seal - War",
+        "type": "Divine Seal"
     },
     "440004": {
-        "name": "神威纹章-狩猎",
-        "type": "神威纹章"
+        "name": "Divine Seal - Hunt",
+        "type": "Divine Seal"
     },
     "990005": {
-        "name": "迷雾の本质",
-        "type": "玩法门票"
+        "name": "Fog Essence",
+        "type": "Gameplay Tickets"
     },
     "990007": {
-        "name": "居民😰眼睛",
-        "type": "玩法门票"
+        "name": "Resident 😰 Eyes",
+        "type": "Gameplay Tickets"
     },
     "990091": {
-        "name": "征伐灰记",
-        "type": "玩法门票"
+        "name": "Conquest Ash Record",
+        "type": "Gameplay Tickets"
     },
     "3000001": {
-        "name": "弱者之证I",
-        "type": "玩法门票"
+        "name": "Weakling Certificate I",
+        "type": "Gameplay Tickets"
     },
     "3000002": {
-        "name": "弱者之证II",
-        "type": "玩法门票"
+        "name": "Weakling Certificate II",
+        "type": "Gameplay Tickets"
     },
     "3000003": {
-        "name": "强者之证III",
-        "type": "玩法门票"
+        "name": "Strong Certificate III",
+        "type": "Gameplay Tickets"
     },
     "3000004": {
-        "name": "勇者之证IV",
-        "type": "玩法门票"
+        "name": "Brave Certificate IV",
+        "type": "Gameplay Tickets"
     },
     "3000005": {
-        "name": "超人之证V",
-        "type": "玩法门票"
+        "name": "Superman Certificate V",
+        "type": "Gameplay Tickets"
     }
 }

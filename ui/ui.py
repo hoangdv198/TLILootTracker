@@ -283,8 +283,30 @@ class App(Tk):
     def reshow(self):
         import index as main_module
         from app import config
-        with open("full_table.json", 'r', encoding="utf-8") as f:
-            full_table = json.load(f)
+        
+        # Load id_table.json để lấy name và type
+        id_table = {}
+        try:
+            with open("id_table.json", 'r', encoding="utf-8") as f:
+                id_table = json.load(f)
+        except Exception as e:
+            print(f'Error reading id_table.json: {e}')
+        
+        # Load search_price_log.json để lấy price và last_update
+        price_log_dict = {}
+        try:
+            with open("search_price_log.json", 'r', encoding="utf-8") as f:
+                price_log = json.load(f)
+            for entry in price_log:
+                item_id = entry.get("idItem")
+                if item_id:
+                    price_log_dict[str(item_id)] = {
+                        "price": entry.get("price", 0),
+                        "last_update": entry.get("last_update", 0)
+                    }
+        except Exception as e:
+            print(f'Error reading search_price_log.json: {e}')
+        
         self.label_map_count.config(text=f"🎫 {main_module.map_count}")
         if main_module.show_all:
             tmp = main_module.drop_list_all
@@ -295,12 +317,19 @@ class App(Tk):
         self.inner_pannel_drop_listbox.delete(1, END)
         for i in tmp.keys():
             item_id = str(i)
-            item_name = full_table[item_id]["name"]
-            item_type = full_table[item_id]["type"]
+            
+            # Lấy name và type từ id_table.json
+            item_data = id_table.get(item_id, {})
+            item_name = item_data.get("name", f"Item {item_id}")
+            item_type = item_data.get("type", "Unknown")
+            
             if item_type not in self.show_type:
                 continue
+            
+            # Lấy price và last_update từ search_price_log.json
+            price_data = price_log_dict.get(item_id, {})
             now = time.time()
-            last_time = full_table[item_id].get("last_update", 0)
+            last_time = price_data.get("last_update", 0)
             time_passed = now - last_time
             if time_passed < 180:
                 status = self.status[0]
@@ -308,7 +337,7 @@ class App(Tk):
                 status = self.status[1]
             else:
                 status = self.status[2]
-            item_price = full_table[item_id]["price"]
+            item_price = price_data.get("price", 0)
             if config.config_data.get("tax", 0) == 1 and item_id != "100300":
                 item_price = item_price * 0.875
             self.inner_pannel_drop_listbox.insert(END, f"{status} {item_name} x{tmp[i]} [{tmp[i] * item_price}]")

@@ -152,7 +152,17 @@ def deal_drop(drop_data, item_id_table, price_table):
 
 def deal_change(changed_text):
     """
-    Process log changes: detect map entry/exit and handle drops
+    Xử lý thay đổi trong log file: phát hiện vào/ra map và xử lý drops
+    
+    Tác dụng chính:
+    1. Phát hiện vào/ra map: Cập nhật is_in_map, reset drop_list, tính chi phí map
+    2. Load dữ liệu items: Đọc id_table.json (name, type) và search_price_log.json (price)
+    3. Scan và parse drops: Tìm drop blocks trong log, parse thành JSON
+    4. Xử lý drops: Cập nhật drop_list, income, ghi vào drop.txt
+    5. Cập nhật UI: Refresh UI khi có drops mới
+    
+    Args:
+        changed_text (str): Nội dung log mới được đọc từ file
     
     Note: This function uses global variables that must be defined in the main module
     """
@@ -172,15 +182,31 @@ def deal_change(changed_text):
         main_module.is_in_map = False
         main_module.total_time += time.time() - main_module.t
     
-    # Load item ID and price tables
+    # Load item ID and price tables từ id_table.json và search_price_log.json
     texts = changed_text
     id_table = {}
     price_table = {}
-    with open("full_table.json", 'r', encoding="utf-8") as f:
-        f = json.load(f)
-    for i in f.keys():
-        id_table[str(i)] = f[i]["name"]
-        price_table[str(i)] = f[i]["price"]
+    
+    # Load id_table.json để lấy name và type
+    try:
+        with open("id_table.json", 'r', encoding="utf-8") as f:
+            id_table_data = json.load(f)
+        for item_id, item_data in id_table_data.items():
+            id_table[str(item_id)] = item_data.get("name", f"Item {item_id}")
+    except Exception as e:
+        print(f'Error reading id_table.json: {e}')
+    
+    # Load search_price_log.json để lấy price
+    try:
+        with open("search_price_log.json", 'r', encoding="utf-8") as f:
+            price_log = json.load(f)
+        for entry in price_log:
+            item_id = entry.get("idItem")
+            price = entry.get("price", 0)
+            if item_id:
+                price_table[str(item_id)] = price
+    except Exception as e:
+        print(f'Error reading search_price_log.json: {e}')
     
     # Find and process drops
     texts = scanned_log(texts)
