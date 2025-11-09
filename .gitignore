@@ -159,10 +159,12 @@ cython_debug/
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
 #.idea/
 aied.py
-drop.txt
 game_log.json
 possible_name
 screenshot.png
 *.zip
 test.py
 input.py
+
+# Application logs
+log/

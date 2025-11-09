@@ -27,6 +27,7 @@ from core.drop_handler import (
     income as dh_income,
     income_all as dh_income_all
 )
+from services.log_scan_service import scan_init_bag
 
 
 class MyThread(threading.Thread):
@@ -68,6 +69,11 @@ class MyThread(threading.Thread):
                 time.sleep(1)
                 things = self.history.read()
                 # print(things)
+                
+                # scan_init_bag: Tracking liên tục init bag events để update state.bag_items
+                # Nếu track được event init bag, sẽ update state.bag_items với data mới
+                scan_init_bag(things)
+                
                 # deal_change: Xử lý drops từ log - phát hiện vào/ra map, scan drops, cập nhật statistics và UI
                 deal_change(things)
                 # get_price_info: Extract giá từ exchange search results trong log

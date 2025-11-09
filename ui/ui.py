@@ -86,6 +86,8 @@ class App(Tk):
         # Label occupies two cells
         label_current_earn = ttk.Label(basic_frame, text="🔥 0", font=("Algerian", 20, "bold"))
         label_current_earn.grid(row=3, column=0, padx=5)
+        label_current_profit = ttk.Label(basic_frame, text="💰 0", font=("Algerian", 18, "bold"))
+        label_current_profit.grid(row=4, column=0, padx=5)
         label_map_count = ttk.Label(basic_frame, text="🎫 0", font=("黑体", 14))
         label_map_count.grid(row=3, column=1, padx=5)
         # Button occupies one cell
@@ -96,6 +98,7 @@ class App(Tk):
         button_show_advanced.grid(row=3, column=2, padx=5)
         button_show_advanced.config(command=self.change_states)
         self.label_current_earn = label_current_earn
+        self.label_current_profit = label_current_profit
         self.label_map_count = label_map_count
         self.button_show_advanced = button_show_advanced
 
@@ -350,14 +353,16 @@ class App(Tk):
         
         price_log_dict = self._price_log_cache
         
-        # Update labels: map count và current earnings
+        # Update labels: map count, current earnings và profit
         self.label_map_count.config(text=f"🎫 {state.map_count}")
         if state.show_all:
             tmp = state.drop_list_all
             self.label_current_earn.config(text=f"🔥 {round(state.income_all, 2)}")
+            self.label_current_profit.config(text=f"💰 {round(state.profit_all, 2)}")
         else:
             tmp = state.drop_list
             self.label_current_earn.config(text=f"🔥 {round(state.income, 2)}")
+            self.label_current_profit.config(text=f"💰 {round(state.profit, 2)}")
         
         # Xóa toàn bộ items cũ trong listbox (giữ lại header ở index 0)
         self.inner_pannel_drop_listbox.delete(1, END)

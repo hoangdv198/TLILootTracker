@@ -17,6 +17,7 @@ from .price_service import (
 )
 
 from .log_scan_service import (
+    init_bag_data,
     scan_init_bag,
     scan_drop_log,
     scan_price_search
@@ -33,6 +34,7 @@ __all__ = [
     'get_price_info',
     'price_update',
     'get_user',
+    'init_bag_data',
     'scan_init_bag',
     'scan_drop_log',
     'scan_price_search',

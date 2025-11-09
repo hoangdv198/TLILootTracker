@@ -16,9 +16,41 @@ Tác dụng:
 """
 import re
 import os
+import json
 from typing import List, Dict, Optional
 from core.logger import log_debug
 from .item_service import get_item_info
+from app import state
+from datetime import datetime
+
+
+def init_bag_data():
+    """
+    Load bag_items từ bag_log.json khi start app để có cache trước đó
+    
+    Returns:
+        bool: True nếu load thành công, False nếu không
+    """
+    try:
+        bag_log_path = os.path.join("log", "bag_log.json")
+        if os.path.exists(bag_log_path):
+            with open(bag_log_path, 'r', encoding="utf-8") as f:
+                bag_log_data = json.load(f)
+                if isinstance(bag_log_data, dict) and "items" in bag_log_data:
+                    state.bag_items = bag_log_data["items"]
+                    log_debug(f"init_bag_data: Loaded {len(state.bag_items)} items from bag_log.json")
+                    return True
+                elif isinstance(bag_log_data, list) and len(bag_log_data) > 0:
+                    # Nếu là list, lấy entry cuối cùng
+                    latest_entry = bag_log_data[-1]
+                    if isinstance(latest_entry, dict) and "items" in latest_entry:
+                        state.bag_items = latest_entry["items"]
+                        log_debug(f"init_bag_data: Loaded {len(state.bag_items)} items from bag_log.json (latest entry)")
+                        return True
+        return False
+    except Exception as e:
+        log_debug(f"init_bag_data: Error loading bag_log.json: {e}")
+        return False
 
 
 def scan_init_bag(changed_text: str) -> Dict[str, Dict]:
@@ -48,9 +80,15 @@ def scan_init_bag(changed_text: str) -> Dict[str, Dict]:
     bag_data = {}
     lines = changed_text.split('\n')
     
+    # Ghi log init bag events vào file để debug
+    init_bag_log_path = os.path.join("log", "init_bag_msg.log")
+    init_bag_lines = []
+    
     for line in lines:
         # Tìm pattern: "BagMgr@:InitBagData PageId = ... SlotId = ... ConfigBaseId = ... Num = ..."
         if 'BagMgr@:InitBagData' in line and 'ConfigBaseId' in line:
+            # Ghi log line vào file để debug
+            init_bag_lines.append(line)
             # Extract timestamp
             timestamp_match = re.search(r'\[(\d{4}\.\d{2}\.\d{2}-\d{2}\.\d{2}\.\d{2}:\d{3})\]', line)
             timestamp = timestamp_match.group(1) if timestamp_match else ""
@@ -70,8 +108,49 @@ def scan_init_bag(changed_text: str) -> Dict[str, Dict]:
                     "timestamp": timestamp
                 }
     
+    # Ghi tất cả init bag log lines vào file
+    if init_bag_lines:
+        try:
+            os.makedirs("log", exist_ok=True)
+            with open(init_bag_log_path, 'a', encoding="utf-8") as f:
+                timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+                f.write(f"\n========== Init Bag Event - {timestamp} ==========\n")
+                for log_line in init_bag_lines:
+                    f.write(log_line + "\n")
+                f.write(f"========== End Init Bag Event ({len(init_bag_lines)} lines) ==========\n\n")
+            log_debug(f"scan_init_bag: wrote {len(init_bag_lines)} init bag log lines to init_bag_msg.log")
+        except Exception as e:
+            log_debug(f"scan_init_bag: error writing to init_bag_msg.log: {e}")
+    
     if bag_data:
         log_debug(f"scan_init_bag: found {len(bag_data)} items in bag")
+        
+        # Tự động update vào state.bag_items khi scan được data
+        try:
+            # Load id_table để lấy tên items
+            id_table = {}
+            try:
+                with open("id_table.json", 'r', encoding="utf-8") as f:
+                    id_table_data = json.load(f)
+                for item_id, item_data in id_table_data.items():
+                    id_table[str(item_id)] = item_data.get("name", f"Item {item_id}")
+            except Exception as e:
+                log_debug(f"error reading id_table.json in scan_init_bag: {e}")
+            
+            # Update state.bag_items với format đầy đủ
+            state.bag_items = {}
+            for item_id_str, bag_info in bag_data.items():
+                item_name = id_table.get(item_id_str, f"Item {item_id_str}")
+                state.bag_items[item_id_str] = {
+                    "name": item_name,
+                    "pageId": bag_info.get("pageId", 0),
+                    "slotId": bag_info.get("slotId", 0),
+                    "num": bag_info.get("num", 0)
+                }
+            log_debug(f"scan_init_bag: updated state.bag_items with {len(state.bag_items)} items")
+        except Exception as e:
+            log_debug(f"error updating state.bag_items in scan_init_bag: {e}")
+    
     return bag_data
 
 

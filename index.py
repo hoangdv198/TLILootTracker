@@ -16,15 +16,17 @@ Tác dụng:
 Flow khi chạy:
     1. Import các modules (app, drop_handler, price_handler, config)
     2. Khởi tạo global variables (is_in_map, drop_list, income, etc.)
-    3. Tạo App instance
-    4. Start MyThread để đọc log file
-    5. Start price_update thread để sync giá từ server
-    6. Chạy mainloop() để hiển thị UI
+    3. Clear log files (drop.txt, drop_log.txt)
+    4. Tạo App instance
+    5. Start MyThread để đọc log file
+    6. Start price_update thread để sync giá từ server
+    7. Chạy mainloop() để hiển thị UI
 
 Lưu ý:
     Chạy file này để start ứng dụng: python index.py
 """
 import time
+import os
 import _thread
 from ui.ui import App
 from app.app import MyThread
@@ -39,6 +41,28 @@ dh_config_data.update(config.config_data)
 # Import state module và initialize
 from app import state
 state.t = time.time()
+
+# Load bag_items từ bag_log.json khi start app để có cache trước đó
+from services.log_scan_service import init_bag_data
+init_bag_data()
+
+# Clear log files khi start app
+try:
+    os.makedirs("log", exist_ok=True)
+    drop_txt_path = os.path.join("log", "drop.txt")
+    drop_log_path = os.path.join("log", "drop_log.txt")
+    
+    # Clear drop.txt
+    if os.path.exists(drop_txt_path):
+        with open(drop_txt_path, 'w', encoding="utf-8") as f:
+            f.write("")
+    
+    # Clear drop_log.txt
+    if os.path.exists(drop_log_path):
+        with open(drop_log_path, 'w', encoding="utf-8") as f:
+            f.write("")
+except Exception as e:
+    print(f"Error clearing log files: {e}")
 
 # Initialize app
 root = App()

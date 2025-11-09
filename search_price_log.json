@@ -44,8 +44,9 @@
     },
     {
         "idItem": "400008",
-        "price": 23.5,
-        "last_update": 1762590247,
+        "name": "Deep Space Beacon",
+        "price": 23.8145,
+        "last_update": 1762676514,
         "type": "Map Tickets"
     },
     {
@@ -141,8 +142,8 @@
     {
         "idItem": "10003",
         "name": "Felony Plunder Compass",
-        "price": 16.9466,
-        "last_update": 1762636617,
+        "price": 23.5074,
+        "last_update": 1762676543,
         "type": "Compass"
     },
     {
@@ -151,5 +152,40 @@
         "price": 1.3186,
         "last_update": 1762636622,
         "type": "Compass"
+    },
+    {
+        "idItem": "6007",
+        "name": "Lost Treasure",
+        "price": 2.9983,
+        "last_update": 1762676525,
+        "type": "Memory Fluorescence"
+    },
+    {
+        "idItem": "6003",
+        "name": "Crow's Lament",
+        "price": 1.4305,
+        "last_update": 1762676528,
+        "type": "Memory Fluorescence"
+    },
+    {
+        "idItem": "6004",
+        "name": "Black History Skill",
+        "price": 0.3393,
+        "last_update": 1762676532,
+        "type": "Memory Fluorescence"
+    },
+    {
+        "idItem": "6002",
+        "name": "Frozen Abyss Secret",
+        "price": 0.2989,
+        "last_update": 1762676534,
+        "type": "Memory Fluorescence"
+    },
+    {
+        "idItem": "400033",
+        "name": "Dark Night Beacon(Moment 8)",
+        "price": 1.2767,
+        "last_update": 1762697515,
+        "type": "Map Tickets"
     }
 ]
