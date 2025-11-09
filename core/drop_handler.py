@@ -567,10 +567,9 @@ def deal_change(changed_text):
             state.bag_items[item_id_str]["num"] = current_quantity
         else:
             # Nếu item chưa có trong bag_items, thêm mới (item mới không có trong túi ban đầu)
+            # Format đơn giản: chỉ lưu name và num, không lưu pageId và slotId
             state.bag_items[item_id_str] = {
                 "name": item_name,
-                "pageId": 0,  # Không có thông tin từ drop log (PickItems)
-                "slotId": 0,  # Không có thông tin từ drop log (PickItems)
                 "num": current_quantity
             }
         

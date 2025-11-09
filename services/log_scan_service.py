@@ -17,11 +17,12 @@ Tác dụng:
 import re
 import os
 import json
+import time
 from typing import List, Dict, Optional
+from datetime import datetime
 from core.logger import log_debug
 from .item_service import get_item_info
 from app import state
-from datetime import datetime
 
 
 def init_bag_data():
@@ -75,7 +76,10 @@ def scan_init_bag(changed_text: str) -> Dict[str, Dict]:
             ...
         }
         
-    Note: Nếu cùng itemId xuất hiện nhiều lần, sẽ lấy entry cuối cùng (số lượng mới nhất)
+    Note: 
+        - Nếu cùng itemId xuất hiện nhiều lần (item >= 1000 được chia thành nhiều slot),
+          sẽ cộng dồn số lượng từ tất cả các slot
+        - Ví dụ: SlotId=2 Num=999 và SlotId=3 Num=347 => tổng num = 1346
     """
     bag_data = {}
     lines = changed_text.split('\n')
@@ -101,12 +105,25 @@ def scan_init_bag(changed_text: str) -> Dict[str, Dict]:
             
             if config_base_id_match:
                 item_id = config_base_id_match.group(1)
-                bag_data[item_id] = {
-                    "pageId": int(page_id_match.group(1)) if page_id_match else 0,
-                    "slotId": int(slot_id_match.group(1)) if slot_id_match else 0,
-                    "num": int(num_match.group(1)) if num_match else 0,
-                    "timestamp": timestamp
-                }
+                page_id = int(page_id_match.group(1)) if page_id_match else 0
+                slot_id = int(slot_id_match.group(1)) if slot_id_match else 0
+                num = int(num_match.group(1)) if num_match else 0
+                
+                # QUAN TRỌNG: Nếu item_id đã tồn tại (item >= 1000 được chia thành nhiều slot),
+                # cộng dồn số lượng thay vì overwrite
+                if item_id in bag_data:
+                    # Cộng dồn số lượng từ slot mới vào tổng số lượng hiện tại
+                    bag_data[item_id]["num"] += num
+                    # Giữ slotId của slot đầu tiên (hoặc có thể update thành slot cuối cùng, không quan trọng)
+                    # Giữ timestamp của slot đầu tiên
+                else:
+                    # Item mới, tạo entry mới
+                    bag_data[item_id] = {
+                        "pageId": page_id,
+                        "slotId": slot_id,
+                        "num": num,
+                        "timestamp": timestamp
+                    }
     
     # Ghi tất cả init bag log lines vào file
     if init_bag_lines:
@@ -137,17 +154,30 @@ def scan_init_bag(changed_text: str) -> Dict[str, Dict]:
             except Exception as e:
                 log_debug(f"error reading id_table.json in scan_init_bag: {e}")
             
-            # Update state.bag_items với format đầy đủ
+            # Update state.bag_items với format đơn giản (chỉ name và num, không lưu pageId và slotId)
             state.bag_items = {}
             for item_id_str, bag_info in bag_data.items():
                 item_name = id_table.get(item_id_str, f"Item {item_id_str}")
                 state.bag_items[item_id_str] = {
                     "name": item_name,
-                    "pageId": bag_info.get("pageId", 0),
-                    "slotId": bag_info.get("slotId", 0),
                     "num": bag_info.get("num", 0)
                 }
             log_debug(f"scan_init_bag: updated state.bag_items with {len(state.bag_items)} items")
+            
+            # Ghi bag items vào bag_log.json khi scan được init bag event
+            try:
+                bag_log_path = os.path.join("log", "bag_log.json")
+                os.makedirs("log", exist_ok=True)
+                bag_current = {
+                    "timestamp": round(time.time()),
+                    "datetime": datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
+                    "items": state.bag_items
+                }
+                with open(bag_log_path, 'w', encoding="utf-8") as f:
+                    json.dump(bag_current, f, indent=4, ensure_ascii=False)
+                log_debug(f"scan_init_bag: wrote {len(state.bag_items)} items to bag_log.json")
+            except Exception as e:
+                log_debug(f"scan_init_bag: error writing to bag_log.json: {e}")
         except Exception as e:
             log_debug(f"error updating state.bag_items in scan_init_bag: {e}")
     

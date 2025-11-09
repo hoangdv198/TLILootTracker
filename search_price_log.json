@@ -1,8 +1,9 @@
 [
     {
         "idItem": "5703",
-        "price": 2.4673,
-        "last_update": 1762636445,
+        "name": "Tower Chip - Undetermined Fate",
+        "price": 2.3892,
+        "last_update": 1762701694,
         "type": "Tower Materials"
     },
     {
@@ -19,21 +20,23 @@
     },
     {
         "idItem": "140005",
-        "price": 6.9101,
-        "last_update": 1762636395,
+        "name": "Pale Dream Words - Armor",
+        "price": 6.125,
+        "last_update": 1762702055,
         "type": "Dream Materials"
     },
     {
         "idItem": "140006",
         "name": "Pale Dream Words - Accessory",
-        "price": 25.5125,
-        "last_update": 1762636551,
+        "price": 23.9339,
+        "last_update": 1762702059,
         "type": "Dream Materials"
     },
     {
         "idItem": "5028",
-        "price": 0.18,
-        "last_update": 1762636404,
+        "name": "Netherrealm Resonance",
+        "price": 0.189,
+        "last_update": 1762701653,
         "type": "Hard Currency"
     },
     {
@@ -75,8 +78,9 @@
     },
     {
         "idItem": "5250",
-        "price": 18.0,
-        "last_update": 1762591464,
+        "name": "Ascension Wedge(Legendary)",
+        "price": 15.6685,
+        "last_update": 1762701697,
         "type": "Cube Materials"
     },
     {
@@ -156,8 +160,8 @@
     {
         "idItem": "6007",
         "name": "Lost Treasure",
-        "price": 2.9983,
-        "last_update": 1762676525,
+        "price": 3.0,
+        "last_update": 1762701029,
         "type": "Memory Fluorescence"
     },
     {
@@ -177,8 +181,8 @@
     {
         "idItem": "6002",
         "name": "Frozen Abyss Secret",
-        "price": 0.2989,
-        "last_update": 1762676534,
+        "price": 0.3031,
+        "last_update": 1762701033,
         "type": "Memory Fluorescence"
     },
     {
@@ -187,5 +191,54 @@
         "price": 1.2767,
         "last_update": 1762697515,
         "type": "Map Tickets"
+    },
+    {
+        "idItem": "5144",
+        "name": "Memory Threads - Excellent",
+        "price": 2.0281,
+        "last_update": 1762699960,
+        "type": "Memory Materials"
+    },
+    {
+        "idItem": "10042",
+        "name": "Rival Compass",
+        "price": 0.2921,
+        "last_update": 1762701716,
+        "type": "Compass"
+    },
+    {
+        "idItem": "6153",
+        "name": "Tomorrow's Course",
+        "price": 6.0311,
+        "last_update": 1762701026,
+        "type": "Memory Fluorescence"
+    },
+    {
+        "idItem": "5700",
+        "name": "Tower Chip - Energy",
+        "price": 0.1679,
+        "last_update": 1762701691,
+        "type": "Tower Materials"
+    },
+    {
+        "idItem": "5701",
+        "name": "Tower Chip - Fluorescence",
+        "price": 6.9112,
+        "last_update": 1762701693,
+        "type": "Tower Materials"
+    },
+    {
+        "idItem": "10180",
+        "name": "Cube Compass",
+        "price": 0.7275,
+        "last_update": 1762701708,
+        "type": "Compass"
+    },
+    {
+        "idItem": "10032",
+        "name": "Elite Compass",
+        "price": 0.2906,
+        "last_update": 1762701723,
+        "type": "Compass"
     }
 ]

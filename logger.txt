@@ -1471,3 +1471,1768 @@
 [DEBUG] 11-09-2025 21:33:24 - drop item 370101 x6
 [DEBUG] 11-09-2025 21:33:24 - previous_quantity: 3042, current_quantity: 3045
 [DEBUG] 11-09-2025 21:33:24 - drop item 200029 x3
+[DEBUG] 11-09-2025 21:50:14 - init_bag_data: Loaded 179 items from bag_log.json
+[DEBUG] 11-09-2025 21:50:24 - scan_drop_log: found 1 drop item(s)
+[DEBUG] 11-09-2025 21:50:24 - previous_quantity: 3045, current_quantity: 3046
+[DEBUG] 11-09-2025 21:50:24 - drop item 200029 x1
+[DEBUG] 11-09-2025 21:50:36 - scan_drop_log: found 1 drop item(s)
+[DEBUG] 11-09-2025 21:50:36 - previous_quantity: 883, current_quantity: 885
+[DEBUG] 11-09-2025 21:50:36 - drop item 5080 x2
+[DEBUG] 11-09-2025 21:50:37 - scan_drop_log: found 1 drop item(s)
+[DEBUG] 11-09-2025 21:50:37 - previous_quantity: 47, current_quantity: 48
+[DEBUG] 11-09-2025 21:50:37 - drop item 100300 x1
+[DEBUG] 11-09-2025 21:50:40 - scan_drop_log: found 1 drop item(s)
+[DEBUG] 11-09-2025 21:50:40 - previous_quantity: 833, current_quantity: 835
+[DEBUG] 11-09-2025 21:50:40 - drop item 5140 x2
+[DEBUG] 11-09-2025 21:50:53 - scan_drop_log: found 1 drop item(s)
+[DEBUG] 11-09-2025 21:50:53 - previous_quantity: 389, current_quantity: 383
+[DEBUG] 11-09-2025 21:50:54 - profit logged: map #0, profit=1.04, duration=31.25s
+[DEBUG] 11-09-2025 21:51:24 - scan_init_bag: wrote 191 init bag log lines to init_bag_msg.log
+[DEBUG] 11-09-2025 21:51:24 - scan_init_bag: found 178 items in bag
+[DEBUG] 11-09-2025 21:51:24 - scan_init_bag: updated state.bag_items with 178 items
+[DEBUG] 11-09-2025 21:51:33 - BEFORE MAP ENTRY - state.bag_items count: 178, items: ['3611', '4535', '4631', '261005', '260005', '71003', '71001', '360616', '360502', '3811']
+[DEBUG] 11-09-2025 21:51:33 -   - 3611: Item 3611 x1
+[DEBUG] 11-09-2025 21:51:33 -   - 4535: Item 4535 x1
+[DEBUG] 11-09-2025 21:51:33 -   - 4631: Item 4631 x1
+[DEBUG] 11-09-2025 21:51:33 -   - 261005: Item 261005 x1
+[DEBUG] 11-09-2025 21:51:33 -   - 260005: Item 260005 x1
+[DEBUG] 11-09-2025 21:51:33 - KEEPING bag_items from cache, count: 178
+[DEBUG] 11-09-2025 21:51:33 - AFTER scan_init_bag - init_bag_data count: 0, state.bag_items count: 178
+[DEBUG] 11-09-2025 21:51:33 - Using cached bag_items from bag_log.json as baseline (no init bag event found)
+[DEBUG] 11-09-2025 21:51:33 -   Cached items count: 178
+[DEBUG] 11-09-2025 21:51:50 - scan_drop_log: found 1 drop item(s)
+[DEBUG] 11-09-2025 21:51:50 - previous_quantity: 383, current_quantity: 369
+[DEBUG] 11-09-2025 21:51:53 - scan_drop_log: found 1 drop item(s)
+[DEBUG] 11-09-2025 21:51:53 - previous_quantity: 525, current_quantity: 526
+[DEBUG] 11-09-2025 21:51:53 - drop item 100200 x1
+[DEBUG] 11-09-2025 21:51:57 - scan_drop_log: found 1 drop item(s)
+[DEBUG] 11-09-2025 21:51:57 - previous_quantity: 526, current_quantity: 528
+[DEBUG] 11-09-2025 21:51:57 - drop item 100200 x2
+[DEBUG] 11-09-2025 21:52:02 - scan_drop_log: found 1 drop item(s)
+[DEBUG] 11-09-2025 21:52:02 - previous_quantity: 528, current_quantity: 530
+[DEBUG] 11-09-2025 21:52:02 - drop item 100200 x2
+[DEBUG] 11-09-2025 21:52:06 - scan_drop_log: found 3 drop item(s)
+[DEBUG] 11-09-2025 21:52:06 - previous_quantity: 69, current_quantity: 70
+[DEBUG] 11-09-2025 21:52:06 - drop item 10042 x1
+[DEBUG] 11-09-2025 21:52:06 - previous_quantity: 530, current_quantity: 542
+[DEBUG] 11-09-2025 21:52:06 - drop item 100200 x12
+[DEBUG] 11-09-2025 21:52:06 - previous_quantity: 542, current_quantity: 544
+[DEBUG] 11-09-2025 21:52:06 - drop item 100200 x2
+[DEBUG] 11-09-2025 21:52:08 - scan_drop_log: found 2 drop item(s)
+[DEBUG] 11-09-2025 21:52:08 - previous_quantity: 544, current_quantity: 545
+[DEBUG] 11-09-2025 21:52:08 - drop item 100200 x1
+[DEBUG] 11-09-2025 21:52:08 - previous_quantity: 545, current_quantity: 546
+[DEBUG] 11-09-2025 21:52:08 - drop item 100200 x1
+[DEBUG] 11-09-2025 21:52:09 - scan_drop_log: found 1 drop item(s)
+[DEBUG] 11-09-2025 21:52:09 - previous_quantity: 546, current_quantity: 547
+[DEBUG] 11-09-2025 21:52:09 - drop item 100200 x1
+[DEBUG] 11-09-2025 21:52:11 - scan_drop_log: found 1 drop item(s)
+[DEBUG] 11-09-2025 21:52:11 - previous_quantity: 547, current_quantity: 549
+[DEBUG] 11-09-2025 21:52:11 - drop item 100200 x2
+[DEBUG] 11-09-2025 21:52:13 - scan_drop_log: found 2 drop item(s)
+[DEBUG] 11-09-2025 21:52:13 - previous_quantity: 549, current_quantity: 554
+[DEBUG] 11-09-2025 21:52:13 - drop item 100200 x5
+[DEBUG] 11-09-2025 21:52:13 - previous_quantity: 58, current_quantity: 59
+[DEBUG] 11-09-2025 21:52:13 - drop item 100300 x1
+[DEBUG] 11-09-2025 21:52:14 - scan_drop_log: found 1 drop item(s)
+[DEBUG] 11-09-2025 21:52:14 - previous_quantity: 554, current_quantity: 555
+[DEBUG] 11-09-2025 21:52:14 - drop item 100200 x1
+[DEBUG] 11-09-2025 21:52:15 - scan_drop_log: found 1 drop item(s)
+[DEBUG] 11-09-2025 21:52:15 - previous_quantity: 555, current_quantity: 556
+[DEBUG] 11-09-2025 21:52:15 - drop item 100200 x1
+[DEBUG] 11-09-2025 21:52:17 - scan_drop_log: found 2 drop item(s)
+[DEBUG] 11-09-2025 21:52:17 - previous_quantity: 59, current_quantity: 69
+[DEBUG] 11-09-2025 21:52:17 - drop item 100300 x10
+[DEBUG] 11-09-2025 21:52:17 - previous_quantity: 3046, current_quantity: 3056
+[DEBUG] 11-09-2025 21:52:17 - drop item 200029 x10
+[DEBUG] 11-09-2025 21:52:18 - scan_drop_log: found 2 drop item(s)
+[DEBUG] 11-09-2025 21:52:18 - previous_quantity: 556, current_quantity: 557
+[DEBUG] 11-09-2025 21:52:18 - drop item 100200 x1
+[DEBUG] 11-09-2025 21:52:18 - previous_quantity: 557, current_quantity: 559
+[DEBUG] 11-09-2025 21:52:18 - drop item 100200 x2
+[DEBUG] 11-09-2025 21:52:19 - scan_drop_log: found 2 drop item(s)
+[DEBUG] 11-09-2025 21:52:19 - previous_quantity: 559, current_quantity: 570
+[DEBUG] 11-09-2025 21:52:19 - drop item 100200 x11
+[DEBUG] 11-09-2025 21:52:19 - previous_quantity: 570, current_quantity: 571
+[DEBUG] 11-09-2025 21:52:19 - drop item 100200 x1
+[DEBUG] 11-09-2025 21:52:20 - scan_drop_log: found 2 drop item(s)
+[DEBUG] 11-09-2025 21:52:20 - previous_quantity: 571, current_quantity: 572
+[DEBUG] 11-09-2025 21:52:20 - drop item 100200 x1
+[DEBUG] 11-09-2025 21:52:20 - previous_quantity: 69, current_quantity: 70
+[DEBUG] 11-09-2025 21:52:20 - drop item 100300 x1
+[DEBUG] 11-09-2025 21:52:29 - scan_drop_log: found 1 drop item(s)
+[DEBUG] 11-09-2025 21:52:29 - previous_quantity: 835, current_quantity: 836
+[DEBUG] 11-09-2025 21:52:29 - drop item 5140 x1
+[DEBUG] 11-09-2025 21:52:31 - scan_drop_log: found 1 drop item(s)
+[DEBUG] 11-09-2025 21:52:31 - previous_quantity: 836, current_quantity: 840
+[DEBUG] 11-09-2025 21:52:31 - drop item 5140 x4
+[DEBUG] 11-09-2025 21:52:32 - scan_drop_log: found 2 drop item(s)
+[DEBUG] 11-09-2025 21:52:32 - previous_quantity: 369, current_quantity: 380
+[DEBUG] 11-09-2025 21:52:32 - drop item 5028 x11
+[DEBUG] 11-09-2025 21:52:32 - previous_quantity: 138, current_quantity: 139
+[DEBUG] 11-09-2025 21:52:32 - drop item 5144 x1
+[DEBUG] 11-09-2025 21:52:35 - scan_drop_log: found 1 drop item(s)
+[DEBUG] 11-09-2025 21:52:35 - previous_quantity: 70, current_quantity: 72
+[DEBUG] 11-09-2025 21:52:35 - drop item 100300 x2
+[DEBUG] 11-09-2025 21:52:36 - scan_drop_log: found 2 drop item(s)
+[DEBUG] 11-09-2025 21:52:36 - previous_quantity: 885, current_quantity: 891
+[DEBUG] 11-09-2025 21:52:36 - drop item 5080 x6
+[DEBUG] 11-09-2025 21:52:36 - previous_quantity: 380, current_quantity: 388
+[DEBUG] 11-09-2025 21:52:36 - drop item 5028 x8
+[DEBUG] 11-09-2025 21:52:40 - scan_price_search: itemId=5144, synId=55374, values_count=100, prices=[1.8947368421053, 1.9027777777778, 1.9180327868852, 1.9186991869919, 1.9375, 1.9382716049383, 1.943661971831, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0731707317073, 2.0833333333333, 2.0833333333333, 2.0869565217391, 2.0869565217391, 2.0882352941176, 2.0901639344262, 2.0909090909091, 2.0909090909091, 2.0909090909091, 2.0909090909091, 2.0925925925926, 2.0925925925926, 2.093023255814, 2.093023255814, 2.09375, 2.09375, 2.0945945945946, 2.0952380952381, 2.0952380952381, 2.0952380952381, 2.0952380952381, 2.0967741935484, 2.0970149253731, 2.0970873786408, 2.0972222222222, 2.0974025974026, 2.0975609756098, 2.0975609756098, 2.0975609756098, 2.0979020979021, 2.0980392156863, 2.0980392156863, 2.0980392156863, 2.0983606557377, 2.0985915492958]
+[DEBUG] 11-09-2025 21:52:40 - scan_price_search: itemId=5144, average_price=2.0281, highest_price=2.0986
+[DEBUG] 11-09-2025 21:52:40 - scan_price_search: found 1 result(s)
+[DEBUG] 11-09-2025 21:52:40 - Updated item value: ID:5144, Name:Memory Threads - Excellent, Average Price:2.0281, Highest Price:2.0986
+[DEBUG] 11-09-2025 21:52:40 - Logged to search_price_log.json: ID:5144, Price:2.0281, Type:Memory Materials
+[DEBUG] 11-09-2025 21:52:48 - scan_drop_log: found 1 drop item(s)
+[DEBUG] 11-09-2025 21:52:48 - previous_quantity: 891, current_quantity: 893
+[DEBUG] 11-09-2025 21:52:48 - drop item 5080 x2
+[DEBUG] 11-09-2025 21:52:52 - scan_drop_log: found 1 drop item(s)
+[DEBUG] 11-09-2025 21:52:52 - previous_quantity: 388, current_quantity: 391
+[DEBUG] 11-09-2025 21:52:52 - drop item 5028 x3
+[DEBUG] 11-09-2025 21:52:53 - profit logged: map #1, profit=14.17, duration=80.8s
+[DEBUG] 11-09-2025 21:53:08 - BEFORE MAP ENTRY - state.bag_items count: 178, items: ['3611', '4535', '4631', '261005', '260005', '71003', '71001', '360616', '360502', '3811']
+[DEBUG] 11-09-2025 21:53:08 -   - 3611: Item 3611 x1
+[DEBUG] 11-09-2025 21:53:08 -   - 4535: Item 4535 x1
+[DEBUG] 11-09-2025 21:53:08 -   - 4631: Item 4631 x1
+[DEBUG] 11-09-2025 21:53:08 -   - 261005: Item 261005 x1
+[DEBUG] 11-09-2025 21:53:08 -   - 260005: Item 260005 x1
+[DEBUG] 11-09-2025 21:53:08 - KEEPING bag_items from cache, count: 178
+[DEBUG] 11-09-2025 21:53:08 - AFTER scan_init_bag - init_bag_data count: 0, state.bag_items count: 178
+[DEBUG] 11-09-2025 21:53:08 - Using cached bag_items from bag_log.json as baseline (no init bag event found)
+[DEBUG] 11-09-2025 21:53:08 -   Cached items count: 178
+[DEBUG] 11-09-2025 21:53:24 - scan_drop_log: found 2 drop item(s)
+[DEBUG] 11-09-2025 21:53:24 - previous_quantity: 893, current_quantity: 894
+[DEBUG] 11-09-2025 21:53:24 - drop item 5080 x1
+[DEBUG] 11-09-2025 21:53:24 - previous_quantity: 1885, current_quantity: 1890
+[DEBUG] 11-09-2025 21:53:24 - drop item 200028 x5
+[DEBUG] 11-09-2025 21:53:25 - scan_drop_log: found 1 drop item(s)
+[DEBUG] 11-09-2025 21:53:25 - previous_quantity: 391, current_quantity: 379
+[DEBUG] 11-09-2025 21:53:27 - scan_drop_log: found 2 drop item(s)
+[DEBUG] 11-09-2025 21:53:27 - previous_quantity: 894, current_quantity: 896
+[DEBUG] 11-09-2025 21:53:27 - drop item 5080 x2
+[DEBUG] 11-09-2025 21:53:27 - previous_quantity: 840, current_quantity: 848
+[DEBUG] 11-09-2025 21:53:27 - drop item 5140 x8
+[DEBUG] 11-09-2025 21:53:47 - scan_drop_log: found 2 drop item(s)
+[DEBUG] 11-09-2025 21:53:47 - previous_quantity: 572, current_quantity: 590
+[DEBUG] 11-09-2025 21:53:47 - drop item 100200 x18
+[DEBUG] 11-09-2025 21:53:47 - previous_quantity: 590, current_quantity: 592
+[DEBUG] 11-09-2025 21:53:47 - drop item 100200 x2
+[DEBUG] 11-09-2025 21:53:50 - scan_drop_log: found 1 drop item(s)
+[DEBUG] 11-09-2025 21:53:50 - previous_quantity: 592, current_quantity: 594
+[DEBUG] 11-09-2025 21:53:50 - drop item 100200 x2
+[DEBUG] 11-09-2025 21:53:51 - scan_drop_log: found 2 drop item(s)
+[DEBUG] 11-09-2025 21:53:51 - previous_quantity: 594, current_quantity: 604
+[DEBUG] 11-09-2025 21:53:51 - drop item 100200 x10
+[DEBUG] 11-09-2025 21:53:51 - previous_quantity: 604, current_quantity: 606
+[DEBUG] 11-09-2025 21:53:51 - drop item 100200 x2
+[DEBUG] 11-09-2025 21:53:53 - scan_drop_log: found 2 drop item(s)
+[DEBUG] 11-09-2025 21:53:53 - previous_quantity: 606, current_quantity: 608
+[DEBUG] 11-09-2025 21:53:53 - drop item 100200 x2
+[DEBUG] 11-09-2025 21:53:53 - previous_quantity: 608, current_quantity: 614
+[DEBUG] 11-09-2025 21:53:53 - drop item 100200 x6
+[DEBUG] 11-09-2025 21:53:54 - scan_drop_log: found 3 drop item(s)
+[DEBUG] 11-09-2025 21:53:54 - previous_quantity: 614, current_quantity: 618
+[DEBUG] 11-09-2025 21:53:54 - drop item 100200 x4
+[DEBUG] 11-09-2025 21:53:54 - previous_quantity: 618, current_quantity: 620
+[DEBUG] 11-09-2025 21:53:54 - drop item 100200 x2
+[DEBUG] 11-09-2025 21:53:54 - previous_quantity: 620, current_quantity: 622
+[DEBUG] 11-09-2025 21:53:54 - drop item 100200 x2
+[DEBUG] 11-09-2025 21:53:55 - scan_drop_log: found 1 drop item(s)
+[DEBUG] 11-09-2025 21:53:55 - previous_quantity: 622, current_quantity: 624
+[DEBUG] 11-09-2025 21:53:55 - drop item 100200 x2
+[DEBUG] 11-09-2025 21:53:56 - scan_drop_log: found 2 drop item(s)
+[DEBUG] 11-09-2025 21:53:56 - previous_quantity: 624, current_quantity: 626
+[DEBUG] 11-09-2025 21:53:56 - drop item 100200 x2
+[DEBUG] 11-09-2025 21:53:56 - previous_quantity: 626, current_quantity: 628
+[DEBUG] 11-09-2025 21:53:56 - drop item 100200 x2
+[DEBUG] 11-09-2025 21:53:57 - scan_drop_log: found 1 drop item(s)
+[DEBUG] 11-09-2025 21:53:57 - previous_quantity: 628, current_quantity: 630
+[DEBUG] 11-09-2025 21:53:57 - drop item 100200 x2
+[DEBUG] 11-09-2025 21:53:59 - scan_drop_log: found 2 drop item(s)
+[DEBUG] 11-09-2025 21:53:59 - previous_quantity: 630, current_quantity: 632
+[DEBUG] 11-09-2025 21:53:59 - drop item 100200 x2
+[DEBUG] 11-09-2025 21:53:59 - previous_quantity: 632, current_quantity: 634
+[DEBUG] 11-09-2025 21:53:59 - drop item 100200 x2
+[DEBUG] 11-09-2025 21:54:01 - scan_drop_log: found 1 drop item(s)
+[DEBUG] 11-09-2025 21:54:01 - previous_quantity: 634, current_quantity: 636
+[DEBUG] 11-09-2025 21:54:01 - drop item 100200 x2
+[DEBUG] 11-09-2025 21:54:02 - scan_drop_log: found 2 drop item(s)
+[DEBUG] 11-09-2025 21:54:02 - previous_quantity: 636, current_quantity: 638
+[DEBUG] 11-09-2025 21:54:02 - drop item 100200 x2
+[DEBUG] 11-09-2025 21:54:02 - previous_quantity: 638, current_quantity: 640
+[DEBUG] 11-09-2025 21:54:02 - drop item 100200 x2
+[DEBUG] 11-09-2025 21:54:03 - scan_drop_log: found 2 drop item(s)
+[DEBUG] 11-09-2025 21:54:03 - previous_quantity: 640, current_quantity: 646
+[DEBUG] 11-09-2025 21:54:03 - drop item 100200 x6
+[DEBUG] 11-09-2025 21:54:03 - previous_quantity: 646, current_quantity: 648
+[DEBUG] 11-09-2025 21:54:03 - drop item 100200 x2
+[DEBUG] 11-09-2025 21:54:04 - scan_drop_log: found 1 drop item(s)
+[DEBUG] 11-09-2025 21:54:04 - previous_quantity: 648, current_quantity: 650
+[DEBUG] 11-09-2025 21:54:04 - drop item 100200 x2
+[DEBUG] 11-09-2025 21:54:06 - scan_drop_log: found 1 drop item(s)
+[DEBUG] 11-09-2025 21:54:06 - previous_quantity: 650, current_quantity: 652
+[DEBUG] 11-09-2025 21:54:06 - drop item 100200 x2
+[DEBUG] 11-09-2025 21:54:07 - scan_drop_log: found 1 drop item(s)
+[DEBUG] 11-09-2025 21:54:07 - previous_quantity: 652, current_quantity: 654
+[DEBUG] 11-09-2025 21:54:07 - drop item 100200 x2
+[DEBUG] 11-09-2025 21:54:08 - scan_drop_log: found 2 drop item(s)
+[DEBUG] 11-09-2025 21:54:08 - previous_quantity: 654, current_quantity: 656
+[DEBUG] 11-09-2025 21:54:08 - drop item 100200 x2
+[DEBUG] 11-09-2025 21:54:08 - previous_quantity: 656, current_quantity: 706
+[DEBUG] 11-09-2025 21:54:08 - drop item 100200 x50
+[DEBUG] 11-09-2025 21:54:09 - scan_drop_log: found 2 drop item(s)
+[DEBUG] 11-09-2025 21:54:09 - previous_quantity: 0, current_quantity: 2
+[DEBUG] 11-09-2025 21:54:09 - drop item 6007 x2
+[DEBUG] 11-09-2025 21:54:09 - previous_quantity: 72, current_quantity: 82
+[DEBUG] 11-09-2025 21:54:09 - drop item 100300 x10
+[DEBUG] 11-09-2025 21:54:10 - scan_drop_log: found 2 drop item(s)
+[DEBUG] 11-09-2025 21:54:10 - previous_quantity: 3056, current_quantity: 3066
+[DEBUG] 11-09-2025 21:54:10 - drop item 200029 x10
+[DEBUG] 11-09-2025 21:54:10 - previous_quantity: 74, current_quantity: 76
+[DEBUG] 11-09-2025 21:54:10 - drop item 360403 x2
+[DEBUG] 11-09-2025 21:54:15 - scan_drop_log: found 1 drop item(s)
+[DEBUG] 11-09-2025 21:54:15 - previous_quantity: 379, current_quantity: 380
+[DEBUG] 11-09-2025 21:54:15 - drop item 5028 x1
+[DEBUG] 11-09-2025 21:54:18 - scan_drop_log: found 1 drop item(s)
+[DEBUG] 11-09-2025 21:54:18 - previous_quantity: 706, current_quantity: 711
+[DEBUG] 11-09-2025 21:54:18 - drop item 100200 x5
+[DEBUG] 11-09-2025 21:54:19 - scan_drop_log: found 1 drop item(s)
+[DEBUG] 11-09-2025 21:54:19 - previous_quantity: 82, current_quantity: 83
+[DEBUG] 11-09-2025 21:54:19 - drop item 100300 x1
+[DEBUG] 11-09-2025 21:54:23 - scan_drop_log: found 1 drop item(s)
+[DEBUG] 11-09-2025 21:54:23 - previous_quantity: 380, current_quantity: 381
+[DEBUG] 11-09-2025 21:54:23 - drop item 5028 x1
+[DEBUG] 11-09-2025 21:54:25 - scan_drop_log: found 1 drop item(s)
+[DEBUG] 11-09-2025 21:54:25 - previous_quantity: 711, current_quantity: 712
+[DEBUG] 11-09-2025 21:54:25 - drop item 100200 x1
+[DEBUG] 11-09-2025 21:54:39 - scan_drop_log: found 2 drop item(s)
+[DEBUG] 11-09-2025 21:54:39 - previous_quantity: 381, current_quantity: 382
+[DEBUG] 11-09-2025 21:54:39 - drop item 5028 x1
+[DEBUG] 11-09-2025 21:54:39 - previous_quantity: 382, current_quantity: 383
+[DEBUG] 11-09-2025 21:54:39 - drop item 5028 x1
+[DEBUG] 11-09-2025 21:54:45 - scan_drop_log: found 1 drop item(s)
+[DEBUG] 11-09-2025 21:54:45 - previous_quantity: 848, current_quantity: 850
+[DEBUG] 11-09-2025 21:54:45 - drop item 5140 x2
+[DEBUG] 11-09-2025 21:54:46 - profit logged: map #2, profit=13.92, duration=98.93s
+[DEBUG] 11-09-2025 21:54:54 - BEFORE MAP ENTRY - state.bag_items count: 179, items: ['3611', '4535', '4631', '261005', '260005', '71003', '71001', '360616', '360502', '3811']
+[DEBUG] 11-09-2025 21:54:54 -   - 3611: Item 3611 x1
+[DEBUG] 11-09-2025 21:54:54 -   - 4535: Item 4535 x1
+[DEBUG] 11-09-2025 21:54:54 -   - 4631: Item 4631 x1
+[DEBUG] 11-09-2025 21:54:54 -   - 261005: Item 261005 x1
+[DEBUG] 11-09-2025 21:54:54 -   - 260005: Item 260005 x1
+[DEBUG] 11-09-2025 21:54:54 - KEEPING bag_items from cache, count: 179
+[DEBUG] 11-09-2025 21:54:54 - AFTER scan_init_bag - init_bag_data count: 0, state.bag_items count: 179
+[DEBUG] 11-09-2025 21:54:54 - Using cached bag_items from bag_log.json as baseline (no init bag event found)
+[DEBUG] 11-09-2025 21:54:54 -   Cached items count: 179
+[DEBUG] 11-09-2025 21:55:02 - scan_drop_log: found 1 drop item(s)
+[DEBUG] 11-09-2025 21:55:02 - previous_quantity: 712, current_quantity: 717
+[DEBUG] 11-09-2025 21:55:02 - drop item 100200 x5
+[DEBUG] 11-09-2025 21:55:08 - scan_drop_log: found 1 drop item(s)
+[DEBUG] 11-09-2025 21:55:08 - previous_quantity: 383, current_quantity: 372
+[DEBUG] 11-09-2025 21:55:15 - scan_drop_log: found 1 drop item(s)
+[DEBUG] 11-09-2025 21:55:15 - previous_quantity: 372, current_quantity: 373
+[DEBUG] 11-09-2025 21:55:15 - drop item 5028 x1
+[DEBUG] 11-09-2025 21:55:16 - scan_drop_log: found 1 drop item(s)
+[DEBUG] 11-09-2025 21:55:16 - previous_quantity: 717, current_quantity: 719
+[DEBUG] 11-09-2025 21:55:16 - drop item 100200 x2
+[DEBUG] 11-09-2025 21:55:20 - scan_drop_log: found 1 drop item(s)
+[DEBUG] 11-09-2025 21:55:20 - previous_quantity: 63, current_quantity: 61
+[DEBUG] 11-09-2025 21:55:31 - scan_drop_log: found 1 drop item(s)
+[DEBUG] 11-09-2025 21:55:31 - previous_quantity: 719, current_quantity: 721
+[DEBUG] 11-09-2025 21:55:31 - drop item 100200 x2
+[DEBUG] 11-09-2025 21:55:38 - scan_drop_log: found 1 drop item(s)
+[DEBUG] 11-09-2025 21:55:38 - previous_quantity: 721, current_quantity: 723
+[DEBUG] 11-09-2025 21:55:38 - drop item 100200 x2
+[DEBUG] 11-09-2025 21:55:39 - scan_drop_log: found 1 drop item(s)
+[DEBUG] 11-09-2025 21:55:39 - previous_quantity: 723, current_quantity: 724
+[DEBUG] 11-09-2025 21:55:39 - drop item 100200 x1
+[DEBUG] 11-09-2025 21:55:40 - scan_drop_log: found 2 drop item(s)
+[DEBUG] 11-09-2025 21:55:40 - previous_quantity: 724, current_quantity: 726
+[DEBUG] 11-09-2025 21:55:40 - drop item 100200 x2
+[DEBUG] 11-09-2025 21:55:40 - previous_quantity: 726, current_quantity: 728
+[DEBUG] 11-09-2025 21:55:40 - drop item 100200 x2
+[DEBUG] 11-09-2025 21:55:44 - scan_drop_log: found 1 drop item(s)
+[DEBUG] 11-09-2025 21:55:44 - previous_quantity: 728, current_quantity: 729
+[DEBUG] 11-09-2025 21:55:44 - drop item 100200 x1
+[DEBUG] 11-09-2025 21:55:48 - scan_drop_log: found 1 drop item(s)
+[DEBUG] 11-09-2025 21:55:48 - previous_quantity: 729, current_quantity: 730
+[DEBUG] 11-09-2025 21:55:48 - drop item 100200 x1
+[DEBUG] 11-09-2025 21:55:49 - scan_drop_log: found 2 drop item(s)
+[DEBUG] 11-09-2025 21:55:49 - previous_quantity: 730, current_quantity: 731
+[DEBUG] 11-09-2025 21:55:49 - drop item 100200 x1
+[DEBUG] 11-09-2025 21:55:49 - previous_quantity: 731, current_quantity: 736
+[DEBUG] 11-09-2025 21:55:49 - drop item 100200 x5
+[DEBUG] 11-09-2025 21:55:53 - scan_drop_log: found 2 drop item(s)
+[DEBUG] 11-09-2025 21:55:53 - previous_quantity: 736, current_quantity: 737
+[DEBUG] 11-09-2025 21:55:53 - drop item 100200 x1
+[DEBUG] 11-09-2025 21:55:53 - previous_quantity: 737, current_quantity: 739
+[DEBUG] 11-09-2025 21:55:53 - drop item 100200 x2
+[DEBUG] 11-09-2025 21:55:54 - scan_drop_log: found 2 drop item(s)
+[DEBUG] 11-09-2025 21:55:54 - previous_quantity: 739, current_quantity: 740
+[DEBUG] 11-09-2025 21:55:54 - drop item 100200 x1
+[DEBUG] 11-09-2025 21:55:54 - previous_quantity: 740, current_quantity: 741
+[DEBUG] 11-09-2025 21:55:54 - drop item 100200 x1
+[DEBUG] 11-09-2025 21:55:55 - scan_drop_log: found 1 drop item(s)
+[DEBUG] 11-09-2025 21:55:55 - previous_quantity: 2, current_quantity: 3
+[DEBUG] 11-09-2025 21:55:55 - drop item 6007 x1
+[DEBUG] 11-09-2025 21:55:56 - scan_drop_log: found 1 drop item(s)
+[DEBUG] 11-09-2025 21:55:56 - previous_quantity: 83, current_quantity: 86
+[DEBUG] 11-09-2025 21:55:56 - drop item 100300 x3
+[DEBUG] 11-09-2025 21:55:57 - scan_drop_log: found 1 drop item(s)
+[DEBUG] 11-09-2025 21:55:57 - previous_quantity: 741, current_quantity: 744
+[DEBUG] 11-09-2025 21:55:57 - drop item 100200 x3
+[DEBUG] 11-09-2025 21:56:09 - scan_drop_log: found 1 drop item(s)
+[DEBUG] 11-09-2025 21:56:09 - previous_quantity: 744, current_quantity: 747
+[DEBUG] 11-09-2025 21:56:09 - drop item 100200 x3
+[DEBUG] 11-09-2025 21:56:23 - scan_drop_log: found 1 drop item(s)
+[DEBUG] 11-09-2025 21:56:23 - previous_quantity: 747, current_quantity: 774
+[DEBUG] 11-09-2025 21:56:23 - drop item 100200 x27
+[DEBUG] 11-09-2025 21:56:25 - scan_drop_log: found 1 drop item(s)
+[DEBUG] 11-09-2025 21:56:25 - previous_quantity: 774, current_quantity: 779
+[DEBUG] 11-09-2025 21:56:25 - drop item 100200 x5
+[DEBUG] 11-09-2025 21:56:26 - scan_drop_log: found 3 drop item(s)
+[DEBUG] 11-09-2025 21:56:26 - previous_quantity: 779, current_quantity: 781
+[DEBUG] 11-09-2025 21:56:26 - drop item 100200 x2
+[DEBUG] 11-09-2025 21:56:26 - previous_quantity: 86, current_quantity: 109
+[DEBUG] 11-09-2025 21:56:26 - drop item 100300 x23
+[DEBUG] 11-09-2025 21:56:26 - previous_quantity: 3066, current_quantity: 3114
+[DEBUG] 11-09-2025 21:56:26 - drop item 200029 x48
+[DEBUG] 11-09-2025 21:56:29 - scan_drop_log: found 1 drop item(s)
+[DEBUG] 11-09-2025 21:56:29 - previous_quantity: 781, current_quantity: 782
+[DEBUG] 11-09-2025 21:56:29 - drop item 100200 x1
+[DEBUG] 11-09-2025 21:56:32 - scan_drop_log: found 1 drop item(s)
+[DEBUG] 11-09-2025 21:56:32 - previous_quantity: 850, current_quantity: 856
+[DEBUG] 11-09-2025 21:56:32 - drop item 5140 x6
+[DEBUG] 11-09-2025 21:56:33 - profit logged: map #3, profit=25.25, duration=99.84s
+[DEBUG] 11-09-2025 21:56:42 - BEFORE MAP ENTRY - state.bag_items count: 179, items: ['3611', '4535', '4631', '261005', '260005', '71003', '71001', '360616', '360502', '3811']
+[DEBUG] 11-09-2025 21:56:42 -   - 3611: Item 3611 x1
+[DEBUG] 11-09-2025 21:56:42 -   - 4535: Item 4535 x1
+[DEBUG] 11-09-2025 21:56:42 -   - 4631: Item 4631 x1
+[DEBUG] 11-09-2025 21:56:42 -   - 261005: Item 261005 x1
+[DEBUG] 11-09-2025 21:56:42 -   - 260005: Item 260005 x1
+[DEBUG] 11-09-2025 21:56:42 - KEEPING bag_items from cache, count: 179
+[DEBUG] 11-09-2025 21:56:42 - AFTER scan_init_bag - init_bag_data count: 0, state.bag_items count: 179
+[DEBUG] 11-09-2025 21:56:42 - Using cached bag_items from bag_log.json as baseline (no init bag event found)
+[DEBUG] 11-09-2025 21:56:42 -   Cached items count: 179
+[DEBUG] 11-09-2025 21:56:57 - scan_drop_log: found 1 drop item(s)
+[DEBUG] 11-09-2025 21:56:57 - previous_quantity: 856, current_quantity: 857
+[DEBUG] 11-09-2025 21:56:57 - drop item 5140 x1
+[DEBUG] 11-09-2025 21:57:04 - scan_drop_log: found 2 drop item(s)
+[DEBUG] 11-09-2025 21:57:04 - previous_quantity: 782, current_quantity: 785
+[DEBUG] 11-09-2025 21:57:04 - drop item 100200 x3
+[DEBUG] 11-09-2025 21:57:04 - previous_quantity: 785, current_quantity: 786
+[DEBUG] 11-09-2025 21:57:04 - drop item 100200 x1
+[DEBUG] 11-09-2025 21:57:06 - scan_drop_log: found 2 drop item(s)
+[DEBUG] 11-09-2025 21:57:06 - previous_quantity: 786, current_quantity: 797
+[DEBUG] 11-09-2025 21:57:06 - drop item 100200 x11
+[DEBUG] 11-09-2025 21:57:06 - previous_quantity: 797, current_quantity: 798
+[DEBUG] 11-09-2025 21:57:06 - drop item 100200 x1
+[DEBUG] 11-09-2025 21:57:08 - scan_drop_log: found 1 drop item(s)
+[DEBUG] 11-09-2025 21:57:08 - previous_quantity: 798, current_quantity: 799
+[DEBUG] 11-09-2025 21:57:08 - drop item 100200 x1
+[DEBUG] 11-09-2025 21:57:09 - scan_drop_log: found 1 drop item(s)
+[DEBUG] 11-09-2025 21:57:09 - previous_quantity: 799, current_quantity: 800
+[DEBUG] 11-09-2025 21:57:09 - drop item 100200 x1
+[DEBUG] 11-09-2025 21:57:10 - scan_drop_log: found 2 drop item(s)
+[DEBUG] 11-09-2025 21:57:10 - previous_quantity: 800, current_quantity: 801
+[DEBUG] 11-09-2025 21:57:10 - drop item 100200 x1
+[DEBUG] 11-09-2025 21:57:10 - previous_quantity: 801, current_quantity: 802
+[DEBUG] 11-09-2025 21:57:10 - drop item 100200 x1
+[DEBUG] 11-09-2025 21:57:11 - scan_drop_log: found 1 drop item(s)
+[DEBUG] 11-09-2025 21:57:11 - previous_quantity: 802, current_quantity: 803
+[DEBUG] 11-09-2025 21:57:11 - drop item 100200 x1
+[DEBUG] 11-09-2025 21:57:12 - scan_drop_log: found 2 drop item(s)
+[DEBUG] 11-09-2025 21:57:12 - previous_quantity: 0, current_quantity: 2
+[DEBUG] 11-09-2025 21:57:12 - drop item 6004 x2
+[DEBUG] 11-09-2025 21:57:12 - previous_quantity: 803, current_quantity: 804
+[DEBUG] 11-09-2025 21:57:12 - drop item 100200 x1
+[DEBUG] 11-09-2025 21:57:13 - scan_drop_log: found 1 drop item(s)
+[DEBUG] 11-09-2025 21:57:13 - previous_quantity: 804, current_quantity: 805
+[DEBUG] 11-09-2025 21:57:13 - drop item 100200 x1
+[DEBUG] 11-09-2025 21:57:14 - scan_drop_log: found 1 drop item(s)
+[DEBUG] 11-09-2025 21:57:14 - previous_quantity: 805, current_quantity: 816
+[DEBUG] 11-09-2025 21:57:14 - drop item 100200 x11
+[DEBUG] 11-09-2025 21:57:15 - scan_drop_log: found 1 drop item(s)
+[DEBUG] 11-09-2025 21:57:15 - previous_quantity: 816, current_quantity: 817
+[DEBUG] 11-09-2025 21:57:15 - drop item 100200 x1
+[DEBUG] 11-09-2025 21:57:16 - scan_drop_log: found 2 drop item(s)
+[DEBUG] 11-09-2025 21:57:16 - previous_quantity: 817, current_quantity: 824
+[DEBUG] 11-09-2025 21:57:16 - drop item 100200 x7
+[DEBUG] 11-09-2025 21:57:16 - previous_quantity: 824, current_quantity: 827
+[DEBUG] 11-09-2025 21:57:16 - drop item 100200 x3
+[DEBUG] 11-09-2025 21:57:17 - scan_drop_log: found 1 drop item(s)
+[DEBUG] 11-09-2025 21:57:17 - previous_quantity: 827, current_quantity: 828
+[DEBUG] 11-09-2025 21:57:17 - drop item 100200 x1
+[DEBUG] 11-09-2025 21:57:18 - scan_drop_log: found 1 drop item(s)
+[DEBUG] 11-09-2025 21:57:18 - previous_quantity: 828, current_quantity: 829
+[DEBUG] 11-09-2025 21:57:18 - drop item 100200 x1
+[DEBUG] 11-09-2025 21:57:19 - scan_drop_log: found 1 drop item(s)
+[DEBUG] 11-09-2025 21:57:19 - previous_quantity: 829, current_quantity: 834
+[DEBUG] 11-09-2025 21:57:19 - drop item 100200 x5
+[DEBUG] 11-09-2025 21:57:21 - scan_drop_log: found 1 drop item(s)
+[DEBUG] 11-09-2025 21:57:21 - previous_quantity: 109, current_quantity: 112
+[DEBUG] 11-09-2025 21:57:21 - drop item 100300 x3
+[DEBUG] 11-09-2025 21:57:22 - scan_drop_log: found 1 drop item(s)
+[DEBUG] 11-09-2025 21:57:22 - previous_quantity: 834, current_quantity: 840
+[DEBUG] 11-09-2025 21:57:22 - drop item 100200 x6
+[DEBUG] 11-09-2025 21:57:23 - scan_drop_log: found 2 drop item(s)
+[DEBUG] 11-09-2025 21:57:23 - previous_quantity: 840, current_quantity: 845
+[DEBUG] 11-09-2025 21:57:23 - drop item 100200 x5
+[DEBUG] 11-09-2025 21:57:23 - previous_quantity: 845, current_quantity: 846
+[DEBUG] 11-09-2025 21:57:23 - drop item 100200 x1
+[DEBUG] 11-09-2025 21:57:24 - scan_drop_log: found 1 drop item(s)
+[DEBUG] 11-09-2025 21:57:24 - previous_quantity: 112, current_quantity: 113
+[DEBUG] 11-09-2025 21:57:24 - drop item 100300 x1
+[DEBUG] 11-09-2025 21:57:27 - scan_drop_log: found 1 drop item(s)
+[DEBUG] 11-09-2025 21:57:27 - previous_quantity: 16, current_quantity: 17
+[DEBUG] 11-09-2025 21:57:27 - drop item 400007 x1
+[DEBUG] 11-09-2025 21:57:38 - scan_drop_log: found 2 drop item(s)
+[DEBUG] 11-09-2025 21:57:38 - previous_quantity: 846, current_quantity: 849
+[DEBUG] 11-09-2025 21:57:38 - drop item 100200 x3
+[DEBUG] 11-09-2025 21:57:38 - previous_quantity: 849, current_quantity: 851
+[DEBUG] 11-09-2025 21:57:38 - drop item 100200 x2
+[DEBUG] 11-09-2025 21:57:40 - scan_drop_log: found 1 drop item(s)
+[DEBUG] 11-09-2025 21:57:40 - previous_quantity: 857, current_quantity: 860
+[DEBUG] 11-09-2025 21:57:40 - drop item 5140 x3
+[DEBUG] 11-09-2025 21:57:43 - scan_drop_log: found 1 drop item(s)
+[DEBUG] 11-09-2025 21:57:43 - previous_quantity: 373, current_quantity: 378
+[DEBUG] 11-09-2025 21:57:43 - drop item 5028 x5
+[DEBUG] 11-09-2025 21:57:46 - scan_drop_log: found 1 drop item(s)
+[DEBUG] 11-09-2025 21:57:46 - previous_quantity: 378, current_quantity: 379
+[DEBUG] 11-09-2025 21:57:46 - drop item 5028 x1
+[DEBUG] 11-09-2025 21:57:48 - scan_drop_log: found 1 drop item(s)
+[DEBUG] 11-09-2025 21:57:48 - previous_quantity: 28, current_quantity: 29
+[DEBUG] 11-09-2025 21:57:48 - drop item 400015 x1
+[DEBUG] 11-09-2025 21:57:49 - scan_drop_log: found 1 drop item(s)
+[DEBUG] 11-09-2025 21:57:49 - previous_quantity: 379, current_quantity: 380
+[DEBUG] 11-09-2025 21:57:49 - drop item 5028 x1
+[DEBUG] 11-09-2025 21:57:53 - scan_drop_log: found 1 drop item(s)
+[DEBUG] 11-09-2025 21:57:53 - previous_quantity: 851, current_quantity: 853
+[DEBUG] 11-09-2025 21:57:53 - drop item 100200 x2
+[DEBUG] 11-09-2025 21:57:54 - profit logged: map #4, profit=2.01, duration=72.78s
+[DEBUG] 11-09-2025 21:58:03 - BEFORE MAP ENTRY - state.bag_items count: 180, items: ['3611', '4535', '4631', '261005', '260005', '71003', '71001', '360616', '360502', '3811']
+[DEBUG] 11-09-2025 21:58:03 -   - 3611: Item 3611 x1
+[DEBUG] 11-09-2025 21:58:03 -   - 4535: Item 4535 x1
+[DEBUG] 11-09-2025 21:58:03 -   - 4631: Item 4631 x1
+[DEBUG] 11-09-2025 21:58:03 -   - 261005: Item 261005 x1
+[DEBUG] 11-09-2025 21:58:03 -   - 260005: Item 260005 x1
+[DEBUG] 11-09-2025 21:58:03 - KEEPING bag_items from cache, count: 180
+[DEBUG] 11-09-2025 21:58:03 - AFTER scan_init_bag - init_bag_data count: 0, state.bag_items count: 180
+[DEBUG] 11-09-2025 21:58:03 - Using cached bag_items from bag_log.json as baseline (no init bag event found)
+[DEBUG] 11-09-2025 21:58:03 -   Cached items count: 180
+[DEBUG] 11-09-2025 21:58:34 - scan_drop_log: found 1 drop item(s)
+[DEBUG] 11-09-2025 21:58:34 - previous_quantity: 380, current_quantity: 367
+[DEBUG] 11-09-2025 21:58:35 - scan_drop_log: found 2 drop item(s)
+[DEBUG] 11-09-2025 21:58:35 - previous_quantity: 1890, current_quantity: 1935
+[DEBUG] 11-09-2025 21:58:35 - drop item 200028 x45
+[DEBUG] 11-09-2025 21:58:35 - previous_quantity: 896, current_quantity: 900
+[DEBUG] 11-09-2025 21:58:35 - drop item 5080 x4
+[DEBUG] 11-09-2025 21:58:43 - scan_drop_log: found 1 drop item(s)
+[DEBUG] 11-09-2025 21:58:43 - previous_quantity: 853, current_quantity: 854
+[DEBUG] 11-09-2025 21:58:43 - drop item 100200 x1
+[DEBUG] 11-09-2025 21:59:07 - scan_drop_log: found 1 drop item(s)
+[DEBUG] 11-09-2025 21:59:07 - previous_quantity: 854, current_quantity: 855
+[DEBUG] 11-09-2025 21:59:07 - drop item 100200 x1
+[DEBUG] 11-09-2025 21:59:15 - scan_drop_log: found 2 drop item(s)
+[DEBUG] 11-09-2025 21:59:15 - previous_quantity: 855, current_quantity: 860
+[DEBUG] 11-09-2025 21:59:15 - drop item 100200 x5
+[DEBUG] 11-09-2025 21:59:15 - previous_quantity: 3, current_quantity: 4
+[DEBUG] 11-09-2025 21:59:15 - drop item 6007 x1
+[DEBUG] 11-09-2025 21:59:21 - scan_drop_log: found 1 drop item(s)
+[DEBUG] 11-09-2025 21:59:21 - previous_quantity: 900, current_quantity: 901
+[DEBUG] 11-09-2025 21:59:21 - drop item 5080 x1
+[DEBUG] 11-09-2025 21:59:27 - scan_drop_log: found 1 drop item(s)
+[DEBUG] 11-09-2025 21:59:27 - previous_quantity: 367, current_quantity: 370
+[DEBUG] 11-09-2025 21:59:27 - drop item 5028 x3
+[DEBUG] 11-09-2025 21:59:33 - scan_drop_log: found 1 drop item(s)
+[DEBUG] 11-09-2025 21:59:33 - previous_quantity: 370, current_quantity: 372
+[DEBUG] 11-09-2025 21:59:33 - drop item 5028 x2
+[DEBUG] 11-09-2025 21:59:34 - scan_drop_log: found 1 drop item(s)
+[DEBUG] 11-09-2025 21:59:34 - previous_quantity: 372, current_quantity: 374
+[DEBUG] 11-09-2025 21:59:34 - drop item 5028 x2
+[DEBUG] 11-09-2025 21:59:45 - scan_drop_log: found 1 drop item(s)
+[DEBUG] 11-09-2025 21:59:45 - previous_quantity: 860, current_quantity: 863
+[DEBUG] 11-09-2025 21:59:45 - drop item 100200 x3
+[DEBUG] 11-09-2025 21:59:50 - scan_drop_log: found 2 drop item(s)
+[DEBUG] 11-09-2025 21:59:50 - previous_quantity: 863, current_quantity: 866
+[DEBUG] 11-09-2025 21:59:50 - drop item 100200 x3
+[DEBUG] 11-09-2025 21:59:50 - previous_quantity: 866, current_quantity: 869
+[DEBUG] 11-09-2025 21:59:50 - drop item 100200 x3
+[DEBUG] 11-09-2025 21:59:51 - scan_drop_log: found 1 drop item(s)
+[DEBUG] 11-09-2025 21:59:51 - previous_quantity: 869, current_quantity: 874
+[DEBUG] 11-09-2025 21:59:51 - drop item 100200 x5
+[DEBUG] 11-09-2025 21:59:52 - scan_drop_log: found 1 drop item(s)
+[DEBUG] 11-09-2025 21:59:52 - previous_quantity: 874, current_quantity: 876
+[DEBUG] 11-09-2025 21:59:52 - drop item 100200 x2
+[DEBUG] 11-09-2025 21:59:53 - scan_drop_log: found 2 drop item(s)
+[DEBUG] 11-09-2025 21:59:53 - previous_quantity: 876, current_quantity: 878
+[DEBUG] 11-09-2025 21:59:53 - drop item 100200 x2
+[DEBUG] 11-09-2025 21:59:53 - previous_quantity: 1935, current_quantity: 1937
+[DEBUG] 11-09-2025 21:59:53 - drop item 200028 x2
+[DEBUG] 11-09-2025 21:59:55 - scan_drop_log: found 1 drop item(s)
+[DEBUG] 11-09-2025 21:59:55 - previous_quantity: 878, current_quantity: 922
+[DEBUG] 11-09-2025 21:59:55 - drop item 100200 x44
+[DEBUG] 11-09-2025 21:59:56 - scan_drop_log: found 3 drop item(s)
+[DEBUG] 11-09-2025 21:59:56 - previous_quantity: 113, current_quantity: 117
+[DEBUG] 11-09-2025 21:59:56 - drop item 100300 x4
+[DEBUG] 11-09-2025 21:59:56 - previous_quantity: 374, current_quantity: 375
+[DEBUG] 11-09-2025 21:59:56 - drop item 5028 x1
+[DEBUG] 11-09-2025 21:59:56 - previous_quantity: 3114, current_quantity: 3117
+[DEBUG] 11-09-2025 21:59:56 - drop item 200029 x3
+[DEBUG] 11-09-2025 21:59:58 - scan_drop_log: found 1 drop item(s)
+[DEBUG] 11-09-2025 21:59:58 - previous_quantity: 922, current_quantity: 931
+[DEBUG] 11-09-2025 21:59:58 - drop item 100200 x9
+[DEBUG] 11-09-2025 21:59:59 - scan_drop_log: found 2 drop item(s)
+[DEBUG] 11-09-2025 21:59:59 - previous_quantity: 117, current_quantity: 138
+[DEBUG] 11-09-2025 21:59:59 - drop item 100300 x21
+[DEBUG] 11-09-2025 21:59:59 - previous_quantity: 3117, current_quantity: 3118
+[DEBUG] 11-09-2025 21:59:59 - drop item 200029 x1
+[DEBUG] 11-09-2025 22:00:08 - scan_drop_log: found 2 drop item(s)
+[DEBUG] 11-09-2025 22:00:08 - previous_quantity: 931, current_quantity: 932
+[DEBUG] 11-09-2025 22:00:08 - drop item 100200 x1
+[DEBUG] 11-09-2025 22:00:08 - previous_quantity: 375, current_quantity: 377
+[DEBUG] 11-09-2025 22:00:08 - drop item 5028 x2
+[DEBUG] 11-09-2025 22:00:31 - scan_drop_log: found 1 drop item(s)
+[DEBUG] 11-09-2025 22:00:31 - previous_quantity: 138, current_quantity: 139
+[DEBUG] 11-09-2025 22:00:31 - drop item 100300 x1
+[DEBUG] 11-09-2025 22:00:36 - scan_drop_log: found 1 drop item(s)
+[DEBUG] 11-09-2025 22:00:36 - previous_quantity: 932, current_quantity: 933
+[DEBUG] 11-09-2025 22:00:36 - drop item 100200 x1
+[DEBUG] 11-09-2025 22:00:38 - scan_drop_log: found 4 drop item(s)
+[DEBUG] 11-09-2025 22:00:38 - previous_quantity: 933, current_quantity: 934
+[DEBUG] 11-09-2025 22:00:38 - drop item 100200 x1
+[DEBUG] 11-09-2025 22:00:38 - previous_quantity: 934, current_quantity: 936
+[DEBUG] 11-09-2025 22:00:38 - drop item 100200 x2
+[DEBUG] 11-09-2025 22:00:38 - previous_quantity: 936, current_quantity: 937
+[DEBUG] 11-09-2025 22:00:38 - drop item 100200 x1
+[DEBUG] 11-09-2025 22:00:38 - previous_quantity: 937, current_quantity: 938
+[DEBUG] 11-09-2025 22:00:38 - drop item 100200 x1
+[DEBUG] 11-09-2025 22:00:40 - scan_drop_log: found 2 drop item(s)
+[DEBUG] 11-09-2025 22:00:40 - previous_quantity: 938, current_quantity: 939
+[DEBUG] 11-09-2025 22:00:40 - drop item 100200 x1
+[DEBUG] 11-09-2025 22:00:40 - previous_quantity: 939, current_quantity: 941
+[DEBUG] 11-09-2025 22:00:40 - drop item 100200 x2
+[DEBUG] 11-09-2025 22:00:42 - scan_drop_log: found 1 drop item(s)
+[DEBUG] 11-09-2025 22:00:42 - previous_quantity: 941, current_quantity: 942
+[DEBUG] 11-09-2025 22:00:42 - drop item 100200 x1
+[DEBUG] 11-09-2025 22:00:43 - scan_drop_log: found 2 drop item(s)
+[DEBUG] 11-09-2025 22:00:43 - previous_quantity: 942, current_quantity: 943
+[DEBUG] 11-09-2025 22:00:43 - drop item 100200 x1
+[DEBUG] 11-09-2025 22:00:43 - previous_quantity: 943, current_quantity: 945
+[DEBUG] 11-09-2025 22:00:43 - drop item 100200 x2
+[DEBUG] 11-09-2025 22:00:44 - scan_drop_log: found 2 drop item(s)
+[DEBUG] 11-09-2025 22:00:44 - previous_quantity: 63, current_quantity: 65
+[DEBUG] 11-09-2025 22:00:44 - drop item 10160 x2
+[DEBUG] 11-09-2025 22:00:44 - previous_quantity: 945, current_quantity: 948
+[DEBUG] 11-09-2025 22:00:44 - drop item 100200 x3
+[DEBUG] 11-09-2025 22:00:45 - scan_drop_log: found 1 drop item(s)
+[DEBUG] 11-09-2025 22:00:45 - previous_quantity: 948, current_quantity: 949
+[DEBUG] 11-09-2025 22:00:45 - drop item 100200 x1
+[DEBUG] 11-09-2025 22:00:46 - scan_drop_log: found 1 drop item(s)
+[DEBUG] 11-09-2025 22:00:46 - previous_quantity: 1937, current_quantity: 1943
+[DEBUG] 11-09-2025 22:00:46 - drop item 200028 x6
+[DEBUG] 11-09-2025 22:00:47 - scan_drop_log: found 2 drop item(s)
+[DEBUG] 11-09-2025 22:00:47 - previous_quantity: 949, current_quantity: 951
+[DEBUG] 11-09-2025 22:00:47 - drop item 100200 x2
+[DEBUG] 11-09-2025 22:00:47 - previous_quantity: 951, current_quantity: 971
+[DEBUG] 11-09-2025 22:00:47 - drop item 100200 x20
+[DEBUG] 11-09-2025 22:00:48 - scan_drop_log: found 1 drop item(s)
+[DEBUG] 11-09-2025 22:00:48 - previous_quantity: 971, current_quantity: 972
+[DEBUG] 11-09-2025 22:00:48 - drop item 100200 x1
+[DEBUG] 11-09-2025 22:00:49 - scan_drop_log: found 2 drop item(s)
+[DEBUG] 11-09-2025 22:00:49 - previous_quantity: 972, current_quantity: 978
+[DEBUG] 11-09-2025 22:00:49 - drop item 100200 x6
+[DEBUG] 11-09-2025 22:00:49 - previous_quantity: 978, current_quantity: 980
+[DEBUG] 11-09-2025 22:00:49 - drop item 100200 x2
+[DEBUG] 11-09-2025 22:00:50 - scan_drop_log: found 2 drop item(s)
+[DEBUG] 11-09-2025 22:00:50 - previous_quantity: 980, current_quantity: 987
+[DEBUG] 11-09-2025 22:00:50 - drop item 100200 x7
+[DEBUG] 11-09-2025 22:00:50 - previous_quantity: 987, current_quantity: 989
+[DEBUG] 11-09-2025 22:00:50 - drop item 100200 x2
+[DEBUG] 11-09-2025 22:00:51 - scan_drop_log: found 1 drop item(s)
+[DEBUG] 11-09-2025 22:00:51 - previous_quantity: 989, current_quantity: 990
+[DEBUG] 11-09-2025 22:00:51 - drop item 100200 x1
+[DEBUG] 11-09-2025 22:00:52 - scan_drop_log: found 2 drop item(s)
+[DEBUG] 11-09-2025 22:00:52 - previous_quantity: 990, current_quantity: 992
+[DEBUG] 11-09-2025 22:00:52 - drop item 100200 x2
+[DEBUG] 11-09-2025 22:00:52 - previous_quantity: 992, current_quantity: 993
+[DEBUG] 11-09-2025 22:00:52 - drop item 100200 x1
+[DEBUG] 11-09-2025 22:00:53 - scan_drop_log: found 1 drop item(s)
+[DEBUG] 11-09-2025 22:00:53 - previous_quantity: 993, current_quantity: 995
+[DEBUG] 11-09-2025 22:00:53 - drop item 100200 x2
+[DEBUG] 11-09-2025 22:00:55 - scan_drop_log: found 1 drop item(s)
+[DEBUG] 11-09-2025 22:00:55 - previous_quantity: 995, current_quantity: 996
+[DEBUG] 11-09-2025 22:00:55 - drop item 100200 x1
+[DEBUG] 11-09-2025 22:00:56 - scan_drop_log: found 1 drop item(s)
+[DEBUG] 11-09-2025 22:00:56 - previous_quantity: 3118, current_quantity: 3120
+[DEBUG] 11-09-2025 22:00:56 - drop item 200029 x2
+[DEBUG] 11-09-2025 22:01:00 - scan_drop_log: found 2 drop item(s)
+[DEBUG] 11-09-2025 22:01:00 - previous_quantity: 996, current_quantity: 997
+[DEBUG] 11-09-2025 22:01:00 - drop item 100200 x1
+[DEBUG] 11-09-2025 22:01:00 - previous_quantity: 139, current_quantity: 140
+[DEBUG] 11-09-2025 22:01:00 - drop item 100300 x1
+[DEBUG] 11-09-2025 22:01:06 - scan_drop_log: found 1 drop item(s)
+[DEBUG] 11-09-2025 22:01:06 - previous_quantity: 377, current_quantity: 381
+[DEBUG] 11-09-2025 22:01:06 - drop item 5028 x4
+[DEBUG] 11-09-2025 22:01:07 - profit logged: map #5, profit=28.76, duration=185.6s
+[DEBUG] 11-09-2025 22:01:32 - BEFORE MAP ENTRY - state.bag_items count: 180, items: ['3611', '4535', '4631', '261005', '260005', '71003', '71001', '360616', '360502', '3811']
+[DEBUG] 11-09-2025 22:01:32 -   - 3611: Item 3611 x1
+[DEBUG] 11-09-2025 22:01:32 -   - 4535: Item 4535 x1
+[DEBUG] 11-09-2025 22:01:32 -   - 4631: Item 4631 x1
+[DEBUG] 11-09-2025 22:01:32 -   - 261005: Item 261005 x1
+[DEBUG] 11-09-2025 22:01:32 -   - 260005: Item 260005 x1
+[DEBUG] 11-09-2025 22:01:32 - KEEPING bag_items from cache, count: 180
+[DEBUG] 11-09-2025 22:01:32 - AFTER scan_init_bag - init_bag_data count: 0, state.bag_items count: 180
+[DEBUG] 11-09-2025 22:01:32 - Using cached bag_items from bag_log.json as baseline (no init bag event found)
+[DEBUG] 11-09-2025 22:01:32 -   Cached items count: 180
+[DEBUG] 11-09-2025 22:01:50 - scan_drop_log: found 1 drop item(s)
+[DEBUG] 11-09-2025 22:01:50 - previous_quantity: 901, current_quantity: 902
+[DEBUG] 11-09-2025 22:01:50 - drop item 5080 x1
+[DEBUG] 11-09-2025 22:01:57 - scan_drop_log: found 1 drop item(s)
+[DEBUG] 11-09-2025 22:01:57 - previous_quantity: 997, current_quantity: 998
+[DEBUG] 11-09-2025 22:01:57 - drop item 100200 x1
+[DEBUG] 11-09-2025 22:02:01 - scan_drop_log: found 2 drop item(s)
+[DEBUG] 11-09-2025 22:02:01 - previous_quantity: 902, current_quantity: 907
+[DEBUG] 11-09-2025 22:02:01 - drop item 5080 x5
+[DEBUG] 11-09-2025 22:02:01 - previous_quantity: 381, current_quantity: 355
+[DEBUG] 11-09-2025 22:02:04 - scan_drop_log: found 1 drop item(s)
+[DEBUG] 11-09-2025 22:02:04 - previous_quantity: 998, current_quantity: 17
+[DEBUG] 11-09-2025 22:02:28 - scan_drop_log: found 3 drop item(s)
+[DEBUG] 11-09-2025 22:02:28 - previous_quantity: 17, current_quantity: 21
+[DEBUG] 11-09-2025 22:02:28 - drop item 100200 x4
+[DEBUG] 11-09-2025 22:02:28 - previous_quantity: 21, current_quantity: 26
+[DEBUG] 11-09-2025 22:02:28 - drop item 100200 x5
+[DEBUG] 11-09-2025 22:02:28 - previous_quantity: 860, current_quantity: 863
+[DEBUG] 11-09-2025 22:02:28 - drop item 5140 x3
+[DEBUG] 11-09-2025 22:02:31 - scan_drop_log: found 1 drop item(s)
+[DEBUG] 11-09-2025 22:02:31 - previous_quantity: 26, current_quantity: 28
+[DEBUG] 11-09-2025 22:02:31 - drop item 100200 x2
+[DEBUG] 11-09-2025 22:02:32 - scan_drop_log: found 1 drop item(s)
+[DEBUG] 11-09-2025 22:02:32 - previous_quantity: 28, current_quantity: 29
+[DEBUG] 11-09-2025 22:02:32 - drop item 100200 x1
+[DEBUG] 11-09-2025 22:02:36 - scan_drop_log: found 1 drop item(s)
+[DEBUG] 11-09-2025 22:02:36 - previous_quantity: 29, current_quantity: 30
+[DEBUG] 11-09-2025 22:02:36 - drop item 100200 x1
+[DEBUG] 11-09-2025 22:02:37 - scan_drop_log: found 1 drop item(s)
+[DEBUG] 11-09-2025 22:02:37 - previous_quantity: 30, current_quantity: 31
+[DEBUG] 11-09-2025 22:02:37 - drop item 100200 x1
+[DEBUG] 11-09-2025 22:02:38 - scan_drop_log: found 1 drop item(s)
+[DEBUG] 11-09-2025 22:02:38 - previous_quantity: 31, current_quantity: 33
+[DEBUG] 11-09-2025 22:02:38 - drop item 100200 x2
+[DEBUG] 11-09-2025 22:02:39 - scan_drop_log: found 2 drop item(s)
+[DEBUG] 11-09-2025 22:02:39 - previous_quantity: 33, current_quantity: 34
+[DEBUG] 11-09-2025 22:02:39 - drop item 100200 x1
+[DEBUG] 11-09-2025 22:02:39 - previous_quantity: 34, current_quantity: 36
+[DEBUG] 11-09-2025 22:02:39 - drop item 100200 x2
+[DEBUG] 11-09-2025 22:02:40 - scan_drop_log: found 1 drop item(s)
+[DEBUG] 11-09-2025 22:02:40 - previous_quantity: 36, current_quantity: 38
+[DEBUG] 11-09-2025 22:02:40 - drop item 100200 x2
+[DEBUG] 11-09-2025 22:02:41 - scan_drop_log: found 1 drop item(s)
+[DEBUG] 11-09-2025 22:02:41 - previous_quantity: 38, current_quantity: 39
+[DEBUG] 11-09-2025 22:02:41 - drop item 100200 x1
+[DEBUG] 11-09-2025 22:02:42 - scan_drop_log: found 1 drop item(s)
+[DEBUG] 11-09-2025 22:02:42 - previous_quantity: 39, current_quantity: 44
+[DEBUG] 11-09-2025 22:02:42 - drop item 100200 x5
+[DEBUG] 11-09-2025 22:02:44 - scan_drop_log: found 2 drop item(s)
+[DEBUG] 11-09-2025 22:02:44 - previous_quantity: 44, current_quantity: 45
+[DEBUG] 11-09-2025 22:02:44 - drop item 100200 x1
+[DEBUG] 11-09-2025 22:02:44 - previous_quantity: 45, current_quantity: 48
+[DEBUG] 11-09-2025 22:02:44 - drop item 100200 x3
+[DEBUG] 11-09-2025 22:02:45 - scan_drop_log: found 3 drop item(s)
+[DEBUG] 11-09-2025 22:02:45 - previous_quantity: 48, current_quantity: 49
+[DEBUG] 11-09-2025 22:02:45 - drop item 100200 x1
+[DEBUG] 11-09-2025 22:02:45 - previous_quantity: 49, current_quantity: 50
+[DEBUG] 11-09-2025 22:02:45 - drop item 100200 x1
+[DEBUG] 11-09-2025 22:02:45 - previous_quantity: 50, current_quantity: 51
+[DEBUG] 11-09-2025 22:02:45 - drop item 100200 x1
+[DEBUG] 11-09-2025 22:02:46 - scan_drop_log: found 3 drop item(s)
+[DEBUG] 11-09-2025 22:02:46 - previous_quantity: 51, current_quantity: 52
+[DEBUG] 11-09-2025 22:02:46 - drop item 100200 x1
+[DEBUG] 11-09-2025 22:02:46 - previous_quantity: 52, current_quantity: 55
+[DEBUG] 11-09-2025 22:02:46 - drop item 100200 x3
+[DEBUG] 11-09-2025 22:02:46 - previous_quantity: 55, current_quantity: 56
+[DEBUG] 11-09-2025 22:02:46 - drop item 100200 x1
+[DEBUG] 11-09-2025 22:02:48 - scan_drop_log: found 2 drop item(s)
+[DEBUG] 11-09-2025 22:02:48 - previous_quantity: 56, current_quantity: 57
+[DEBUG] 11-09-2025 22:02:48 - drop item 100200 x1
+[DEBUG] 11-09-2025 22:02:48 - previous_quantity: 140, current_quantity: 155
+[DEBUG] 11-09-2025 22:02:48 - drop item 100300 x15
+[DEBUG] 11-09-2025 22:02:49 - scan_drop_log: found 2 drop item(s)
+[DEBUG] 11-09-2025 22:02:49 - previous_quantity: 3120, current_quantity: 3121
+[DEBUG] 11-09-2025 22:02:49 - drop item 200029 x1
+[DEBUG] 11-09-2025 22:02:49 - previous_quantity: 57, current_quantity: 60
+[DEBUG] 11-09-2025 22:02:49 - drop item 100200 x3
+[DEBUG] 11-09-2025 22:02:50 - scan_drop_log: found 1 drop item(s)
+[DEBUG] 11-09-2025 22:02:50 - previous_quantity: 155, current_quantity: 160
+[DEBUG] 11-09-2025 22:02:50 - drop item 100300 x5
+[DEBUG] 11-09-2025 22:02:52 - scan_drop_log: found 2 drop item(s)
+[DEBUG] 11-09-2025 22:02:52 - previous_quantity: 160, current_quantity: 161
+[DEBUG] 11-09-2025 22:02:52 - drop item 100300 x1
+[DEBUG] 11-09-2025 22:02:52 - previous_quantity: 3121, current_quantity: 3122
+[DEBUG] 11-09-2025 22:02:52 - drop item 200029 x1
+[DEBUG] 11-09-2025 22:02:58 - scan_drop_log: found 1 drop item(s)
+[DEBUG] 11-09-2025 22:02:58 - previous_quantity: 863, current_quantity: 865
+[DEBUG] 11-09-2025 22:02:58 - drop item 5140 x2
+[DEBUG] 11-09-2025 22:03:01 - scan_drop_log: found 1 drop item(s)
+[DEBUG] 11-09-2025 22:03:01 - previous_quantity: 865, current_quantity: 866
+[DEBUG] 11-09-2025 22:03:01 - drop item 5140 x1
+[DEBUG] 11-09-2025 22:03:02 - scan_drop_log: found 1 drop item(s)
+[DEBUG] 11-09-2025 22:03:02 - previous_quantity: 355, current_quantity: 359
+[DEBUG] 11-09-2025 22:03:02 - drop item 5028 x4
+[DEBUG] 11-09-2025 22:03:18 - scan_drop_log: found 1 drop item(s)
+[DEBUG] 11-09-2025 22:03:18 - previous_quantity: 359, current_quantity: 363
+[DEBUG] 11-09-2025 22:03:18 - drop item 5028 x4
+[DEBUG] 11-09-2025 22:03:21 - profit logged: map #6, profit=18.6, duration=109.96s
+[DEBUG] 11-09-2025 22:03:29 - BEFORE MAP ENTRY - state.bag_items count: 180, items: ['3611', '4535', '4631', '261005', '260005', '71003', '71001', '360616', '360502', '3811']
+[DEBUG] 11-09-2025 22:03:29 -   - 3611: Item 3611 x1
+[DEBUG] 11-09-2025 22:03:29 -   - 4535: Item 4535 x1
+[DEBUG] 11-09-2025 22:03:29 -   - 4631: Item 4631 x1
+[DEBUG] 11-09-2025 22:03:29 -   - 261005: Item 261005 x1
+[DEBUG] 11-09-2025 22:03:29 -   - 260005: Item 260005 x1
+[DEBUG] 11-09-2025 22:03:29 - KEEPING bag_items from cache, count: 180
+[DEBUG] 11-09-2025 22:03:29 - AFTER scan_init_bag - init_bag_data count: 0, state.bag_items count: 180
+[DEBUG] 11-09-2025 22:03:29 - Using cached bag_items from bag_log.json as baseline (no init bag event found)
+[DEBUG] 11-09-2025 22:03:29 -   Cached items count: 180
+[DEBUG] 11-09-2025 22:04:00 - scan_drop_log: found 1 drop item(s)
+[DEBUG] 11-09-2025 22:04:00 - previous_quantity: 866, current_quantity: 867
+[DEBUG] 11-09-2025 22:04:00 - drop item 5140 x1
+[DEBUG] 11-09-2025 22:04:01 - scan_drop_log: found 2 drop item(s)
+[DEBUG] 11-09-2025 22:04:01 - previous_quantity: 363, current_quantity: 335
+[DEBUG] 11-09-2025 22:04:01 - previous_quantity: 335, current_quantity: 336
+[DEBUG] 11-09-2025 22:04:01 - drop item 5028 x1
+[DEBUG] 11-09-2025 22:04:02 - scan_drop_log: found 1 drop item(s)
+[DEBUG] 11-09-2025 22:04:02 - previous_quantity: 907, current_quantity: 909
+[DEBUG] 11-09-2025 22:04:02 - drop item 5080 x2
+[DEBUG] 11-09-2025 22:04:10 - scan_drop_log: found 1 drop item(s)
+[DEBUG] 11-09-2025 22:04:10 - previous_quantity: 60, current_quantity: 63
+[DEBUG] 11-09-2025 22:04:10 - drop item 100200 x3
+[DEBUG] 11-09-2025 22:04:11 - scan_drop_log: found 1 drop item(s)
+[DEBUG] 11-09-2025 22:04:11 - previous_quantity: 63, current_quantity: 67
+[DEBUG] 11-09-2025 22:04:11 - drop item 100200 x4
+[DEBUG] 11-09-2025 22:04:12 - scan_drop_log: found 1 drop item(s)
+[DEBUG] 11-09-2025 22:04:12 - previous_quantity: 67, current_quantity: 69
+[DEBUG] 11-09-2025 22:04:12 - drop item 100200 x2
+[DEBUG] 11-09-2025 22:04:14 - scan_drop_log: found 2 drop item(s)
+[DEBUG] 11-09-2025 22:04:14 - previous_quantity: 69, current_quantity: 71
+[DEBUG] 11-09-2025 22:04:14 - drop item 100200 x2
+[DEBUG] 11-09-2025 22:04:14 - previous_quantity: 71, current_quantity: 73
+[DEBUG] 11-09-2025 22:04:14 - drop item 100200 x2
+[DEBUG] 11-09-2025 22:04:15 - scan_drop_log: found 1 drop item(s)
+[DEBUG] 11-09-2025 22:04:15 - previous_quantity: 73, current_quantity: 75
+[DEBUG] 11-09-2025 22:04:15 - drop item 100200 x2
+[DEBUG] 11-09-2025 22:04:16 - scan_drop_log: found 1 drop item(s)
+[DEBUG] 11-09-2025 22:04:16 - previous_quantity: 75, current_quantity: 77
+[DEBUG] 11-09-2025 22:04:16 - drop item 100200 x2
+[DEBUG] 11-09-2025 22:04:18 - scan_drop_log: found 1 drop item(s)
+[DEBUG] 11-09-2025 22:04:18 - previous_quantity: 77, current_quantity: 181
+[DEBUG] 11-09-2025 22:04:18 - drop item 100200 x104
+[DEBUG] 11-09-2025 22:04:19 - scan_drop_log: found 1 drop item(s)
+[DEBUG] 11-09-2025 22:04:19 - previous_quantity: 181, current_quantity: 183
+[DEBUG] 11-09-2025 22:04:19 - drop item 100200 x2
+[DEBUG] 11-09-2025 22:04:20 - scan_drop_log: found 2 drop item(s)
+[DEBUG] 11-09-2025 22:04:20 - previous_quantity: 183, current_quantity: 185
+[DEBUG] 11-09-2025 22:04:20 - drop item 100200 x2
+[DEBUG] 11-09-2025 22:04:20 - previous_quantity: 185, current_quantity: 187
+[DEBUG] 11-09-2025 22:04:20 - drop item 100200 x2
+[DEBUG] 11-09-2025 22:04:21 - scan_drop_log: found 1 drop item(s)
+[DEBUG] 11-09-2025 22:04:21 - previous_quantity: 187, current_quantity: 189
+[DEBUG] 11-09-2025 22:04:21 - drop item 100200 x2
+[DEBUG] 11-09-2025 22:04:22 - scan_drop_log: found 3 drop item(s)
+[DEBUG] 11-09-2025 22:04:22 - previous_quantity: 189, current_quantity: 193
+[DEBUG] 11-09-2025 22:04:22 - drop item 100200 x4
+[DEBUG] 11-09-2025 22:04:22 - previous_quantity: 193, current_quantity: 201
+[DEBUG] 11-09-2025 22:04:22 - drop item 100200 x8
+[DEBUG] 11-09-2025 22:04:22 - previous_quantity: 201, current_quantity: 203
+[DEBUG] 11-09-2025 22:04:22 - drop item 100200 x2
+[DEBUG] 11-09-2025 22:04:25 - scan_drop_log: found 2 drop item(s)
+[DEBUG] 11-09-2025 22:04:25 - previous_quantity: 203, current_quantity: 223
+[DEBUG] 11-09-2025 22:04:25 - drop item 100200 x20
+[DEBUG] 11-09-2025 22:04:25 - previous_quantity: 223, current_quantity: 225
+[DEBUG] 11-09-2025 22:04:25 - drop item 100200 x2
+[DEBUG] 11-09-2025 22:04:26 - scan_drop_log: found 2 drop item(s)
+[DEBUG] 11-09-2025 22:04:26 - previous_quantity: 225, current_quantity: 227
+[DEBUG] 11-09-2025 22:04:26 - drop item 100200 x2
+[DEBUG] 11-09-2025 22:04:26 - previous_quantity: 227, current_quantity: 229
+[DEBUG] 11-09-2025 22:04:26 - drop item 100200 x2
+[DEBUG] 11-09-2025 22:04:27 - scan_drop_log: found 2 drop item(s)
+[DEBUG] 11-09-2025 22:04:27 - previous_quantity: 1943, current_quantity: 1945
+[DEBUG] 11-09-2025 22:04:27 - drop item 200028 x2
+[DEBUG] 11-09-2025 22:04:27 - previous_quantity: 161, current_quantity: 187
+[DEBUG] 11-09-2025 22:04:27 - drop item 100300 x26
+[DEBUG] 11-09-2025 22:04:28 - scan_drop_log: found 2 drop item(s)
+[DEBUG] 11-09-2025 22:04:28 - previous_quantity: 229, current_quantity: 235
+[DEBUG] 11-09-2025 22:04:28 - drop item 100200 x6
+[DEBUG] 11-09-2025 22:04:28 - previous_quantity: 76, current_quantity: 78
+[DEBUG] 11-09-2025 22:04:28 - drop item 360403 x2
+[DEBUG] 11-09-2025 22:04:29 - scan_drop_log: found 1 drop item(s)
+[DEBUG] 11-09-2025 22:04:29 - previous_quantity: 3122, current_quantity: 3168
+[DEBUG] 11-09-2025 22:04:29 - drop item 200029 x46
+[DEBUG] 11-09-2025 22:04:39 - scan_drop_log: found 1 drop item(s)
+[DEBUG] 11-09-2025 22:04:39 - previous_quantity: 336, current_quantity: 341
+[DEBUG] 11-09-2025 22:04:39 - drop item 5028 x5
+[DEBUG] 11-09-2025 22:04:43 - scan_drop_log: found 1 drop item(s)
+[DEBUG] 11-09-2025 22:04:43 - previous_quantity: 187, current_quantity: 188
+[DEBUG] 11-09-2025 22:04:43 - drop item 100300 x1
+[DEBUG] 11-09-2025 22:04:44 - scan_drop_log: found 1 drop item(s)
+[DEBUG] 11-09-2025 22:04:44 - previous_quantity: 235, current_quantity: 243
+[DEBUG] 11-09-2025 22:04:44 - drop item 100200 x8
+[DEBUG] 11-09-2025 22:04:53 - scan_drop_log: found 1 drop item(s)
+[DEBUG] 11-09-2025 22:04:53 - previous_quantity: 243, current_quantity: 244
+[DEBUG] 11-09-2025 22:04:53 - drop item 100200 x1
+[DEBUG] 11-09-2025 22:05:02 - scan_drop_log: found 1 drop item(s)
+[DEBUG] 11-09-2025 22:05:02 - previous_quantity: 244, current_quantity: 245
+[DEBUG] 11-09-2025 22:05:02 - drop item 100200 x1
+[DEBUG] 11-09-2025 22:05:03 - scan_drop_log: found 3 drop item(s)
+[DEBUG] 11-09-2025 22:05:03 - previous_quantity: 245, current_quantity: 247
+[DEBUG] 11-09-2025 22:05:03 - drop item 100200 x2
+[DEBUG] 11-09-2025 22:05:03 - previous_quantity: 247, current_quantity: 248
+[DEBUG] 11-09-2025 22:05:03 - drop item 100200 x1
+[DEBUG] 11-09-2025 22:05:03 - previous_quantity: 248, current_quantity: 250
+[DEBUG] 11-09-2025 22:05:03 - drop item 100200 x2
+[DEBUG] 11-09-2025 22:05:05 - scan_drop_log: found 1 drop item(s)
+[DEBUG] 11-09-2025 22:05:05 - previous_quantity: 250, current_quantity: 253
+[DEBUG] 11-09-2025 22:05:05 - drop item 100200 x3
+[DEBUG] 11-09-2025 22:05:07 - scan_drop_log: found 2 drop item(s)
+[DEBUG] 11-09-2025 22:05:07 - previous_quantity: 253, current_quantity: 259
+[DEBUG] 11-09-2025 22:05:07 - drop item 100200 x6
+[DEBUG] 11-09-2025 22:05:07 - previous_quantity: 259, current_quantity: 260
+[DEBUG] 11-09-2025 22:05:07 - drop item 100200 x1
+[DEBUG] 11-09-2025 22:05:13 - scan_drop_log: found 1 drop item(s)
+[DEBUG] 11-09-2025 22:05:13 - previous_quantity: 260, current_quantity: 262
+[DEBUG] 11-09-2025 22:05:13 - drop item 100200 x2
+[DEBUG] 11-09-2025 22:05:55 - scan_drop_log: found 1 drop item(s)
+[DEBUG] 11-09-2025 22:05:55 - previous_quantity: 262, current_quantity: 263
+[DEBUG] 11-09-2025 22:05:55 - drop item 100200 x1
+[DEBUG] 11-09-2025 22:06:00 - scan_drop_log: found 1 drop item(s)
+[DEBUG] 11-09-2025 22:06:00 - previous_quantity: 263, current_quantity: 265
+[DEBUG] 11-09-2025 22:06:00 - drop item 100200 x2
+[DEBUG] 11-09-2025 22:06:02 - scan_drop_log: found 1 drop item(s)
+[DEBUG] 11-09-2025 22:06:02 - previous_quantity: 3, current_quantity: 8
+[DEBUG] 11-09-2025 22:06:02 - drop item 6002 x5
+[DEBUG] 11-09-2025 22:06:05 - scan_drop_log: found 1 drop item(s)
+[DEBUG] 11-09-2025 22:06:05 - previous_quantity: 265, current_quantity: 266
+[DEBUG] 11-09-2025 22:06:05 - drop item 100200 x1
+[DEBUG] 11-09-2025 22:06:06 - scan_drop_log: found 1 drop item(s)
+[DEBUG] 11-09-2025 22:06:06 - previous_quantity: 266, current_quantity: 268
+[DEBUG] 11-09-2025 22:06:06 - drop item 100200 x2
+[DEBUG] 11-09-2025 22:06:08 - scan_drop_log: found 2 drop item(s)
+[DEBUG] 11-09-2025 22:06:08 - previous_quantity: 268, current_quantity: 270
+[DEBUG] 11-09-2025 22:06:08 - drop item 100200 x2
+[DEBUG] 11-09-2025 22:06:08 - previous_quantity: 270, current_quantity: 271
+[DEBUG] 11-09-2025 22:06:08 - drop item 100200 x1
+[DEBUG] 11-09-2025 22:06:09 - scan_drop_log: found 2 drop item(s)
+[DEBUG] 11-09-2025 22:06:09 - previous_quantity: 271, current_quantity: 272
+[DEBUG] 11-09-2025 22:06:09 - drop item 100200 x1
+[DEBUG] 11-09-2025 22:06:09 - previous_quantity: 272, current_quantity: 273
+[DEBUG] 11-09-2025 22:06:09 - drop item 100200 x1
+[DEBUG] 11-09-2025 22:06:33 - scan_drop_log: found 3 drop item(s)
+[DEBUG] 11-09-2025 22:06:33 - previous_quantity: 1945, current_quantity: 1950
+[DEBUG] 11-09-2025 22:06:33 - drop item 200028 x5
+[DEBUG] 11-09-2025 22:06:33 - previous_quantity: 188, current_quantity: 189
+[DEBUG] 11-09-2025 22:06:33 - drop item 100300 x1
+[DEBUG] 11-09-2025 22:06:33 - previous_quantity: 3168, current_quantity: 3169
+[DEBUG] 11-09-2025 22:06:33 - drop item 200029 x1
+[DEBUG] 11-09-2025 22:06:42 - scan_drop_log: found 1 drop item(s)
+[DEBUG] 11-09-2025 22:06:42 - previous_quantity: 341, current_quantity: 342
+[DEBUG] 11-09-2025 22:06:42 - drop item 5028 x1
+[DEBUG] 11-09-2025 22:06:43 - profit logged: map #7, profit=27.01, duration=195.62s
+[DEBUG] 11-09-2025 22:07:03 - BEFORE MAP ENTRY - state.bag_items count: 180, items: ['3611', '4535', '4631', '261005', '260005', '71003', '71001', '360616', '360502', '3811']
+[DEBUG] 11-09-2025 22:07:03 -   - 3611: Item 3611 x1
+[DEBUG] 11-09-2025 22:07:03 -   - 4535: Item 4535 x1
+[DEBUG] 11-09-2025 22:07:03 -   - 4631: Item 4631 x1
+[DEBUG] 11-09-2025 22:07:03 -   - 261005: Item 261005 x1
+[DEBUG] 11-09-2025 22:07:03 -   - 260005: Item 260005 x1
+[DEBUG] 11-09-2025 22:07:03 - KEEPING bag_items from cache, count: 180
+[DEBUG] 11-09-2025 22:07:03 - AFTER scan_init_bag - init_bag_data count: 0, state.bag_items count: 180
+[DEBUG] 11-09-2025 22:07:03 - Using cached bag_items from bag_log.json as baseline (no init bag event found)
+[DEBUG] 11-09-2025 22:07:03 -   Cached items count: 180
+[DEBUG] 11-09-2025 22:07:10 - scan_drop_log: found 1 drop item(s)
+[DEBUG] 11-09-2025 22:07:10 - previous_quantity: 342, current_quantity: 312
+[DEBUG] 11-09-2025 22:07:12 - scan_drop_log: found 1 drop item(s)
+[DEBUG] 11-09-2025 22:07:12 - previous_quantity: 867, current_quantity: 869
+[DEBUG] 11-09-2025 22:07:12 - drop item 5140 x2
+[DEBUG] 11-09-2025 22:07:17 - scan_drop_log: found 1 drop item(s)
+[DEBUG] 11-09-2025 22:07:17 - previous_quantity: 312, current_quantity: 314
+[DEBUG] 11-09-2025 22:07:17 - drop item 5028 x2
+[DEBUG] 11-09-2025 22:07:20 - scan_drop_log: found 1 drop item(s)
+[DEBUG] 11-09-2025 22:07:20 - previous_quantity: 314, current_quantity: 315
+[DEBUG] 11-09-2025 22:07:20 - drop item 5028 x1
+[DEBUG] 11-09-2025 22:07:31 - scan_drop_log: found 3 drop item(s)
+[DEBUG] 11-09-2025 22:07:31 - previous_quantity: 189, current_quantity: 190
+[DEBUG] 11-09-2025 22:07:31 - drop item 100300 x1
+[DEBUG] 11-09-2025 22:07:31 - previous_quantity: 315, current_quantity: 316
+[DEBUG] 11-09-2025 22:07:31 - drop item 5028 x1
+[DEBUG] 11-09-2025 22:07:31 - previous_quantity: 273, current_quantity: 301
+[DEBUG] 11-09-2025 22:07:31 - drop item 100200 x28
+[DEBUG] 11-09-2025 22:07:33 - scan_drop_log: found 2 drop item(s)
+[DEBUG] 11-09-2025 22:07:33 - previous_quantity: 316, current_quantity: 317
+[DEBUG] 11-09-2025 22:07:33 - drop item 5028 x1
+[DEBUG] 11-09-2025 22:07:33 - previous_quantity: 317, current_quantity: 318
+[DEBUG] 11-09-2025 22:07:33 - drop item 5028 x1
+[DEBUG] 11-09-2025 22:07:35 - scan_drop_log: found 1 drop item(s)
+[DEBUG] 11-09-2025 22:07:35 - previous_quantity: 318, current_quantity: 319
+[DEBUG] 11-09-2025 22:07:35 - drop item 5028 x1
+[DEBUG] 11-09-2025 22:07:37 - scan_drop_log: found 1 drop item(s)
+[DEBUG] 11-09-2025 22:07:37 - previous_quantity: 2, current_quantity: 3
+[DEBUG] 11-09-2025 22:07:37 - drop item 6004 x1
+[DEBUG] 11-09-2025 22:07:38 - scan_drop_log: found 1 drop item(s)
+[DEBUG] 11-09-2025 22:07:38 - previous_quantity: 190, current_quantity: 200
+[DEBUG] 11-09-2025 22:07:38 - drop item 100300 x10
+[DEBUG] 11-09-2025 22:07:40 - scan_drop_log: found 1 drop item(s)
+[DEBUG] 11-09-2025 22:07:40 - previous_quantity: 319, current_quantity: 322
+[DEBUG] 11-09-2025 22:07:40 - drop item 5028 x3
+[DEBUG] 11-09-2025 22:07:41 - scan_drop_log: found 1 drop item(s)
+[DEBUG] 11-09-2025 22:07:41 - previous_quantity: 322, current_quantity: 323
+[DEBUG] 11-09-2025 22:07:41 - drop item 5028 x1
+[DEBUG] 11-09-2025 22:07:44 - scan_drop_log: found 1 drop item(s)
+[DEBUG] 11-09-2025 22:07:44 - previous_quantity: 869, current_quantity: 873
+[DEBUG] 11-09-2025 22:07:44 - drop item 5140 x4
+[DEBUG] 11-09-2025 22:08:11 - scan_drop_log: found 3 drop item(s)
+[DEBUG] 11-09-2025 22:08:11 - previous_quantity: 301, current_quantity: 312
+[DEBUG] 11-09-2025 22:08:11 - drop item 100200 x11
+[DEBUG] 11-09-2025 22:08:11 - previous_quantity: 312, current_quantity: 313
+[DEBUG] 11-09-2025 22:08:11 - drop item 100200 x1
+[DEBUG] 11-09-2025 22:08:11 - previous_quantity: 313, current_quantity: 314
+[DEBUG] 11-09-2025 22:08:11 - drop item 100200 x1
+[DEBUG] 11-09-2025 22:08:12 - scan_drop_log: found 2 drop item(s)
+[DEBUG] 11-09-2025 22:08:12 - previous_quantity: 314, current_quantity: 315
+[DEBUG] 11-09-2025 22:08:12 - drop item 100200 x1
+[DEBUG] 11-09-2025 22:08:12 - previous_quantity: 315, current_quantity: 318
+[DEBUG] 11-09-2025 22:08:12 - drop item 100200 x3
+[DEBUG] 11-09-2025 22:08:13 - scan_drop_log: found 2 drop item(s)
+[DEBUG] 11-09-2025 22:08:13 - previous_quantity: 318, current_quantity: 319
+[DEBUG] 11-09-2025 22:08:13 - drop item 100200 x1
+[DEBUG] 11-09-2025 22:08:13 - previous_quantity: 319, current_quantity: 320
+[DEBUG] 11-09-2025 22:08:13 - drop item 100200 x1
+[DEBUG] 11-09-2025 22:08:14 - scan_drop_log: found 2 drop item(s)
+[DEBUG] 11-09-2025 22:08:14 - previous_quantity: 320, current_quantity: 321
+[DEBUG] 11-09-2025 22:08:14 - drop item 100200 x1
+[DEBUG] 11-09-2025 22:08:14 - previous_quantity: 321, current_quantity: 323
+[DEBUG] 11-09-2025 22:08:14 - drop item 100200 x2
+[DEBUG] 11-09-2025 22:08:16 - scan_drop_log: found 1 drop item(s)
+[DEBUG] 11-09-2025 22:08:16 - previous_quantity: 323, current_quantity: 327
+[DEBUG] 11-09-2025 22:08:16 - drop item 100200 x4
+[DEBUG] 11-09-2025 22:08:17 - scan_drop_log: found 2 drop item(s)
+[DEBUG] 11-09-2025 22:08:17 - previous_quantity: 327, current_quantity: 328
+[DEBUG] 11-09-2025 22:08:17 - drop item 100200 x1
+[DEBUG] 11-09-2025 22:08:17 - previous_quantity: 328, current_quantity: 329
+[DEBUG] 11-09-2025 22:08:17 - drop item 100200 x1
+[DEBUG] 11-09-2025 22:08:18 - scan_drop_log: found 2 drop item(s)
+[DEBUG] 11-09-2025 22:08:18 - previous_quantity: 329, current_quantity: 331
+[DEBUG] 11-09-2025 22:08:18 - drop item 100200 x2
+[DEBUG] 11-09-2025 22:08:18 - previous_quantity: 331, current_quantity: 333
+[DEBUG] 11-09-2025 22:08:18 - drop item 100200 x2
+[DEBUG] 11-09-2025 22:08:19 - scan_drop_log: found 2 drop item(s)
+[DEBUG] 11-09-2025 22:08:19 - previous_quantity: 333, current_quantity: 339
+[DEBUG] 11-09-2025 22:08:19 - drop item 100200 x6
+[DEBUG] 11-09-2025 22:08:19 - previous_quantity: 339, current_quantity: 341
+[DEBUG] 11-09-2025 22:08:19 - drop item 100200 x2
+[DEBUG] 11-09-2025 22:08:20 - scan_drop_log: found 4 drop item(s)
+[DEBUG] 11-09-2025 22:08:20 - previous_quantity: 341, current_quantity: 343
+[DEBUG] 11-09-2025 22:08:20 - drop item 100200 x2
+[DEBUG] 11-09-2025 22:08:20 - previous_quantity: 343, current_quantity: 345
+[DEBUG] 11-09-2025 22:08:20 - drop item 100200 x2
+[DEBUG] 11-09-2025 22:08:20 - previous_quantity: 345, current_quantity: 346
+[DEBUG] 11-09-2025 22:08:20 - drop item 100200 x1
+[DEBUG] 11-09-2025 22:08:20 - previous_quantity: 346, current_quantity: 348
+[DEBUG] 11-09-2025 22:08:20 - drop item 100200 x2
+[DEBUG] 11-09-2025 22:08:21 - scan_drop_log: found 3 drop item(s)
+[DEBUG] 11-09-2025 22:08:21 - previous_quantity: 348, current_quantity: 357
+[DEBUG] 11-09-2025 22:08:21 - drop item 100200 x9
+[DEBUG] 11-09-2025 22:08:21 - previous_quantity: 357, current_quantity: 359
+[DEBUG] 11-09-2025 22:08:21 - drop item 100200 x2
+[DEBUG] 11-09-2025 22:08:21 - previous_quantity: 359, current_quantity: 360
+[DEBUG] 11-09-2025 22:08:21 - drop item 100200 x1
+[DEBUG] 11-09-2025 22:08:22 - scan_drop_log: found 1 drop item(s)
+[DEBUG] 11-09-2025 22:08:22 - previous_quantity: 360, current_quantity: 361
+[DEBUG] 11-09-2025 22:08:22 - drop item 100200 x1
+[DEBUG] 11-09-2025 22:08:23 - scan_drop_log: found 2 drop item(s)
+[DEBUG] 11-09-2025 22:08:23 - previous_quantity: 361, current_quantity: 363
+[DEBUG] 11-09-2025 22:08:23 - drop item 100200 x2
+[DEBUG] 11-09-2025 22:08:23 - previous_quantity: 363, current_quantity: 383
+[DEBUG] 11-09-2025 22:08:23 - drop item 100200 x20
+[DEBUG] 11-09-2025 22:08:24 - scan_drop_log: found 2 drop item(s)
+[DEBUG] 11-09-2025 22:08:24 - previous_quantity: 383, current_quantity: 384
+[DEBUG] 11-09-2025 22:08:24 - drop item 100200 x1
+[DEBUG] 11-09-2025 22:08:24 - previous_quantity: 384, current_quantity: 385
+[DEBUG] 11-09-2025 22:08:24 - drop item 100200 x1
+[DEBUG] 11-09-2025 22:08:25 - scan_drop_log: found 1 drop item(s)
+[DEBUG] 11-09-2025 22:08:25 - previous_quantity: 385, current_quantity: 386
+[DEBUG] 11-09-2025 22:08:25 - drop item 100200 x1
+[DEBUG] 11-09-2025 22:08:26 - scan_drop_log: found 2 drop item(s)
+[DEBUG] 11-09-2025 22:08:26 - previous_quantity: 386, current_quantity: 388
+[DEBUG] 11-09-2025 22:08:26 - drop item 100200 x2
+[DEBUG] 11-09-2025 22:08:26 - previous_quantity: 388, current_quantity: 389
+[DEBUG] 11-09-2025 22:08:26 - drop item 100200 x1
+[DEBUG] 11-09-2025 22:08:27 - scan_drop_log: found 2 drop item(s)
+[DEBUG] 11-09-2025 22:08:27 - previous_quantity: 389, current_quantity: 390
+[DEBUG] 11-09-2025 22:08:27 - drop item 100200 x1
+[DEBUG] 11-09-2025 22:08:27 - previous_quantity: 390, current_quantity: 393
+[DEBUG] 11-09-2025 22:08:27 - drop item 100200 x3
+[DEBUG] 11-09-2025 22:08:28 - scan_drop_log: found 3 drop item(s)
+[DEBUG] 11-09-2025 22:08:28 - previous_quantity: 393, current_quantity: 395
+[DEBUG] 11-09-2025 22:08:28 - drop item 100200 x2
+[DEBUG] 11-09-2025 22:08:28 - previous_quantity: 395, current_quantity: 396
+[DEBUG] 11-09-2025 22:08:28 - drop item 100200 x1
+[DEBUG] 11-09-2025 22:08:28 - previous_quantity: 396, current_quantity: 399
+[DEBUG] 11-09-2025 22:08:28 - drop item 100200 x3
+[DEBUG] 11-09-2025 22:08:29 - scan_drop_log: found 1 drop item(s)
+[DEBUG] 11-09-2025 22:08:29 - previous_quantity: 399, current_quantity: 402
+[DEBUG] 11-09-2025 22:08:29 - drop item 100200 x3
+[DEBUG] 11-09-2025 22:08:30 - scan_drop_log: found 1 drop item(s)
+[DEBUG] 11-09-2025 22:08:30 - previous_quantity: 200, current_quantity: 208
+[DEBUG] 11-09-2025 22:08:30 - drop item 100300 x8
+[DEBUG] 11-09-2025 22:08:31 - scan_drop_log: found 1 drop item(s)
+[DEBUG] 11-09-2025 22:08:31 - previous_quantity: 3169, current_quantity: 3170
+[DEBUG] 11-09-2025 22:08:31 - drop item 200029 x1
+[DEBUG] 11-09-2025 22:08:40 - scan_drop_log: found 3 drop item(s)
+[DEBUG] 11-09-2025 22:08:40 - previous_quantity: 402, current_quantity: 403
+[DEBUG] 11-09-2025 22:08:40 - drop item 100200 x1
+[DEBUG] 11-09-2025 22:08:40 - previous_quantity: 403, current_quantity: 404
+[DEBUG] 11-09-2025 22:08:40 - drop item 100200 x1
+[DEBUG] 11-09-2025 22:08:40 - previous_quantity: 404, current_quantity: 406
+[DEBUG] 11-09-2025 22:08:40 - drop item 100200 x2
+[DEBUG] 11-09-2025 22:08:41 - scan_drop_log: found 1 drop item(s)
+[DEBUG] 11-09-2025 22:08:41 - previous_quantity: 406, current_quantity: 408
+[DEBUG] 11-09-2025 22:08:41 - drop item 100200 x2
+[DEBUG] 11-09-2025 22:08:42 - scan_drop_log: found 2 drop item(s)
+[DEBUG] 11-09-2025 22:08:42 - previous_quantity: 208, current_quantity: 214
+[DEBUG] 11-09-2025 22:08:42 - drop item 100300 x6
+[DEBUG] 11-09-2025 22:08:42 - previous_quantity: 3170, current_quantity: 3171
+[DEBUG] 11-09-2025 22:08:42 - drop item 200029 x1
+[DEBUG] 11-09-2025 22:08:51 - scan_drop_log: found 1 drop item(s)
+[DEBUG] 11-09-2025 22:08:51 - previous_quantity: 909, current_quantity: 911
+[DEBUG] 11-09-2025 22:08:51 - drop item 5080 x2
+[DEBUG] 11-09-2025 22:08:52 - profit logged: map #8, profit=23.49, duration=110.12s
+[DEBUG] 11-09-2025 22:09:12 - BEFORE MAP ENTRY - state.bag_items count: 180, items: ['3611', '4535', '4631', '261005', '260005', '71003', '71001', '360616', '360502', '3811']
+[DEBUG] 11-09-2025 22:09:12 -   - 3611: Item 3611 x1
+[DEBUG] 11-09-2025 22:09:12 -   - 4535: Item 4535 x1
+[DEBUG] 11-09-2025 22:09:12 -   - 4631: Item 4631 x1
+[DEBUG] 11-09-2025 22:09:12 -   - 261005: Item 261005 x1
+[DEBUG] 11-09-2025 22:09:12 -   - 260005: Item 260005 x1
+[DEBUG] 11-09-2025 22:09:12 - KEEPING bag_items from cache, count: 180
+[DEBUG] 11-09-2025 22:09:12 - AFTER scan_init_bag - init_bag_data count: 0, state.bag_items count: 180
+[DEBUG] 11-09-2025 22:09:12 - Using cached bag_items from bag_log.json as baseline (no init bag event found)
+[DEBUG] 11-09-2025 22:09:12 -   Cached items count: 180
+[DEBUG] 11-09-2025 22:10:01 - scan_drop_log: found 1 drop item(s)
+[DEBUG] 11-09-2025 22:10:01 - previous_quantity: 323, current_quantity: 296
+[DEBUG] 11-09-2025 22:10:07 - scan_drop_log: found 2 drop item(s)
+[DEBUG] 11-09-2025 22:10:07 - previous_quantity: 3, current_quantity: 4
+[DEBUG] 11-09-2025 22:10:07 - drop item 6004 x1
+[DEBUG] 11-09-2025 22:10:07 - previous_quantity: 214, current_quantity: 215
+[DEBUG] 11-09-2025 22:10:07 - drop item 100300 x1
+[DEBUG] 11-09-2025 22:10:08 - scan_drop_log: found 2 drop item(s)
+[DEBUG] 11-09-2025 22:10:08 - previous_quantity: 4, current_quantity: 5
+[DEBUG] 11-09-2025 22:10:08 - drop item 6007 x1
+[DEBUG] 11-09-2025 22:10:08 - previous_quantity: 3171, current_quantity: 3172
+[DEBUG] 11-09-2025 22:10:08 - drop item 200029 x1
+[DEBUG] 11-09-2025 22:10:22 - scan_price_search: itemId=10042, synId=81656, values_count=100, prices=[0.26, 0.26666666666667, 0.27272727272727, 0.27272727272727, 0.28205128205128, 0.28282828282828, 0.28282828282828, 0.28282828282828, 0.28282828282828, 0.28282828282828, 0.28282828282828, 0.28282828282828, 0.28282828282828, 0.28282828282828, 0.28282828282828, 0.28282828282828, 0.28282828282828, 0.28282828282828, 0.28282828282828, 0.28409090909091, 0.28571428571429, 0.28571428571429, 0.29166666666667, 0.29166666666667, 0.29268292682927, 0.29292929292929, 0.29292929292929, 0.29292929292929, 0.29292929292929, 0.29292929292929, 0.29292929292929, 0.29292929292929, 0.29292929292929, 0.29292929292929, 0.29292929292929, 0.29292929292929, 0.29292929292929, 0.29292929292929, 0.29292929292929, 0.29292929292929, 0.29292929292929, 0.29292929292929, 0.29292929292929, 0.29292929292929, 0.29292929292929, 0.29292929292929, 0.29292929292929, 0.29292929292929, 0.29292929292929, 0.29292929292929, 0.29292929292929, 0.29292929292929, 0.29292929292929, 0.29292929292929, 0.29292929292929, 0.29292929292929, 0.29292929292929, 0.29292929292929, 0.29292929292929, 0.29292929292929, 0.29292929292929, 0.29292929292929, 0.29292929292929, 0.29292929292929, 0.29292929292929, 0.29292929292929, 0.29292929292929, 0.29292929292929, 0.29292929292929, 0.29292929292929, 0.29292929292929, 0.29292929292929, 0.29292929292929, 0.29333333333333, 0.29347826086957, 0.29411764705882, 0.29411764705882, 0.29411764705882, 0.29411764705882, 0.29411764705882, 0.29411764705882, 0.29411764705882, 0.29411764705882, 0.29508196721311, 0.29545454545455, 0.2962962962963, 0.2962962962963, 0.296875, 0.29824561403509, 0.2987012987013, 0.29885057471264, 0.3, 0.3, 0.3, 0.3, 0.3, 0.3, 0.3010752688172, 0.30120481927711, 0.30120481927711]
+[DEBUG] 11-09-2025 22:10:22 - scan_price_search: itemId=10042, average_price=0.2912, highest_price=0.3012
+[DEBUG] 11-09-2025 22:10:22 - scan_price_search: found 1 result(s)
+[DEBUG] 11-09-2025 22:10:22 - Updated item value: ID:10042, Name:Rival Compass, Average Price:0.2912, Highest Price:0.3012
+[DEBUG] 11-09-2025 22:10:22 - Logged to search_price_log.json: ID:10042, Price:0.2912, Type:Compass
+[DEBUG] 11-09-2025 22:10:25 - scan_price_search: itemId=6153, synId=81661, values_count=100, prices=[1.0, 5.0, 5.8, 6.0, 6.0, 6.0, 6.0, 6.0, 6.0, 6.0, 6.0, 6.0, 6.0, 6.0, 6.0, 6.0, 6.0, 6.0714285714286, 6.0769230769231, 6.0833333333333, 6.0869565217391, 6.0909090909091, 6.0909090909091, 6.093023255814, 6.0943396226415, 6.0943396226415, 6.0945945945946, 6.0945945945946, 6.0952380952381, 6.0967741935484, 6.0973451327434, 6.0975609756098, 6.0983606557377, 6.1, 6.1, 6.1, 6.1, 6.1, 6.1, 6.1, 6.1006289308176, 6.1012658227848, 6.1022727272727, 6.1025641025641, 6.1034482758621, 6.1041666666667, 6.1041666666667, 6.1052631578947, 6.1052631578947, 6.1063829787234, 6.1066666666667, 6.1071428571429, 6.1071428571429, 6.1071428571429, 6.1071428571429, 6.1071428571429, 6.1111111111111, 6.1111111111111, 6.1111111111111, 6.1111111111111, 6.1111111111111, 6.1111111111111, 6.1111111111111, 6.1111111111111, 6.1111111111111, 6.1111111111111, 6.1142857142857, 6.1153846153846, 6.1153846153846, 6.1176470588235, 6.1176470588235, 6.1176470588235, 6.1176470588235, 6.1176470588235, 6.12, 6.12, 6.12, 6.12, 6.125, 6.125, 6.125, 6.125, 6.125, 6.125, 6.125, 6.125, 6.125, 6.125, 6.125, 6.125, 6.1333333333333, 6.1428571428571, 6.1428571428571, 6.1428571428571, 6.1428571428571, 6.1428571428571, 6.1428571428571, 6.1428571428571, 6.1470588235294, 6.1666666666667]
+[DEBUG] 11-09-2025 22:10:25 - scan_price_search: itemId=6153, average_price=6.0311, highest_price=6.1667
+[DEBUG] 11-09-2025 22:10:25 - scan_price_search: found 1 result(s)
+[DEBUG] 11-09-2025 22:10:25 - Updated item value: ID:6153, Name:Tomorrow's Course, Average Price:6.0311, Highest Price:6.1667
+[DEBUG] 11-09-2025 22:10:25 - Logged to search_price_log.json: ID:6153, Price:6.0311, Type:Memory Fluorescence
+[DEBUG] 11-09-2025 22:10:28 - scan_price_search: itemId=6007, synId=81668, values_count=100, prices=[3.0, 3.0, 3.0, 3.0, 3.0, 3.0, 3.0, 3.0, 3.0, 3.0, 3.0, 3.0, 3.0, 3.0, 3.0, 3.0, 3.0, 3.0, 3.0, 3.0, 3.0, 3.0, 3.0, 3.0, 3.0, 3.0, 3.0, 3.0, 3.0, 3.0, 3.0, 3.0, 3.0, 3.0, 3.0, 3.0, 3.0, 3.0, 3.0, 3.0, 3.0, 3.0, 3.0, 3.0, 3.0, 3.0, 3.0, 3.0, 3.0, 3.0, 3.0, 3.0, 3.0, 3.0, 3.0, 3.0, 3.0, 3.0, 3.0, 3.0, 3.0, 3.0, 3.0, 3.0, 3.0, 3.0, 3.0, 3.0, 3.0, 3.0, 3.0, 3.0, 3.0, 3.0, 3.0, 3.0, 3.0, 3.0, 3.0, 3.0, 3.0, 3.0, 3.0, 3.0, 3.0, 3.0, 3.0, 3.0, 3.0, 3.0, 3.0, 3.0, 3.0, 3.0, 3.0, 3.0, 3.0, 3.0, 3.0, 3.0]
+[DEBUG] 11-09-2025 22:10:28 - scan_price_search: itemId=6007, average_price=3.0, highest_price=3.0
+[DEBUG] 11-09-2025 22:10:28 - scan_price_search: found 1 result(s)
+[DEBUG] 11-09-2025 22:10:28 - Updated item value: ID:6007, Name:Lost Treasure, Average Price:3.0, Highest Price:3.0
+[DEBUG] 11-09-2025 22:10:28 - Logged to search_price_log.json: ID:6007, Price:3.0, Type:Memory Fluorescence
+[DEBUG] 11-09-2025 22:10:32 - scan_price_search: itemId=6002, synId=81675, values_count=100, prices=[0.28695652173913, 0.2877358490566, 0.28955223880597, 0.28965517241379, 0.29029029029029, 0.29145728643216, 0.29545454545455, 0.3, 0.3, 0.30023364485981, 0.30026809651475, 0.3002915451895, 0.30029585798817, 0.3003003003003, 0.3003003003003, 0.3003003003003, 0.3003003003003, 0.3003003003003, 0.3003003003003, 0.3003003003003, 0.3003003003003, 0.3003003003003, 0.3003003003003, 0.3003003003003, 0.3003003003003, 0.3003003003003, 0.3003003003003, 0.3003003003003, 0.3003003003003, 0.30040322580645, 0.3005366726297, 0.30055865921788, 0.30072463768116, 0.30081300813008, 0.30088495575221, 0.30097087378641, 0.30113636363636, 0.30117647058824, 0.30120481927711, 0.30128205128205, 0.3013698630137, 0.3013698630137, 0.30140845070423, 0.30155979202773, 0.3015873015873, 0.3015873015873, 0.30169491525424, 0.30172413793103, 0.30188679245283, 0.30204081632653, 0.30208333333333, 0.3021978021978, 0.30232558139535, 0.30232558139535, 0.30243902439024, 0.30285714285714, 0.3030303030303, 0.3030303030303, 0.3030303030303, 0.30357142857143, 0.3037037037037, 0.3037037037037, 0.3042328042328, 0.30434782608696, 0.30434782608696, 0.30434782608696, 0.3046357615894, 0.30530530530531, 0.30555555555556, 0.30612244897959, 0.30708661417323, 0.30769230769231, 0.30769230769231, 0.30769230769231, 0.30769230769231, 0.30769230769231, 0.30769230769231, 0.30769230769231, 0.30769230769231, 0.30827067669173, 0.30872483221477, 0.30872483221477, 0.30882352941176, 0.30916030534351, 0.30922693266833, 0.30939226519337, 0.30952380952381, 0.3095652173913, 0.31007751937984, 0.31009615384615, 0.31012658227848, 0.31023102310231, 0.31031031031031, 0.31031031031031, 0.31031031031031, 0.31031031031031, 0.31031031031031, 0.31031031031031, 0.31038798498123, 0.31050228310502]
+[DEBUG] 11-09-2025 22:10:32 - scan_price_search: itemId=6002, average_price=0.3031, highest_price=0.3105
+[DEBUG] 11-09-2025 22:10:32 - scan_price_search: found 1 result(s)
+[DEBUG] 11-09-2025 22:10:32 - Updated item value: ID:6002, Name:Frozen Abyss Secret, Average Price:0.3031, Highest Price:0.3105
+[DEBUG] 11-09-2025 22:10:32 - Logged to search_price_log.json: ID:6002, Price:0.3031, Type:Memory Fluorescence
+[DEBUG] 11-09-2025 22:11:01 - scan_drop_log: found 1 drop item(s)
+[DEBUG] 11-09-2025 22:11:01 - previous_quantity: 408, current_quantity: 424
+[DEBUG] 11-09-2025 22:11:01 - drop item 100200 x16
+[DEBUG] 11-09-2025 22:11:02 - scan_drop_log: found 2 drop item(s)
+[DEBUG] 11-09-2025 22:11:02 - previous_quantity: 424, current_quantity: 427
+[DEBUG] 11-09-2025 22:11:02 - drop item 100200 x3
+[DEBUG] 11-09-2025 22:11:02 - previous_quantity: 427, current_quantity: 428
+[DEBUG] 11-09-2025 22:11:02 - drop item 100200 x1
+[DEBUG] 11-09-2025 22:11:03 - scan_drop_log: found 2 drop item(s)
+[DEBUG] 11-09-2025 22:11:03 - previous_quantity: 428, current_quantity: 435
+[DEBUG] 11-09-2025 22:11:03 - drop item 100200 x7
+[DEBUG] 11-09-2025 22:11:03 - previous_quantity: 435, current_quantity: 437
+[DEBUG] 11-09-2025 22:11:03 - drop item 100200 x2
+[DEBUG] 11-09-2025 22:11:04 - scan_drop_log: found 1 drop item(s)
+[DEBUG] 11-09-2025 22:11:04 - previous_quantity: 437, current_quantity: 438
+[DEBUG] 11-09-2025 22:11:04 - drop item 100200 x1
+[DEBUG] 11-09-2025 22:11:05 - scan_drop_log: found 1 drop item(s)
+[DEBUG] 11-09-2025 22:11:05 - previous_quantity: 438, current_quantity: 444
+[DEBUG] 11-09-2025 22:11:05 - drop item 100200 x6
+[DEBUG] 11-09-2025 22:11:06 - scan_drop_log: found 2 drop item(s)
+[DEBUG] 11-09-2025 22:11:06 - previous_quantity: 444, current_quantity: 445
+[DEBUG] 11-09-2025 22:11:06 - drop item 100200 x1
+[DEBUG] 11-09-2025 22:11:06 - previous_quantity: 4, current_quantity: 5
+[DEBUG] 11-09-2025 22:11:06 - drop item 6004 x1
+[DEBUG] 11-09-2025 22:11:07 - scan_drop_log: found 2 drop item(s)
+[DEBUG] 11-09-2025 22:11:07 - previous_quantity: 445, current_quantity: 449
+[DEBUG] 11-09-2025 22:11:07 - drop item 100200 x4
+[DEBUG] 11-09-2025 22:11:07 - previous_quantity: 449, current_quantity: 450
+[DEBUG] 11-09-2025 22:11:07 - drop item 100200 x1
+[DEBUG] 11-09-2025 22:11:09 - scan_drop_log: found 3 drop item(s)
+[DEBUG] 11-09-2025 22:11:09 - previous_quantity: 450, current_quantity: 451
+[DEBUG] 11-09-2025 22:11:09 - drop item 100200 x1
+[DEBUG] 11-09-2025 22:11:09 - previous_quantity: 451, current_quantity: 457
+[DEBUG] 11-09-2025 22:11:09 - drop item 100200 x6
+[DEBUG] 11-09-2025 22:11:09 - previous_quantity: 457, current_quantity: 458
+[DEBUG] 11-09-2025 22:11:09 - drop item 100200 x1
+[DEBUG] 11-09-2025 22:11:11 - scan_drop_log: found 2 drop item(s)
+[DEBUG] 11-09-2025 22:11:11 - previous_quantity: 458, current_quantity: 459
+[DEBUG] 11-09-2025 22:11:11 - drop item 100200 x1
+[DEBUG] 11-09-2025 22:11:11 - previous_quantity: 459, current_quantity: 462
+[DEBUG] 11-09-2025 22:11:11 - drop item 100200 x3
+[DEBUG] 11-09-2025 22:11:12 - scan_drop_log: found 1 drop item(s)
+[DEBUG] 11-09-2025 22:11:12 - previous_quantity: 462, current_quantity: 464
+[DEBUG] 11-09-2025 22:11:12 - drop item 100200 x2
+[DEBUG] 11-09-2025 22:11:13 - scan_drop_log: found 2 drop item(s)
+[DEBUG] 11-09-2025 22:11:13 - previous_quantity: 464, current_quantity: 465
+[DEBUG] 11-09-2025 22:11:13 - drop item 100200 x1
+[DEBUG] 11-09-2025 22:11:13 - previous_quantity: 465, current_quantity: 466
+[DEBUG] 11-09-2025 22:11:13 - drop item 100200 x1
+[DEBUG] 11-09-2025 22:11:14 - scan_drop_log: found 3 drop item(s)
+[DEBUG] 11-09-2025 22:11:14 - previous_quantity: 466, current_quantity: 467
+[DEBUG] 11-09-2025 22:11:14 - drop item 100200 x1
+[DEBUG] 11-09-2025 22:11:14 - previous_quantity: 467, current_quantity: 468
+[DEBUG] 11-09-2025 22:11:14 - drop item 100200 x1
+[DEBUG] 11-09-2025 22:11:14 - previous_quantity: 468, current_quantity: 469
+[DEBUG] 11-09-2025 22:11:14 - drop item 100200 x1
+[DEBUG] 11-09-2025 22:11:15 - scan_drop_log: found 2 drop item(s)
+[DEBUG] 11-09-2025 22:11:15 - previous_quantity: 469, current_quantity: 473
+[DEBUG] 11-09-2025 22:11:15 - drop item 100200 x4
+[DEBUG] 11-09-2025 22:11:15 - previous_quantity: 473, current_quantity: 474
+[DEBUG] 11-09-2025 22:11:15 - drop item 100200 x1
+[DEBUG] 11-09-2025 22:11:16 - scan_drop_log: found 2 drop item(s)
+[DEBUG] 11-09-2025 22:11:16 - previous_quantity: 474, current_quantity: 475
+[DEBUG] 11-09-2025 22:11:16 - drop item 100200 x1
+[DEBUG] 11-09-2025 22:11:16 - previous_quantity: 475, current_quantity: 476
+[DEBUG] 11-09-2025 22:11:16 - drop item 100200 x1
+[DEBUG] 11-09-2025 22:11:18 - scan_drop_log: found 1 drop item(s)
+[DEBUG] 11-09-2025 22:11:18 - previous_quantity: 476, current_quantity: 477
+[DEBUG] 11-09-2025 22:11:18 - drop item 100200 x1
+[DEBUG] 11-09-2025 22:11:19 - scan_drop_log: found 2 drop item(s)
+[DEBUG] 11-09-2025 22:11:19 - previous_quantity: 477, current_quantity: 481
+[DEBUG] 11-09-2025 22:11:19 - drop item 100200 x4
+[DEBUG] 11-09-2025 22:11:19 - previous_quantity: 481, current_quantity: 482
+[DEBUG] 11-09-2025 22:11:19 - drop item 100200 x1
+[DEBUG] 11-09-2025 22:11:20 - scan_drop_log: found 1 drop item(s)
+[DEBUG] 11-09-2025 22:11:20 - previous_quantity: 215, current_quantity: 227
+[DEBUG] 11-09-2025 22:11:20 - drop item 100300 x12
+[DEBUG] 11-09-2025 22:11:21 - scan_drop_log: found 1 drop item(s)
+[DEBUG] 11-09-2025 22:11:21 - previous_quantity: 139, current_quantity: 140
+[DEBUG] 11-09-2025 22:11:21 - drop item 5144 x1
+[DEBUG] 11-09-2025 22:11:22 - scan_drop_log: found 1 drop item(s)
+[DEBUG] 11-09-2025 22:11:22 - previous_quantity: 78, current_quantity: 79
+[DEBUG] 11-09-2025 22:11:22 - drop item 360403 x1
+[DEBUG] 11-09-2025 22:11:27 - scan_drop_log: found 1 drop item(s)
+[DEBUG] 11-09-2025 22:11:27 - previous_quantity: 482, current_quantity: 483
+[DEBUG] 11-09-2025 22:11:27 - drop item 100200 x1
+[DEBUG] 11-09-2025 22:11:28 - scan_drop_log: found 1 drop item(s)
+[DEBUG] 11-09-2025 22:11:28 - previous_quantity: 296, current_quantity: 300
+[DEBUG] 11-09-2025 22:11:28 - drop item 5028 x4
+[DEBUG] 11-09-2025 22:11:29 - scan_drop_log: found 1 drop item(s)
+[DEBUG] 11-09-2025 22:11:29 - previous_quantity: 227, current_quantity: 228
+[DEBUG] 11-09-2025 22:11:29 - drop item 100300 x1
+[DEBUG] 11-09-2025 22:11:48 - scan_drop_log: found 1 drop item(s)
+[DEBUG] 11-09-2025 22:11:48 - previous_quantity: 483, current_quantity: 485
+[DEBUG] 11-09-2025 22:11:48 - drop item 100200 x2
+[DEBUG] 11-09-2025 22:11:49 - profit logged: map #9, profit=16.5, duration=158.24s
+[DEBUG] 11-09-2025 22:12:08 - scan_init_bag: wrote 192 init bag log lines to init_bag_msg.log
+[DEBUG] 11-09-2025 22:12:08 - scan_init_bag: found 178 items in bag
+[DEBUG] 11-09-2025 22:12:08 - scan_init_bag: updated state.bag_items with 178 items
+[DEBUG] 11-09-2025 22:15:02 - init_bag_data: Loaded 180 items from bag_log.json
+[DEBUG] 11-09-2025 22:15:13 - scan_init_bag: wrote 192 init bag log lines to init_bag_msg.log
+[DEBUG] 11-09-2025 22:15:13 - scan_init_bag: found 178 items in bag
+[DEBUG] 11-09-2025 22:15:13 - scan_init_bag: updated state.bag_items with 178 items
+[DEBUG] 11-09-2025 22:16:32 - init_bag_data: Loaded 180 items from bag_log.json
+[DEBUG] 11-09-2025 22:16:39 - scan_init_bag: wrote 192 init bag log lines to init_bag_msg.log
+[DEBUG] 11-09-2025 22:16:39 - scan_init_bag: found 178 items in bag
+[DEBUG] 11-09-2025 22:16:39 - scan_init_bag: updated state.bag_items with 178 items
+[DEBUG] 11-09-2025 22:18:56 - init_bag_data: Loaded 180 items from bag_log.json
+[DEBUG] 11-09-2025 22:20:15 - init_bag_data: Loaded 180 items from bag_log.json
+[DEBUG] 11-09-2025 22:20:20 - scan_init_bag: wrote 192 init bag log lines to init_bag_msg.log
+[DEBUG] 11-09-2025 22:20:20 - scan_init_bag: found 178 items in bag
+[DEBUG] 11-09-2025 22:20:20 - scan_init_bag: updated state.bag_items with 178 items
+[DEBUG] 11-09-2025 22:20:20 - scan_init_bag: wrote 178 items to bag_log.json
+[DEBUG] 11-09-2025 22:20:37 - scan_init_bag: wrote 192 init bag log lines to init_bag_msg.log
+[DEBUG] 11-09-2025 22:20:37 - scan_init_bag: found 178 items in bag
+[DEBUG] 11-09-2025 22:20:37 - scan_init_bag: updated state.bag_items with 178 items
+[DEBUG] 11-09-2025 22:20:37 - scan_init_bag: wrote 178 items to bag_log.json
+[DEBUG] 11-09-2025 22:20:52 - scan_price_search: itemId=5028, synId=84211, values_count=100, prices=[0.17017017017017, 0.18, 0.18018018018018, 0.18018018018018, 0.18018018018018, 0.18039215686275, 0.1804788213628, 0.18518518518519, 0.18518518518519, 0.18518518518519, 0.18604651162791, 0.18817204301075, 0.18818818818819, 0.18818818818819, 0.18867924528302, 0.18918918918919, 0.18918918918919, 0.18918918918919, 0.18918918918919, 0.18918918918919, 0.18918918918919, 0.18918918918919, 0.18934911242604, 0.19, 0.19, 0.19, 0.19001610305958, 0.19003115264798, 0.19003115264798, 0.1900406504065, 0.19010416666667, 0.19011815252417, 0.19014084507042, 0.19015659955257, 0.19015957446809, 0.19019019019019, 0.19019019019019, 0.19019019019019, 0.19019019019019, 0.19019019019019, 0.19019019019019, 0.19019019019019, 0.19019019019019, 0.19019019019019, 0.19019019019019, 0.19019019019019, 0.19019019019019, 0.19019019019019, 0.19019019019019, 0.19019019019019, 0.19019019019019, 0.19019019019019, 0.19019019019019, 0.19019019019019, 0.19019019019019, 0.19019019019019, 0.19019019019019, 0.19019019019019, 0.19019019019019, 0.19019019019019, 0.19019019019019, 0.19019019019019, 0.19019019019019, 0.19019019019019, 0.19019019019019, 0.19019019019019, 0.19019019019019, 0.19019019019019, 0.19019019019019, 0.19019019019019, 0.19019019019019, 0.19019019019019, 0.19019019019019, 0.19019019019019, 0.19019019019019, 0.19019019019019, 0.19019019019019, 0.19019019019019, 0.19019019019019, 0.19019019019019, 0.19019019019019, 0.19019019019019, 0.19019019019019, 0.19019019019019, 0.19019019019019, 0.19019019019019, 0.19019019019019, 0.19019019019019, 0.19019019019019, 0.19019019019019, 0.19019019019019, 0.19019019019019, 0.19019019019019, 0.19019019019019, 0.19019019019019, 0.19019019019019, 0.19019019019019, 0.19019019019019, 0.19019019019019, 0.19019019019019]
+[DEBUG] 11-09-2025 22:20:52 - scan_price_search: itemId=5028, average_price=0.189, highest_price=0.1902
+[DEBUG] 11-09-2025 22:20:52 - scan_price_search: found 1 result(s)
+[DEBUG] 11-09-2025 22:20:52 - Updated item value: ID:5028, Name:Netherrealm Resonance, Average Price:0.189, Highest Price:0.1902
+[DEBUG] 11-09-2025 22:20:52 - Logged to search_price_log.json: ID:5028, Price:0.189, Type:Hard Currency
+[DEBUG] 11-09-2025 22:21:23 - init_bag_data: Loaded 178 items from bag_log.json
+[DEBUG] 11-09-2025 22:21:30 - scan_price_search: itemId=5700, synId=84260, values_count=100, prices=[0.14014014014014, 0.14963503649635, 0.15, 0.15015015015015, 0.15094339622642, 0.15151515151515, 0.15757575757576, 0.15873015873016, 0.15873015873016, 0.15932203389831, 0.15938864628821, 0.15945330296128, 0.15963855421687, 0.15972222222222, 0.15991902834008, 0.16, 0.16, 0.16016016016016, 0.16016016016016, 0.16016016016016, 0.16025641025641, 0.16034985422741, 0.16049382716049, 0.16085790884718, 0.16107382550336, 0.16111111111111, 0.16208791208791, 0.16265060240964, 0.16326530612245, 0.16455696202532, 0.16666666666667, 0.16666666666667, 0.16666666666667, 0.16666666666667, 0.16666666666667, 0.16666666666667, 0.16666666666667, 0.16666666666667, 0.16666666666667, 0.16666666666667, 0.16666666666667, 0.1687898089172, 0.16890080428954, 0.16901408450704, 0.16911764705882, 0.16949152542373, 0.16974169741697, 0.17, 0.17017017017017, 0.17017017017017, 0.17017017017017, 0.17017017017017, 0.17017017017017, 0.17017017017017, 0.17017017017017, 0.17021276595745, 0.1702786377709, 0.17029702970297, 0.17056856187291, 0.17061611374408, 0.17073170731707, 0.17077464788732, 0.17088607594937, 0.17117117117117, 0.17142857142857, 0.17142857142857, 0.17142857142857, 0.17153284671533, 0.17194570135747, 0.172, 0.17241379310345, 0.17241379310345, 0.17272727272727, 0.17283950617284, 0.17283950617284, 0.17333333333333, 0.1734693877551, 0.17391304347826, 0.17391304347826, 0.17391304347826, 0.17391304347826, 0.17391304347826, 0.17405063291139, 0.17428571428571, 0.175, 0.175, 0.17647058823529, 0.17647058823529, 0.17647058823529, 0.17647058823529, 0.17741935483871, 0.17777777777778, 0.17821782178218, 0.17829457364341, 0.17903930131004, 0.17910447761194, 0.17919075144509, 0.17919075144509, 0.17953667953668, 0.17966101694915]
+[DEBUG] 11-09-2025 22:21:30 - scan_price_search: itemId=5700, average_price=0.1679, highest_price=0.1797
+[DEBUG] 11-09-2025 22:21:30 - scan_price_search: found 1 result(s)
+[DEBUG] 11-09-2025 22:21:30 - Updated item value: ID:5700, Name:Tower Chip - Energy, Average Price:0.1679, Highest Price:0.1797
+[DEBUG] 11-09-2025 22:21:30 - Logged to search_price_log.json: ID:5700, Price:0.1679, Type:Tower Materials
+[DEBUG] 11-09-2025 22:21:32 - scan_price_search: itemId=5701, synId=84265, values_count=100, prices=[6.0, 6.0, 6.0, 6.0, 6.0, 6.0, 6.0, 6.0, 6.0, 6.0, 6.7857142857143, 7.0, 7.0, 7.0, 7.0, 7.0, 7.0, 7.0, 7.0, 7.0, 7.0, 7.0, 7.0, 7.0, 7.0, 7.0, 7.0, 7.0, 7.0, 7.0, 7.0, 7.0, 7.0, 7.0, 7.0, 7.0, 7.0, 7.0, 7.0, 7.0, 7.0, 7.0, 7.0, 7.0, 7.0, 7.0, 7.0, 7.0, 7.0, 7.0, 7.0, 7.0, 7.0, 7.0, 7.0, 7.0, 7.0, 7.0, 7.0, 7.0, 7.0, 7.0, 7.0, 7.0, 7.0, 7.0, 7.0, 7.0, 7.0, 7.0, 7.0, 7.0, 7.0, 7.0, 7.0, 7.0, 7.0, 7.0, 7.0, 7.0, 7.0, 7.0, 7.0, 7.0, 7.0, 7.0, 7.0, 7.0, 7.0, 7.0, 7.0, 7.0, 7.0, 7.0, 7.0, 7.0, 7.0, 7.3333333333333, 7.5, 7.5]
+[DEBUG] 11-09-2025 22:21:32 - scan_price_search: itemId=5701, average_price=6.9112, highest_price=7.5
+[DEBUG] 11-09-2025 22:21:32 - scan_price_search: found 1 result(s)
+[DEBUG] 11-09-2025 22:21:32 - Updated item value: ID:5701, Name:Tower Chip - Fluorescence, Average Price:6.9112, Highest Price:7.5
+[DEBUG] 11-09-2025 22:21:32 - Logged to search_price_log.json: ID:5701, Price:6.9112, Type:Tower Materials
+[DEBUG] 11-09-2025 22:21:33 - scan_price_search: itemId=5703, synId=84269, values_count=83, prices=[1.0, 1.0, 1.0, 1.0, 1.3333333333333, 1.4, 1.6904761904762, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.5, 2.5, 2.5, 2.6666666666667, 2.7142857142857, 3.0, 3.0, 3.0, 3.0, 3.0, 3.0, 3.0, 3.0, 3.0, 3.0, 3.0, 3.0, 3.0, 3.0, 3.0, 3.0, 3.0, 3.0, 3.0, 3.0, 3.0, 3.0, 3.0, 3.0, 3.0, 3.0, 3.0, 3.0, 3.0, 3.0, 3.0, 3.0, 3.0, 3.0, 3.0]
+[DEBUG] 11-09-2025 22:21:33 - scan_price_search: itemId=5703, average_price=2.3892, highest_price=3.0
+[DEBUG] 11-09-2025 22:21:33 - scan_price_search: found 1 result(s)
+[DEBUG] 11-09-2025 22:21:33 - Updated item value: ID:5703, Name:Tower Chip - Undetermined Fate, Average Price:2.3892, Highest Price:3.0
+[DEBUG] 11-09-2025 22:21:33 - Logged to search_price_log.json: ID:5703, Price:2.3892, Type:Tower Materials
+[DEBUG] 11-09-2025 22:21:36 - scan_price_search: itemId=5250, synId=84275, values_count=100, prices=[15.0, 15.0, 15.0, 15.0, 15.0, 15.0, 15.0, 15.0, 15.208333333333, 15.296296296296, 15.333333333333, 15.333333333333, 15.4, 15.4, 15.4, 15.5, 15.5, 15.5, 15.5, 15.5, 15.5, 15.5, 15.5, 15.5, 15.5, 15.5, 15.5, 15.510638297872, 15.512820512821, 15.51724137931, 15.51724137931, 15.52, 15.52, 15.521739130435, 15.521739130435, 15.52380952381, 15.526315789474, 15.526315789474, 15.529411764706, 15.538461538462, 15.538461538462, 15.545454545455, 15.545454545455, 15.545454545455, 15.555555555556, 15.555555555556, 15.555555555556, 15.571428571429, 15.597222222222, 15.6, 15.6, 15.615384615385, 15.625, 15.666666666667, 15.666666666667, 15.666666666667, 15.702702702703, 15.769230769231, 15.8, 15.807692307692, 15.833333333333, 15.857142857143, 15.882352941176, 15.892857142857, 15.896551724138, 15.9, 15.9, 16.0, 16.0, 16.0, 16.0, 16.0, 16.0, 16.0, 16.0, 16.0, 16.0, 16.0, 16.0, 16.0, 16.0, 16.0, 16.0, 16.0, 16.0, 16.0, 16.0, 16.0, 16.0, 16.0, 16.0, 16.0, 16.0, 16.0, 16.0, 16.0, 16.0, 16.0, 16.0, 16.0]
+[DEBUG] 11-09-2025 22:21:36 - scan_price_search: itemId=5250, average_price=15.6685, highest_price=16.0
+[DEBUG] 11-09-2025 22:21:36 - scan_price_search: found 1 result(s)
+[DEBUG] 11-09-2025 22:21:36 - Updated item value: ID:5250, Name:Ascension Wedge(Legendary), Average Price:15.6685, Highest Price:16.0
+[DEBUG] 11-09-2025 22:21:36 - Logged to search_price_log.json: ID:5250, Price:15.6685, Type:Cube Materials
+[DEBUG] 11-09-2025 22:21:43 - scan_init_bag: wrote 192 init bag log lines to init_bag_msg.log
+[DEBUG] 11-09-2025 22:21:43 - scan_init_bag: found 178 items in bag
+[DEBUG] 11-09-2025 22:21:43 - scan_init_bag: updated state.bag_items with 178 items
+[DEBUG] 11-09-2025 22:21:43 - scan_init_bag: wrote 178 items to bag_log.json
+[DEBUG] 11-09-2025 22:21:47 - scan_price_search: itemId=10180, synId=84292, values_count=100, prices=[0.64646464646465, 0.6875, 0.69736842105263, 0.71153846153846, 0.71428571428571, 0.71428571428571, 0.71428571428571, 0.71666666666667, 0.71717171717172, 0.71717171717172, 0.71717171717172, 0.71794871794872, 0.71875, 0.71875, 0.72222222222222, 0.72222222222222, 0.72222222222222, 0.72307692307692, 0.72307692307692, 0.72340425531915, 0.72368421052632, 0.72368421052632, 0.72413793103448, 0.72413793103448, 0.725, 0.725, 0.72727272727273, 0.72727272727273, 0.72727272727273, 0.72727272727273, 0.72727272727273, 0.72727272727273, 0.72727272727273, 0.72727272727273, 0.72727272727273, 0.72727272727273, 0.72727272727273, 0.72727272727273, 0.72727272727273, 0.72727272727273, 0.72727272727273, 0.72727272727273, 0.72727272727273, 0.72727272727273, 0.72727272727273, 0.72727272727273, 0.72727272727273, 0.72727272727273, 0.72727272727273, 0.72727272727273, 0.72727272727273, 0.72727272727273, 0.72727272727273, 0.72727272727273, 0.73015873015873, 0.73076923076923, 0.73170731707317, 0.73170731707317, 0.73170731707317, 0.73170731707317, 0.73170731707317, 0.73170731707317, 0.73214285714286, 0.73214285714286, 0.73255813953488, 0.73333333333333, 0.73333333333333, 0.73333333333333, 0.73333333333333, 0.73333333333333, 0.73333333333333, 0.73333333333333, 0.73333333333333, 0.73333333333333, 0.73333333333333, 0.73417721518987, 0.73469387755102, 0.73493975903614, 0.73529411764706, 0.73563218390805, 0.73626373626374, 0.73626373626374, 0.73684210526316, 0.73684210526316, 0.73684210526316, 0.73684210526316, 0.73684210526316, 0.73684210526316, 0.73684210526316, 0.73684210526316, 0.73737373737374, 0.73737373737374, 0.73737373737374, 0.73737373737374, 0.73737373737374, 0.73737373737374, 0.73737373737374, 0.73737373737374, 0.73737373737374, 0.73737373737374]
+[DEBUG] 11-09-2025 22:21:47 - scan_price_search: itemId=10180, average_price=0.7275, highest_price=0.7374
+[DEBUG] 11-09-2025 22:21:47 - scan_price_search: found 1 result(s)
+[DEBUG] 11-09-2025 22:21:47 - Updated item value: ID:10180, Name:Cube Compass, Average Price:0.7275, Highest Price:0.7374
+[DEBUG] 11-09-2025 22:21:47 - Logged to search_price_log.json: ID:10180, Price:0.7275, Type:Compass
+[DEBUG] 11-09-2025 22:21:55 - scan_price_search: itemId=10042, synId=84309, values_count=100, prices=[0.25252525252525, 0.25454545454545, 0.25609756097561, 0.275, 0.27586206896552, 0.28205128205128, 0.28282828282828, 0.28282828282828, 0.28282828282828, 0.28282828282828, 0.28282828282828, 0.28282828282828, 0.28282828282828, 0.28571428571429, 0.29166666666667, 0.29166666666667, 0.29268292682927, 0.29292929292929, 0.29292929292929, 0.29292929292929, 0.29292929292929, 0.29292929292929, 0.29292929292929, 0.29292929292929, 0.29292929292929, 0.29292929292929, 0.29292929292929, 0.29292929292929, 0.29292929292929, 0.29292929292929, 0.29292929292929, 0.29292929292929, 0.29292929292929, 0.29292929292929, 0.29292929292929, 0.29292929292929, 0.29292929292929, 0.29292929292929, 0.29292929292929, 0.29292929292929, 0.29292929292929, 0.29292929292929, 0.29292929292929, 0.29292929292929, 0.29292929292929, 0.29292929292929, 0.29292929292929, 0.29292929292929, 0.29292929292929, 0.29292929292929, 0.29292929292929, 0.29292929292929, 0.29292929292929, 0.29292929292929, 0.29292929292929, 0.29292929292929, 0.29292929292929, 0.29292929292929, 0.29292929292929, 0.29292929292929, 0.29292929292929, 0.29292929292929, 0.29292929292929, 0.29292929292929, 0.29292929292929, 0.29292929292929, 0.29292929292929, 0.29292929292929, 0.29347826086957, 0.29347826086957, 0.29411764705882, 0.29411764705882, 0.29411764705882, 0.29411764705882, 0.29411764705882, 0.29411764705882, 0.29473684210526, 0.29508196721311, 0.29508196721311, 0.29545454545455, 0.2962962962963, 0.2962962962963, 0.296875, 0.29824561403509, 0.2987012987013, 0.29885057471264, 0.3, 0.3, 0.3, 0.3, 0.3, 0.3010752688172, 0.30120481927711, 0.30120481927711, 0.30120481927711, 0.30120481927711, 0.3013698630137, 0.3013698630137, 0.3015873015873, 0.3015873015873]
+[DEBUG] 11-09-2025 22:21:55 - scan_price_search: itemId=10042, average_price=0.2921, highest_price=0.3016
+[DEBUG] 11-09-2025 22:21:55 - scan_price_search: found 1 result(s)
+[DEBUG] 11-09-2025 22:21:55 - Updated item value: ID:10042, Name:Rival Compass, Average Price:0.2921, Highest Price:0.3016
+[DEBUG] 11-09-2025 22:21:55 - Logged to search_price_log.json: ID:10042, Price:0.2921, Type:Compass
+[DEBUG] 11-09-2025 22:22:03 - scan_price_search: itemId=10032, synId=84321, values_count=100, prices=[0.27272727272727, 0.27272727272727, 0.28070175438596, 0.28125, 0.28282828282828, 0.28282828282828, 0.28282828282828, 0.28282828282828, 0.28282828282828, 0.28282828282828, 0.28282828282828, 0.28282828282828, 0.28282828282828, 0.28282828282828, 0.28282828282828, 0.28282828282828, 0.28282828282828, 0.28282828282828, 0.28282828282828, 0.28282828282828, 0.28282828282828, 0.28282828282828, 0.28282828282828, 0.28282828282828, 0.28282828282828, 0.28333333333333, 0.28571428571429, 0.28571428571429, 0.28571428571429, 0.28571428571429, 0.28571428571429, 0.28571428571429, 0.28571428571429, 0.28571428571429, 0.28571428571429, 0.28571428571429, 0.29032258064516, 0.29032258064516, 0.2906976744186, 0.29090909090909, 0.29166666666667, 0.29268292682927, 0.29268292682927, 0.29292929292929, 0.29292929292929, 0.29292929292929, 0.29292929292929, 0.29292929292929, 0.29292929292929, 0.29292929292929, 0.29292929292929, 0.29292929292929, 0.29292929292929, 0.29292929292929, 0.29292929292929, 0.29292929292929, 0.29292929292929, 0.29292929292929, 0.29292929292929, 0.29292929292929, 0.29292929292929, 0.29292929292929, 0.29292929292929, 0.29292929292929, 0.29292929292929, 0.29292929292929, 0.29292929292929, 0.29292929292929, 0.29292929292929, 0.29292929292929, 0.29292929292929, 0.29292929292929, 0.29292929292929, 0.29292929292929, 0.29292929292929, 0.29292929292929, 0.29292929292929, 0.29411764705882, 0.29411764705882, 0.29411764705882, 0.29411764705882, 0.29411764705882, 0.29411764705882, 0.29473684210526, 0.29850746268657, 0.3, 0.3, 0.3, 0.3, 0.3, 0.3, 0.3, 0.3, 0.30120481927711, 0.3015873015873, 0.3015873015873, 0.30188679245283, 0.30208333333333, 0.30208333333333, 0.30232558139535]
+[DEBUG] 11-09-2025 22:22:03 - scan_price_search: itemId=10032, average_price=0.2906, highest_price=0.3023
+[DEBUG] 11-09-2025 22:22:03 - scan_price_search: found 1 result(s)
+[DEBUG] 11-09-2025 22:22:03 - Updated item value: ID:10032, Name:Elite Compass, Average Price:0.2906, Highest Price:0.3023
+[DEBUG] 11-09-2025 22:22:03 - Logged to search_price_log.json: ID:10032, Price:0.2906, Type:Compass
+[DEBUG] 11-09-2025 22:23:03 - BEFORE MAP ENTRY - state.bag_items count: 178, items: ['3611', '4535', '4631', '261005', '260005', '71003', '71001', '360616', '360502', '3811']
+[DEBUG] 11-09-2025 22:23:03 -   - 3611: Item 3611 x2
+[DEBUG] 11-09-2025 22:23:03 -   - 4535: Item 4535 x1
+[DEBUG] 11-09-2025 22:23:03 -   - 4631: Item 4631 x1
+[DEBUG] 11-09-2025 22:23:03 -   - 261005: Item 261005 x1
+[DEBUG] 11-09-2025 22:23:03 -   - 260005: Item 260005 x1
+[DEBUG] 11-09-2025 22:23:03 - KEEPING bag_items from cache, count: 178
+[DEBUG] 11-09-2025 22:23:03 - AFTER scan_init_bag - init_bag_data count: 0, state.bag_items count: 178
+[DEBUG] 11-09-2025 22:23:03 - Using cached bag_items from bag_log.json as baseline (no init bag event found)
+[DEBUG] 11-09-2025 22:23:03 -   Cached items count: 178
+[DEBUG] 11-09-2025 22:23:13 - scan_drop_log: found 1 drop item(s)
+[DEBUG] 11-09-2025 22:23:13 - previous_quantity: 912, current_quantity: 913
+[DEBUG] 11-09-2025 22:23:13 - drop item 5080 x1
+[DEBUG] 11-09-2025 22:23:19 - scan_drop_log: found 1 drop item(s)
+[DEBUG] 11-09-2025 22:23:19 - previous_quantity: 2483, current_quantity: 487
+[DEBUG] 11-09-2025 22:23:24 - scan_drop_log: found 3 drop item(s)
+[DEBUG] 11-09-2025 22:23:24 - previous_quantity: 17, current_quantity: 18
+[DEBUG] 11-09-2025 22:23:24 - drop item 400007 x1
+[DEBUG] 11-09-2025 22:23:24 - previous_quantity: 487, current_quantity: 493
+[DEBUG] 11-09-2025 22:23:24 - drop item 100200 x6
+[DEBUG] 11-09-2025 22:23:24 - previous_quantity: 493, current_quantity: 499
+[DEBUG] 11-09-2025 22:23:24 - drop item 100200 x6
+[DEBUG] 11-09-2025 22:23:27 - scan_drop_log: found 1 drop item(s)
+[DEBUG] 11-09-2025 22:23:27 - previous_quantity: 302, current_quantity: 288
+[DEBUG] 11-09-2025 22:23:39 - scan_drop_log: found 3 drop item(s)
+[DEBUG] 11-09-2025 22:23:39 - previous_quantity: 499, current_quantity: 500
+[DEBUG] 11-09-2025 22:23:39 - drop item 100200 x1
+[DEBUG] 11-09-2025 22:23:39 - previous_quantity: 500, current_quantity: 502
+[DEBUG] 11-09-2025 22:23:39 - drop item 100200 x2
+[DEBUG] 11-09-2025 22:23:40 - previous_quantity: 1959, current_quantity: 1960
+[DEBUG] 11-09-2025 22:23:40 - drop item 200028 x1
+[DEBUG] 11-09-2025 22:23:41 - scan_drop_log: found 2 drop item(s)
+[DEBUG] 11-09-2025 22:23:41 - previous_quantity: 502, current_quantity: 505
+[DEBUG] 11-09-2025 22:23:41 - drop item 100200 x3
+[DEBUG] 11-09-2025 22:23:41 - previous_quantity: 505, current_quantity: 507
+[DEBUG] 11-09-2025 22:23:41 - drop item 100200 x2
+[DEBUG] 11-09-2025 22:23:42 - scan_drop_log: found 1 drop item(s)
+[DEBUG] 11-09-2025 22:23:42 - previous_quantity: 507, current_quantity: 509
+[DEBUG] 11-09-2025 22:23:42 - drop item 100200 x2
+[DEBUG] 11-09-2025 22:23:46 - scan_drop_log: found 1 drop item(s)
+[DEBUG] 11-09-2025 22:23:46 - previous_quantity: 509, current_quantity: 510
+[DEBUG] 11-09-2025 22:23:46 - drop item 100200 x1
+[DEBUG] 11-09-2025 22:23:48 - scan_drop_log: found 1 drop item(s)
+[DEBUG] 11-09-2025 22:23:48 - previous_quantity: 510, current_quantity: 511
+[DEBUG] 11-09-2025 22:23:48 - drop item 100200 x1
+[DEBUG] 11-09-2025 22:23:50 - scan_drop_log: found 1 drop item(s)
+[DEBUG] 11-09-2025 22:23:50 - previous_quantity: 511, current_quantity: 512
+[DEBUG] 11-09-2025 22:23:50 - drop item 100200 x1
+[DEBUG] 11-09-2025 22:23:51 - scan_drop_log: found 3 drop item(s)
+[DEBUG] 11-09-2025 22:23:51 - previous_quantity: 512, current_quantity: 514
+[DEBUG] 11-09-2025 22:23:51 - drop item 100200 x2
+[DEBUG] 11-09-2025 22:23:51 - previous_quantity: 514, current_quantity: 519
+[DEBUG] 11-09-2025 22:23:51 - drop item 100200 x5
+[DEBUG] 11-09-2025 22:23:51 - previous_quantity: 519, current_quantity: 520
+[DEBUG] 11-09-2025 22:23:51 - drop item 100200 x1
+[DEBUG] 11-09-2025 22:23:52 - scan_drop_log: found 1 drop item(s)
+[DEBUG] 11-09-2025 22:23:52 - previous_quantity: 520, current_quantity: 522
+[DEBUG] 11-09-2025 22:23:52 - drop item 100200 x2
+[DEBUG] 11-09-2025 22:23:53 - scan_drop_log: found 1 drop item(s)
+[DEBUG] 11-09-2025 22:23:53 - previous_quantity: 522, current_quantity: 525
+[DEBUG] 11-09-2025 22:23:53 - drop item 100200 x3
+[DEBUG] 11-09-2025 22:23:54 - scan_drop_log: found 2 drop item(s)
+[DEBUG] 11-09-2025 22:23:54 - previous_quantity: 525, current_quantity: 526
+[DEBUG] 11-09-2025 22:23:54 - drop item 100200 x1
+[DEBUG] 11-09-2025 22:23:54 - previous_quantity: 526, current_quantity: 528
+[DEBUG] 11-09-2025 22:23:54 - drop item 100200 x2
+[DEBUG] 11-09-2025 22:23:56 - scan_drop_log: found 1 drop item(s)
+[DEBUG] 11-09-2025 22:23:56 - previous_quantity: 528, current_quantity: 529
+[DEBUG] 11-09-2025 22:23:56 - drop item 100200 x1
+[DEBUG] 11-09-2025 22:23:58 - scan_drop_log: found 1 drop item(s)
+[DEBUG] 11-09-2025 22:23:58 - previous_quantity: 529, current_quantity: 530
+[DEBUG] 11-09-2025 22:23:58 - drop item 100200 x1
+[DEBUG] 11-09-2025 22:23:59 - scan_drop_log: found 1 drop item(s)
+[DEBUG] 11-09-2025 22:23:59 - previous_quantity: 530, current_quantity: 532
+[DEBUG] 11-09-2025 22:23:59 - drop item 100200 x2
+[DEBUG] 11-09-2025 22:24:00 - scan_drop_log: found 2 drop item(s)
+[DEBUG] 11-09-2025 22:24:00 - previous_quantity: 532, current_quantity: 538
+[DEBUG] 11-09-2025 22:24:00 - drop item 100200 x6
+[DEBUG] 11-09-2025 22:24:00 - previous_quantity: 538, current_quantity: 539
+[DEBUG] 11-09-2025 22:24:00 - drop item 100200 x1
+[DEBUG] 11-09-2025 22:24:01 - scan_drop_log: found 1 drop item(s)
+[DEBUG] 11-09-2025 22:24:01 - previous_quantity: 539, current_quantity: 541
+[DEBUG] 11-09-2025 22:24:01 - drop item 100200 x2
+[DEBUG] 11-09-2025 22:24:02 - scan_drop_log: found 1 drop item(s)
+[DEBUG] 11-09-2025 22:24:02 - previous_quantity: 541, current_quantity: 542
+[DEBUG] 11-09-2025 22:24:02 - drop item 100200 x1
+[DEBUG] 11-09-2025 22:24:04 - scan_drop_log: found 1 drop item(s)
+[DEBUG] 11-09-2025 22:24:04 - previous_quantity: 237, current_quantity: 240
+[DEBUG] 11-09-2025 22:24:04 - drop item 100300 x3
+[DEBUG] 11-09-2025 22:24:05 - scan_drop_log: found 1 drop item(s)
+[DEBUG] 11-09-2025 22:24:05 - previous_quantity: 240, current_quantity: 241
+[DEBUG] 11-09-2025 22:24:05 - drop item 100300 x1
+[DEBUG] 11-09-2025 22:24:09 - scan_drop_log: found 2 drop item(s)
+[DEBUG] 11-09-2025 22:24:09 - previous_quantity: 288, current_quantity: 289
+[DEBUG] 11-09-2025 22:24:09 - drop item 5028 x1
+[DEBUG] 11-09-2025 22:24:09 - previous_quantity: 241, current_quantity: 242
+[DEBUG] 11-09-2025 22:24:09 - drop item 100300 x1
+[DEBUG] 11-09-2025 22:24:11 - scan_drop_log: found 1 drop item(s)
+[DEBUG] 11-09-2025 22:24:11 - previous_quantity: 289, current_quantity: 290
+[DEBUG] 11-09-2025 22:24:11 - drop item 5028 x1
+[DEBUG] 11-09-2025 22:24:20 - scan_drop_log: found 1 drop item(s)
+[DEBUG] 11-09-2025 22:24:20 - previous_quantity: 542, current_quantity: 545
+[DEBUG] 11-09-2025 22:24:20 - drop item 100200 x3
+[DEBUG] 11-09-2025 22:24:21 - scan_drop_log: found 1 drop item(s)
+[DEBUG] 11-09-2025 22:24:21 - previous_quantity: 873, current_quantity: 876
+[DEBUG] 11-09-2025 22:24:21 - drop item 5140 x3
+[DEBUG] 11-09-2025 22:24:24 - scan_drop_log: found 1 drop item(s)
+[DEBUG] 11-09-2025 22:24:24 - previous_quantity: 290, current_quantity: 296
+[DEBUG] 11-09-2025 22:24:24 - drop item 5028 x6
+[DEBUG] 11-09-2025 22:24:26 - scan_drop_log: found 1 drop item(s)
+[DEBUG] 11-09-2025 22:24:26 - previous_quantity: 8, current_quantity: 9
+[DEBUG] 11-09-2025 22:24:26 - drop item 3000001 x1
+[DEBUG] 11-09-2025 22:24:27 - profit logged: map #1, profit=-0.41, duration=84.91s
+[DEBUG] 11-09-2025 22:24:35 - BEFORE MAP ENTRY - state.bag_items count: 178, items: ['3611', '4535', '4631', '261005', '260005', '71003', '71001', '360616', '360502', '3811']
+[DEBUG] 11-09-2025 22:24:35 -   - 3611: Item 3611 x2
+[DEBUG] 11-09-2025 22:24:35 -   - 4535: Item 4535 x1
+[DEBUG] 11-09-2025 22:24:35 -   - 4631: Item 4631 x1
+[DEBUG] 11-09-2025 22:24:35 -   - 261005: Item 261005 x1
+[DEBUG] 11-09-2025 22:24:35 -   - 260005: Item 260005 x1
+[DEBUG] 11-09-2025 22:24:35 - KEEPING bag_items from cache, count: 178
+[DEBUG] 11-09-2025 22:24:35 - AFTER scan_init_bag - init_bag_data count: 0, state.bag_items count: 178
+[DEBUG] 11-09-2025 22:24:35 - Using cached bag_items from bag_log.json as baseline (no init bag event found)
+[DEBUG] 11-09-2025 22:24:35 -   Cached items count: 178
+[DEBUG] 11-09-2025 22:24:43 - scan_drop_log: found 1 drop item(s)
+[DEBUG] 11-09-2025 22:24:43 - previous_quantity: 913, current_quantity: 914
+[DEBUG] 11-09-2025 22:24:43 - drop item 5080 x1
+[DEBUG] 11-09-2025 22:24:44 - scan_drop_log: found 1 drop item(s)
+[DEBUG] 11-09-2025 22:24:44 - previous_quantity: 242, current_quantity: 262
+[DEBUG] 11-09-2025 22:24:44 - drop item 100300 x20
+[DEBUG] 11-09-2025 22:24:45 - scan_drop_log: found 2 drop item(s)
+[DEBUG] 11-09-2025 22:24:45 - previous_quantity: 545, current_quantity: 547
+[DEBUG] 11-09-2025 22:24:45 - drop item 100200 x2
+[DEBUG] 11-09-2025 22:24:45 - previous_quantity: 876, current_quantity: 881
+[DEBUG] 11-09-2025 22:24:45 - drop item 5140 x5
+[DEBUG] 11-09-2025 22:24:47 - scan_drop_log: found 1 drop item(s)
+[DEBUG] 11-09-2025 22:24:47 - previous_quantity: 296, current_quantity: 285
+[DEBUG] 11-09-2025 22:24:50 - scan_drop_log: found 1 drop item(s)
+[DEBUG] 11-09-2025 22:24:50 - previous_quantity: 285, current_quantity: 286
+[DEBUG] 11-09-2025 22:24:50 - drop item 5028 x1
+[DEBUG] 11-09-2025 22:24:53 - scan_drop_log: found 1 drop item(s)
+[DEBUG] 11-09-2025 22:24:53 - previous_quantity: 881, current_quantity: 882
+[DEBUG] 11-09-2025 22:24:53 - drop item 5140 x1
+[DEBUG] 11-09-2025 22:24:55 - scan_drop_log: found 1 drop item(s)
+[DEBUG] 11-09-2025 22:24:55 - previous_quantity: 286, current_quantity: 291
+[DEBUG] 11-09-2025 22:24:55 - drop item 5028 x5
+[DEBUG] 11-09-2025 22:25:01 - scan_drop_log: found 1 drop item(s)
+[DEBUG] 11-09-2025 22:25:01 - previous_quantity: 547, current_quantity: 549
+[DEBUG] 11-09-2025 22:25:01 - drop item 100200 x2
+[DEBUG] 11-09-2025 22:25:02 - scan_drop_log: found 1 drop item(s)
+[DEBUG] 11-09-2025 22:25:02 - previous_quantity: 549, current_quantity: 550
+[DEBUG] 11-09-2025 22:25:02 - drop item 100200 x1
+[DEBUG] 11-09-2025 22:25:03 - scan_drop_log: found 2 drop item(s)
+[DEBUG] 11-09-2025 22:25:03 - previous_quantity: 550, current_quantity: 551
+[DEBUG] 11-09-2025 22:25:03 - drop item 100200 x1
+[DEBUG] 11-09-2025 22:25:03 - previous_quantity: 551, current_quantity: 552
+[DEBUG] 11-09-2025 22:25:03 - drop item 100200 x1
+[DEBUG] 11-09-2025 22:25:04 - scan_drop_log: found 1 drop item(s)
+[DEBUG] 11-09-2025 22:25:04 - previous_quantity: 552, current_quantity: 555
+[DEBUG] 11-09-2025 22:25:04 - drop item 100200 x3
+[DEBUG] 11-09-2025 22:25:06 - scan_drop_log: found 1 drop item(s)
+[DEBUG] 11-09-2025 22:25:06 - previous_quantity: 555, current_quantity: 558
+[DEBUG] 11-09-2025 22:25:06 - drop item 100200 x3
+[DEBUG] 11-09-2025 22:25:07 - scan_drop_log: found 1 drop item(s)
+[DEBUG] 11-09-2025 22:25:07 - previous_quantity: 558, current_quantity: 559
+[DEBUG] 11-09-2025 22:25:07 - drop item 100200 x1
+[DEBUG] 11-09-2025 22:25:09 - scan_drop_log: found 2 drop item(s)
+[DEBUG] 11-09-2025 22:25:09 - previous_quantity: 559, current_quantity: 560
+[DEBUG] 11-09-2025 22:25:09 - drop item 100200 x1
+[DEBUG] 11-09-2025 22:25:09 - previous_quantity: 560, current_quantity: 561
+[DEBUG] 11-09-2025 22:25:09 - drop item 100200 x1
+[DEBUG] 11-09-2025 22:25:10 - scan_drop_log: found 1 drop item(s)
+[DEBUG] 11-09-2025 22:25:10 - previous_quantity: 1960, current_quantity: 1961
+[DEBUG] 11-09-2025 22:25:10 - drop item 200028 x1
+[DEBUG] 11-09-2025 22:25:11 - scan_drop_log: found 2 drop item(s)
+[DEBUG] 11-09-2025 22:25:11 - previous_quantity: 561, current_quantity: 562
+[DEBUG] 11-09-2025 22:25:11 - drop item 100200 x1
+[DEBUG] 11-09-2025 22:25:11 - previous_quantity: 562, current_quantity: 563
+[DEBUG] 11-09-2025 22:25:11 - drop item 100200 x1
+[DEBUG] 11-09-2025 22:25:12 - scan_drop_log: found 2 drop item(s)
+[DEBUG] 11-09-2025 22:25:12 - previous_quantity: 563, current_quantity: 568
+[DEBUG] 11-09-2025 22:25:12 - drop item 100200 x5
+[DEBUG] 11-09-2025 22:25:12 - previous_quantity: 568, current_quantity: 574
+[DEBUG] 11-09-2025 22:25:12 - drop item 100200 x6
+[DEBUG] 11-09-2025 22:25:13 - scan_drop_log: found 4 drop item(s)
+[DEBUG] 11-09-2025 22:25:13 - previous_quantity: 574, current_quantity: 575
+[DEBUG] 11-09-2025 22:25:13 - drop item 100200 x1
+[DEBUG] 11-09-2025 22:25:13 - previous_quantity: 575, current_quantity: 576
+[DEBUG] 11-09-2025 22:25:13 - drop item 100200 x1
+[DEBUG] 11-09-2025 22:25:13 - previous_quantity: 576, current_quantity: 577
+[DEBUG] 11-09-2025 22:25:13 - drop item 100200 x1
+[DEBUG] 11-09-2025 22:25:13 - previous_quantity: 577, current_quantity: 579
+[DEBUG] 11-09-2025 22:25:13 - drop item 100200 x2
+[DEBUG] 11-09-2025 22:25:14 - scan_drop_log: found 3 drop item(s)
+[DEBUG] 11-09-2025 22:25:14 - previous_quantity: 579, current_quantity: 580
+[DEBUG] 11-09-2025 22:25:14 - drop item 100200 x1
+[DEBUG] 11-09-2025 22:25:14 - previous_quantity: 580, current_quantity: 582
+[DEBUG] 11-09-2025 22:25:14 - drop item 100200 x2
+[DEBUG] 11-09-2025 22:25:14 - previous_quantity: 582, current_quantity: 583
+[DEBUG] 11-09-2025 22:25:14 - drop item 100200 x1
+[DEBUG] 11-09-2025 22:25:16 - scan_drop_log: found 2 drop item(s)
+[DEBUG] 11-09-2025 22:25:16 - previous_quantity: 583, current_quantity: 604
+[DEBUG] 11-09-2025 22:25:16 - drop item 100200 x21
+[DEBUG] 11-09-2025 22:25:16 - previous_quantity: 604, current_quantity: 605
+[DEBUG] 11-09-2025 22:25:16 - drop item 100200 x1
+[DEBUG] 11-09-2025 22:25:17 - scan_drop_log: found 2 drop item(s)
+[DEBUG] 11-09-2025 22:25:17 - previous_quantity: 605, current_quantity: 606
+[DEBUG] 11-09-2025 22:25:17 - drop item 100200 x1
+[DEBUG] 11-09-2025 22:25:17 - previous_quantity: 262, current_quantity: 267
+[DEBUG] 11-09-2025 22:25:17 - drop item 100300 x5
+[DEBUG] 11-09-2025 22:25:19 - scan_drop_log: found 3 drop item(s)
+[DEBUG] 11-09-2025 22:25:19 - previous_quantity: 606, current_quantity: 608
+[DEBUG] 11-09-2025 22:25:19 - drop item 100200 x2
+[DEBUG] 11-09-2025 22:25:19 - previous_quantity: 608, current_quantity: 609
+[DEBUG] 11-09-2025 22:25:19 - drop item 100200 x1
+[DEBUG] 11-09-2025 22:25:19 - previous_quantity: 609, current_quantity: 610
+[DEBUG] 11-09-2025 22:25:19 - drop item 100200 x1
+[DEBUG] 11-09-2025 22:25:20 - scan_drop_log: found 1 drop item(s)
+[DEBUG] 11-09-2025 22:25:20 - previous_quantity: 610, current_quantity: 612
+[DEBUG] 11-09-2025 22:25:20 - drop item 100200 x2
+[DEBUG] 11-09-2025 22:25:21 - scan_drop_log: found 1 drop item(s)
+[DEBUG] 11-09-2025 22:25:21 - previous_quantity: 267, current_quantity: 269
+[DEBUG] 11-09-2025 22:25:21 - drop item 100300 x2
+[DEBUG] 11-09-2025 22:25:24 - scan_drop_log: found 2 drop item(s)
+[DEBUG] 11-09-2025 22:25:24 - previous_quantity: 291, current_quantity: 292
+[DEBUG] 11-09-2025 22:25:24 - drop item 5028 x1
+[DEBUG] 11-09-2025 22:25:24 - previous_quantity: 914, current_quantity: 916
+[DEBUG] 11-09-2025 22:25:24 - drop item 5080 x2
+[DEBUG] 11-09-2025 22:25:29 - scan_drop_log: found 2 drop item(s)
+[DEBUG] 11-09-2025 22:25:29 - previous_quantity: 612, current_quantity: 615
+[DEBUG] 11-09-2025 22:25:29 - drop item 100200 x3
+[DEBUG] 11-09-2025 22:25:29 - previous_quantity: 615, current_quantity: 621
+[DEBUG] 11-09-2025 22:25:29 - drop item 100200 x6
+[DEBUG] 11-09-2025 22:25:30 - scan_drop_log: found 1 drop item(s)
+[DEBUG] 11-09-2025 22:25:30 - previous_quantity: 269, current_quantity: 270
+[DEBUG] 11-09-2025 22:25:30 - drop item 100300 x1
+[DEBUG] 11-09-2025 22:25:37 - scan_drop_log: found 1 drop item(s)
+[DEBUG] 11-09-2025 22:25:37 - previous_quantity: 292, current_quantity: 293
+[DEBUG] 11-09-2025 22:25:37 - drop item 5028 x1
+[DEBUG] 11-09-2025 22:25:40 - scan_drop_log: found 1 drop item(s)
+[DEBUG] 11-09-2025 22:25:40 - previous_quantity: 621, current_quantity: 623
+[DEBUG] 11-09-2025 22:25:40 - drop item 100200 x2
+[DEBUG] 11-09-2025 22:25:42 - profit logged: map #2, profit=22.65, duration=67.75s
+[DEBUG] 11-09-2025 22:25:59 - BEFORE MAP ENTRY - state.bag_items count: 178, items: ['3611', '4535', '4631', '261005', '260005', '71003', '71001', '360616', '360502', '3811']
+[DEBUG] 11-09-2025 22:25:59 -   - 3611: Item 3611 x2
+[DEBUG] 11-09-2025 22:25:59 -   - 4535: Item 4535 x1
+[DEBUG] 11-09-2025 22:25:59 -   - 4631: Item 4631 x1
+[DEBUG] 11-09-2025 22:25:59 -   - 261005: Item 261005 x1
+[DEBUG] 11-09-2025 22:25:59 -   - 260005: Item 260005 x1
+[DEBUG] 11-09-2025 22:25:59 - KEEPING bag_items from cache, count: 178
+[DEBUG] 11-09-2025 22:25:59 - AFTER scan_init_bag - init_bag_data count: 0, state.bag_items count: 178
+[DEBUG] 11-09-2025 22:25:59 - Using cached bag_items from bag_log.json as baseline (no init bag event found)
+[DEBUG] 11-09-2025 22:25:59 -   Cached items count: 178
+[DEBUG] 11-09-2025 22:26:25 - scan_drop_log: found 1 drop item(s)
+[DEBUG] 11-09-2025 22:26:25 - previous_quantity: 623, current_quantity: 625
+[DEBUG] 11-09-2025 22:26:25 - drop item 100200 x2
+[DEBUG] 11-09-2025 22:26:27 - scan_drop_log: found 1 drop item(s)
+[DEBUG] 11-09-2025 22:26:27 - previous_quantity: 293, current_quantity: 279
+[DEBUG] 11-09-2025 22:26:28 - scan_drop_log: found 1 drop item(s)
+[DEBUG] 11-09-2025 22:26:28 - previous_quantity: 279, current_quantity: 281
+[DEBUG] 11-09-2025 22:26:28 - drop item 5028 x2
+[DEBUG] 11-09-2025 22:26:30 - scan_drop_log: found 1 drop item(s)
+[DEBUG] 11-09-2025 22:26:30 - previous_quantity: 916, current_quantity: 918
+[DEBUG] 11-09-2025 22:26:30 - drop item 5080 x2
+[DEBUG] 11-09-2025 22:26:31 - scan_drop_log: found 1 drop item(s)
+[DEBUG] 11-09-2025 22:26:31 - previous_quantity: 281, current_quantity: 283
+[DEBUG] 11-09-2025 22:26:31 - drop item 5028 x2
+[DEBUG] 11-09-2025 22:26:36 - scan_drop_log: found 2 drop item(s)
+[DEBUG] 11-09-2025 22:26:36 - previous_quantity: 270, current_quantity: 276
+[DEBUG] 11-09-2025 22:26:36 - drop item 100300 x6
+[DEBUG] 11-09-2025 22:26:36 - previous_quantity: 3172, current_quantity: 3173
+[DEBUG] 11-09-2025 22:26:36 - drop item 200029 x1
+[DEBUG] 11-09-2025 22:26:38 - scan_drop_log: found 1 drop item(s)
+[DEBUG] 11-09-2025 22:26:38 - previous_quantity: 625, current_quantity: 626
+[DEBUG] 11-09-2025 22:26:38 - drop item 100200 x1
+[DEBUG] 11-09-2025 22:26:49 - scan_drop_log: found 2 drop item(s)
+[DEBUG] 11-09-2025 22:26:49 - previous_quantity: 3173, current_quantity: 3174
+[DEBUG] 11-09-2025 22:26:49 - drop item 200029 x1
+[DEBUG] 11-09-2025 22:26:49 - previous_quantity: 1961, current_quantity: 1972
+[DEBUG] 11-09-2025 22:26:49 - drop item 200028 x11
+[DEBUG] 11-09-2025 22:26:52 - scan_drop_log: found 1 drop item(s)
+[DEBUG] 11-09-2025 22:26:52 - previous_quantity: 283, current_quantity: 285
+[DEBUG] 11-09-2025 22:26:52 - drop item 5028 x2
+[DEBUG] 11-09-2025 22:26:55 - scan_drop_log: found 1 drop item(s)
+[DEBUG] 11-09-2025 22:26:55 - previous_quantity: 276, current_quantity: 277
+[DEBUG] 11-09-2025 22:26:55 - drop item 100300 x1
+[DEBUG] 11-09-2025 22:27:01 - scan_drop_log: found 1 drop item(s)
+[DEBUG] 11-09-2025 22:27:01 - previous_quantity: 626, current_quantity: 627
+[DEBUG] 11-09-2025 22:27:01 - drop item 100200 x1
+[DEBUG] 11-09-2025 22:27:14 - scan_drop_log: found 1 drop item(s)
+[DEBUG] 11-09-2025 22:27:14 - previous_quantity: 1972, current_quantity: 1974
+[DEBUG] 11-09-2025 22:27:14 - drop item 200028 x2
+[DEBUG] 11-09-2025 22:27:16 - scan_drop_log: found 1 drop item(s)
+[DEBUG] 11-09-2025 22:27:16 - previous_quantity: 5, current_quantity: 9
+[DEBUG] 11-09-2025 22:27:16 - drop item 6004 x4
+[DEBUG] 11-09-2025 22:27:19 - scan_drop_log: found 2 drop item(s)
+[DEBUG] 11-09-2025 22:27:19 - previous_quantity: 1974, current_quantity: 1976
+[DEBUG] 11-09-2025 22:27:19 - drop item 200028 x2
+[DEBUG] 11-09-2025 22:27:19 - previous_quantity: 285, current_quantity: 287
+[DEBUG] 11-09-2025 22:27:19 - drop item 5028 x2
+[DEBUG] 11-09-2025 22:27:20 - scan_drop_log: found 2 drop item(s)
+[DEBUG] 11-09-2025 22:27:20 - previous_quantity: 9, current_quantity: 14
+[DEBUG] 11-09-2025 22:27:20 - drop item 6004 x5
+[DEBUG] 11-09-2025 22:27:20 - previous_quantity: 277, current_quantity: 289
+[DEBUG] 11-09-2025 22:27:20 - drop item 100300 x12
+[DEBUG] 11-09-2025 22:27:22 - scan_drop_log: found 2 drop item(s)
+[DEBUG] 11-09-2025 22:27:22 - previous_quantity: 3174, current_quantity: 3180
+[DEBUG] 11-09-2025 22:27:22 - drop item 200029 x6
+[DEBUG] 11-09-2025 22:27:22 - previous_quantity: 0, current_quantity: 1
+[DEBUG] 11-09-2025 22:27:22 - drop item 140004 x1
+[DEBUG] 11-09-2025 22:27:26 - scan_drop_log: found 1 drop item(s)
+[DEBUG] 11-09-2025 22:27:26 - previous_quantity: 14, current_quantity: 18
+[DEBUG] 11-09-2025 22:27:26 - drop item 6004 x4
+[DEBUG] 11-09-2025 22:27:35 - scan_price_search: itemId=140005, synId=91355, values_count=100, prices=[6.0, 6.0, 6.0, 6.0, 6.0, 6.0, 6.0, 6.0, 6.0, 6.0, 6.0, 6.0, 6.0, 6.0, 6.0, 6.0, 6.0, 6.0769230769231, 6.0769230769231, 6.0769230769231, 6.0909090909091, 6.0952380952381, 6.0952380952381, 6.0967741935484, 6.0972222222222, 6.1, 6.1, 6.1034482758621, 6.1034482758621, 6.1034482758621, 6.1041666666667, 6.1071428571429, 6.1111111111111, 6.1111111111111, 6.1111111111111, 6.1111111111111, 6.1111111111111, 6.1111111111111, 6.1153846153846, 6.1176470588235, 6.125, 6.125, 6.125, 6.125, 6.125, 6.125, 6.1333333333333, 6.1428571428571, 6.1428571428571, 6.1428571428571, 6.1428571428571, 6.1428571428571, 6.1428571428571, 6.1428571428571, 6.1428571428571, 6.1428571428571, 6.1428571428571, 6.1456310679612, 6.1666666666667, 6.1666666666667, 6.1666666666667, 6.1666666666667, 6.1666666666667, 6.1666666666667, 6.1666666666667, 6.1666666666667, 6.1666666666667, 6.1666666666667, 6.1666666666667, 6.1764705882353, 6.1818181818182, 6.1818181818182, 6.1818181818182, 6.1818181818182, 6.1818181818182, 6.1818181818182, 6.1818181818182, 6.1851851851852, 6.1851851851852, 6.1875, 6.1875, 6.1875, 6.1904761904762, 6.1904761904762, 6.1904761904762, 6.1904761904762, 6.1904761904762, 6.1904761904762, 6.1904761904762, 6.1923076923077, 6.1929824561404, 6.1944444444444, 6.1951219512195, 6.1960784313725, 6.1964285714286, 6.2, 6.2, 6.2, 6.2, 6.2]
+[DEBUG] 11-09-2025 22:27:35 - scan_price_search: itemId=140005, average_price=6.125, highest_price=6.2
+[DEBUG] 11-09-2025 22:27:35 - scan_price_search: found 1 result(s)
+[DEBUG] 11-09-2025 22:27:35 - Updated item value: ID:140005, Name:Pale Dream Words - Armor, Average Price:6.125, Highest Price:6.2
+[DEBUG] 11-09-2025 22:27:35 - Logged to search_price_log.json: ID:140005, Price:6.125, Type:Dream Materials
+[DEBUG] 11-09-2025 22:27:39 - scan_price_search: itemId=140006, synId=91364, values_count=100, prices=[23.0, 23.0, 23.0, 23.0, 23.5, 23.5, 23.666666666667, 23.8, 23.818181818182, 23.833333333333, 23.888888888889, 23.897637795276, 23.904761904762, 23.909090909091, 23.909090909091, 23.911111111111, 23.923076923077, 23.928571428571, 24.0, 24.0, 24.0, 24.0, 24.0, 24.0, 24.0, 24.0, 24.0, 24.0, 24.0, 24.0, 24.0, 24.0, 24.0, 24.0, 24.0, 24.0, 24.0, 24.0, 24.0, 24.0, 24.0, 24.0, 24.0, 24.0, 24.0, 24.0, 24.0, 24.0, 24.0, 24.0, 24.0, 24.0, 24.0, 24.0, 24.0, 24.0, 24.0, 24.0, 24.0, 24.0, 24.0, 24.0, 24.0, 24.0, 24.0, 24.0, 24.0, 24.0, 24.0, 24.0, 24.0, 24.0, 24.0, 24.0, 24.0, 24.0, 24.0, 24.0, 24.0, 24.0, 24.0, 24.0, 24.0, 24.0, 24.0, 24.0, 24.0, 24.0, 24.0, 24.0, 24.0, 24.0, 24.0, 24.0, 24.0, 24.0, 24.0, 24.0, 24.0, 24.0]
+[DEBUG] 11-09-2025 22:27:39 - scan_price_search: itemId=140006, average_price=23.9339, highest_price=24.0
+[DEBUG] 11-09-2025 22:27:39 - scan_price_search: found 1 result(s)
+[DEBUG] 11-09-2025 22:27:39 - Updated item value: ID:140006, Name:Pale Dream Words - Accessory, Average Price:23.9339, Highest Price:24.0
+[DEBUG] 11-09-2025 22:27:39 - Logged to search_price_log.json: ID:140006, Price:23.9339, Type:Dream Materials
+[DEBUG] 11-09-2025 22:27:44 - scan_drop_log: found 2 drop item(s)
+[DEBUG] 11-09-2025 22:27:44 - previous_quantity: 287, current_quantity: 288
+[DEBUG] 11-09-2025 22:27:44 - drop item 5028 x1
+[DEBUG] 11-09-2025 22:27:44 - previous_quantity: 289, current_quantity: 290
+[DEBUG] 11-09-2025 22:27:44 - drop item 100300 x1
+[DEBUG] 11-09-2025 22:27:48 - scan_drop_log: found 1 drop item(s)
+[DEBUG] 11-09-2025 22:27:48 - previous_quantity: 290, current_quantity: 291
+[DEBUG] 11-09-2025 22:27:48 - drop item 100300 x1
+[DEBUG] 11-09-2025 22:27:56 - scan_drop_log: found 1 drop item(s)
+[DEBUG] 11-09-2025 22:27:56 - previous_quantity: 882, current_quantity: 884
+[DEBUG] 11-09-2025 22:27:56 - drop item 5140 x2
+[DEBUG] 11-09-2025 22:28:01 - scan_drop_log: found 2 drop item(s)
+[DEBUG] 11-09-2025 22:28:01 - previous_quantity: 884, current_quantity: 885
+[DEBUG] 11-09-2025 22:28:01 - drop item 5140 x1
+[DEBUG] 11-09-2025 22:28:01 - previous_quantity: 918, current_quantity: 920
+[DEBUG] 11-09-2025 22:28:01 - drop item 5080 x2
+[DEBUG] 11-09-2025 22:28:03 - scan_drop_log: found 1 drop item(s)
+[DEBUG] 11-09-2025 22:28:03 - previous_quantity: 885, current_quantity: 886
+[DEBUG] 11-09-2025 22:28:03 - drop item 5140 x1
+[DEBUG] 11-09-2025 22:28:10 - scan_drop_log: found 1 drop item(s)
+[DEBUG] 11-09-2025 22:28:10 - previous_quantity: 627, current_quantity: 707
+[DEBUG] 11-09-2025 22:28:10 - drop item 100200 x80
+[DEBUG] 11-09-2025 22:28:11 - scan_drop_log: found 1 drop item(s)
+[DEBUG] 11-09-2025 22:28:11 - previous_quantity: 707, current_quantity: 708
+[DEBUG] 11-09-2025 22:28:11 - drop item 100200 x1
+[DEBUG] 11-09-2025 22:28:12 - scan_drop_log: found 2 drop item(s)
+[DEBUG] 11-09-2025 22:28:12 - previous_quantity: 708, current_quantity: 709
+[DEBUG] 11-09-2025 22:28:12 - drop item 100200 x1
+[DEBUG] 11-09-2025 22:28:12 - previous_quantity: 709, current_quantity: 710
+[DEBUG] 11-09-2025 22:28:12 - drop item 100200 x1
+[DEBUG] 11-09-2025 22:28:13 - scan_drop_log: found 1 drop item(s)
+[DEBUG] 11-09-2025 22:28:13 - previous_quantity: 710, current_quantity: 712
+[DEBUG] 11-09-2025 22:28:13 - drop item 100200 x2
+[DEBUG] 11-09-2025 22:28:14 - scan_drop_log: found 2 drop item(s)
+[DEBUG] 11-09-2025 22:28:14 - previous_quantity: 712, current_quantity: 717
+[DEBUG] 11-09-2025 22:28:14 - drop item 100200 x5
+[DEBUG] 11-09-2025 22:28:14 - previous_quantity: 717, current_quantity: 719
+[DEBUG] 11-09-2025 22:28:14 - drop item 100200 x2
+[DEBUG] 11-09-2025 22:28:15 - scan_drop_log: found 1 drop item(s)
+[DEBUG] 11-09-2025 22:28:15 - previous_quantity: 719, current_quantity: 721
+[DEBUG] 11-09-2025 22:28:15 - drop item 100200 x2
+[DEBUG] 11-09-2025 22:28:19 - scan_drop_log: found 1 drop item(s)
+[DEBUG] 11-09-2025 22:28:19 - previous_quantity: 721, current_quantity: 731
+[DEBUG] 11-09-2025 22:28:19 - drop item 100200 x10
+[DEBUG] 11-09-2025 22:28:24 - scan_drop_log: found 1 drop item(s)
+[DEBUG] 11-09-2025 22:28:24 - previous_quantity: 731, current_quantity: 732
+[DEBUG] 11-09-2025 22:28:24 - drop item 100200 x1
+[DEBUG] 11-09-2025 22:28:25 - scan_drop_log: found 1 drop item(s)
+[DEBUG] 11-09-2025 22:28:25 - previous_quantity: 732, current_quantity: 733
+[DEBUG] 11-09-2025 22:28:25 - drop item 100200 x1
+[DEBUG] 11-09-2025 22:28:26 - scan_drop_log: found 2 drop item(s)
+[DEBUG] 11-09-2025 22:28:26 - previous_quantity: 733, current_quantity: 734
+[DEBUG] 11-09-2025 22:28:26 - drop item 100200 x1
+[DEBUG] 11-09-2025 22:28:26 - previous_quantity: 734, current_quantity: 735
+[DEBUG] 11-09-2025 22:28:26 - drop item 100200 x1
+[DEBUG] 11-09-2025 22:28:28 - scan_drop_log: found 1 drop item(s)
+[DEBUG] 11-09-2025 22:28:28 - previous_quantity: 735, current_quantity: 736
+[DEBUG] 11-09-2025 22:28:28 - drop item 100200 x1
+[DEBUG] 11-09-2025 22:28:29 - scan_drop_log: found 1 drop item(s)
+[DEBUG] 11-09-2025 22:28:29 - previous_quantity: 1976, current_quantity: 1979
+[DEBUG] 11-09-2025 22:28:29 - drop item 200028 x3
+[DEBUG] 11-09-2025 22:28:32 - scan_drop_log: found 1 drop item(s)
+[DEBUG] 11-09-2025 22:28:32 - previous_quantity: 736, current_quantity: 741
+[DEBUG] 11-09-2025 22:28:32 - drop item 100200 x5
+[DEBUG] 11-09-2025 22:28:34 - scan_drop_log: found 1 drop item(s)
+[DEBUG] 11-09-2025 22:28:34 - previous_quantity: 291, current_quantity: 292
+[DEBUG] 11-09-2025 22:28:34 - drop item 100300 x1
+[DEBUG] 11-09-2025 22:28:35 - scan_drop_log: found 2 drop item(s)
+[DEBUG] 11-09-2025 22:28:35 - previous_quantity: 79, current_quantity: 80
+[DEBUG] 11-09-2025 22:28:35 - drop item 360403 x1
+[DEBUG] 11-09-2025 22:28:35 - previous_quantity: 292, current_quantity: 293
+[DEBUG] 11-09-2025 22:28:35 - drop item 100300 x1
+[DEBUG] 11-09-2025 22:28:36 - scan_drop_log: found 3 drop item(s)
+[DEBUG] 11-09-2025 22:28:36 - previous_quantity: 293, current_quantity: 295
+[DEBUG] 11-09-2025 22:28:36 - drop item 100300 x2
+[DEBUG] 11-09-2025 22:28:36 - previous_quantity: 32, current_quantity: 33
+[DEBUG] 11-09-2025 22:28:36 - drop item 5700 x1
+[DEBUG] 11-09-2025 22:28:36 - previous_quantity: 3180, current_quantity: 3188
+[DEBUG] 11-09-2025 22:28:36 - drop item 200029 x8
+[DEBUG] 11-09-2025 22:28:46 - scan_drop_log: found 3 drop item(s)
+[DEBUG] 11-09-2025 22:28:46 - previous_quantity: 8, current_quantity: 9
+[DEBUG] 11-09-2025 22:28:46 - drop item 6002 x1
+[DEBUG] 11-09-2025 22:28:46 - previous_quantity: 295, current_quantity: 296
+[DEBUG] 11-09-2025 22:28:46 - drop item 100300 x1
+[DEBUG] 11-09-2025 22:28:46 - previous_quantity: 741, current_quantity: 742
+[DEBUG] 11-09-2025 22:28:46 - drop item 100200 x1
+[DEBUG] 11-09-2025 22:28:52 - scan_drop_log: found 2 drop item(s)
+[DEBUG] 11-09-2025 22:28:52 - previous_quantity: 742, current_quantity: 752
+[DEBUG] 11-09-2025 22:28:52 - drop item 100200 x10
+[DEBUG] 11-09-2025 22:28:52 - previous_quantity: 752, current_quantity: 753
+[DEBUG] 11-09-2025 22:28:52 - drop item 100200 x1
+[DEBUG] 11-09-2025 22:28:56 - scan_drop_log: found 1 drop item(s)
+[DEBUG] 11-09-2025 22:28:56 - previous_quantity: 753, current_quantity: 756
+[DEBUG] 11-09-2025 22:28:56 - drop item 100200 x3
+[DEBUG] 11-09-2025 22:28:57 - scan_drop_log: found 2 drop item(s)
+[DEBUG] 11-09-2025 22:28:57 - previous_quantity: 756, current_quantity: 757
+[DEBUG] 11-09-2025 22:28:57 - drop item 100200 x1
+[DEBUG] 11-09-2025 22:28:57 - previous_quantity: 757, current_quantity: 758
+[DEBUG] 11-09-2025 22:28:57 - drop item 100200 x1
+[DEBUG] 11-09-2025 22:28:58 - scan_drop_log: found 1 drop item(s)
+[DEBUG] 11-09-2025 22:28:58 - previous_quantity: 758, current_quantity: 760
+[DEBUG] 11-09-2025 22:28:58 - drop item 100200 x2
+[DEBUG] 11-09-2025 22:28:59 - scan_drop_log: found 1 drop item(s)
+[DEBUG] 11-09-2025 22:28:59 - previous_quantity: 760, current_quantity: 761
+[DEBUG] 11-09-2025 22:28:59 - drop item 100200 x1
+[DEBUG] 11-09-2025 22:29:04 - scan_drop_log: found 1 drop item(s)
+[DEBUG] 11-09-2025 22:29:04 - previous_quantity: 296, current_quantity: 298
+[DEBUG] 11-09-2025 22:29:04 - drop item 100300 x2
+[DEBUG] 11-09-2025 22:29:07 - scan_drop_log: found 1 drop item(s)
+[DEBUG] 11-09-2025 22:29:07 - previous_quantity: 761, current_quantity: 763
+[DEBUG] 11-09-2025 22:29:07 - drop item 100200 x2
+[DEBUG] 11-09-2025 22:29:08 - scan_drop_log: found 1 drop item(s)
+[DEBUG] 11-09-2025 22:29:08 - previous_quantity: 763, current_quantity: 766
+[DEBUG] 11-09-2025 22:29:08 - drop item 100200 x3
+[DEBUG] 11-09-2025 22:29:09 - scan_drop_log: found 2 drop item(s)
+[DEBUG] 11-09-2025 22:29:09 - previous_quantity: 766, current_quantity: 767
+[DEBUG] 11-09-2025 22:29:09 - drop item 100200 x1
+[DEBUG] 11-09-2025 22:29:09 - previous_quantity: 767, current_quantity: 770
+[DEBUG] 11-09-2025 22:29:09 - drop item 100200 x3
+[DEBUG] 11-09-2025 22:29:42 - scan_drop_log: found 1 drop item(s)
+[DEBUG] 11-09-2025 22:29:42 - previous_quantity: 1979, current_quantity: 1980
+[DEBUG] 11-09-2025 22:29:42 - drop item 200028 x1
+[DEBUG] 11-09-2025 22:29:43 - scan_drop_log: found 2 drop item(s)
+[DEBUG] 11-09-2025 22:29:43 - previous_quantity: 1980, current_quantity: 1990
+[DEBUG] 11-09-2025 22:29:43 - drop item 200028 x10
+[DEBUG] 11-09-2025 22:29:43 - previous_quantity: 770, current_quantity: 771
+[DEBUG] 11-09-2025 22:29:43 - drop item 100200 x1
+[DEBUG] 11-09-2025 22:29:46 - scan_drop_log: found 1 drop item(s)
+[DEBUG] 11-09-2025 22:29:46 - previous_quantity: 9, current_quantity: 10
+[DEBUG] 11-09-2025 22:29:46 - drop item 6002 x1
+[DEBUG] 11-09-2025 22:29:51 - scan_drop_log: found 1 drop item(s)
+[DEBUG] 11-09-2025 22:29:51 - previous_quantity: 771, current_quantity: 775
+[DEBUG] 11-09-2025 22:29:51 - drop item 100200 x4
+[DEBUG] 11-09-2025 22:29:56 - scan_drop_log: found 1 drop item(s)
+[DEBUG] 11-09-2025 22:29:56 - previous_quantity: 775, current_quantity: 777
+[DEBUG] 11-09-2025 22:29:56 - drop item 100200 x2
+[DEBUG] 11-09-2025 22:29:59 - scan_drop_log: found 2 drop item(s)
+[DEBUG] 11-09-2025 22:29:59 - previous_quantity: 777, current_quantity: 779
+[DEBUG] 11-09-2025 22:29:59 - drop item 100200 x2
+[DEBUG] 11-09-2025 22:29:59 - previous_quantity: 779, current_quantity: 780
+[DEBUG] 11-09-2025 22:29:59 - drop item 100200 x1
+[DEBUG] 11-09-2025 22:30:02 - scan_drop_log: found 2 drop item(s)
+[DEBUG] 11-09-2025 22:30:02 - previous_quantity: 780, current_quantity: 824
+[DEBUG] 11-09-2025 22:30:02 - drop item 100200 x44
+[DEBUG] 11-09-2025 22:30:02 - previous_quantity: 824, current_quantity: 857
+[DEBUG] 11-09-2025 22:30:02 - drop item 100200 x33
+[DEBUG] 11-09-2025 22:30:04 - scan_drop_log: found 1 drop item(s)
+[DEBUG] 11-09-2025 22:30:04 - previous_quantity: 857, current_quantity: 867
+[DEBUG] 11-09-2025 22:30:04 - drop item 100200 x10
+[DEBUG] 11-09-2025 22:30:05 - scan_drop_log: found 1 drop item(s)
+[DEBUG] 11-09-2025 22:30:05 - previous_quantity: 867, current_quantity: 868
+[DEBUG] 11-09-2025 22:30:05 - drop item 100200 x1
+[DEBUG] 11-09-2025 22:30:06 - scan_drop_log: found 1 drop item(s)
+[DEBUG] 11-09-2025 22:30:06 - previous_quantity: 868, current_quantity: 870
+[DEBUG] 11-09-2025 22:30:06 - drop item 100200 x2
+[DEBUG] 11-09-2025 22:30:29 - scan_drop_log: found 1 drop item(s)
+[DEBUG] 11-09-2025 22:30:29 - previous_quantity: 870, current_quantity: 889
+[DEBUG] 11-09-2025 22:30:29 - drop item 100200 x19
+[DEBUG] 11-09-2025 22:30:30 - scan_drop_log: found 1 drop item(s)
+[DEBUG] 11-09-2025 22:30:30 - previous_quantity: 298, current_quantity: 305
+[DEBUG] 11-09-2025 22:30:30 - drop item 100300 x7
+[DEBUG] 11-09-2025 22:30:40 - scan_drop_log: found 1 drop item(s)
+[DEBUG] 11-09-2025 22:30:40 - previous_quantity: 886, current_quantity: 888
+[DEBUG] 11-09-2025 22:30:40 - drop item 5140 x2
+[DEBUG] 11-09-2025 22:30:41 - profit logged: map #3, profit=44.27, duration=282.55s
+[DEBUG] 11-09-2025 22:30:51 - BEFORE MAP ENTRY - state.bag_items count: 179, items: ['3611', '4535', '4631', '261005', '260005', '71003', '71001', '360616', '360502', '3811']
+[DEBUG] 11-09-2025 22:30:51 -   - 3611: Item 3611 x2
+[DEBUG] 11-09-2025 22:30:51 -   - 4535: Item 4535 x1
+[DEBUG] 11-09-2025 22:30:51 -   - 4631: Item 4631 x1
+[DEBUG] 11-09-2025 22:30:51 -   - 261005: Item 261005 x1
+[DEBUG] 11-09-2025 22:30:51 -   - 260005: Item 260005 x1
+[DEBUG] 11-09-2025 22:30:51 - KEEPING bag_items from cache, count: 179
+[DEBUG] 11-09-2025 22:30:51 - AFTER scan_init_bag - init_bag_data count: 0, state.bag_items count: 179
+[DEBUG] 11-09-2025 22:30:51 - Using cached bag_items from bag_log.json as baseline (no init bag event found)
+[DEBUG] 11-09-2025 22:30:51 -   Cached items count: 179
+[DEBUG] 11-09-2025 22:31:04 - scan_drop_log: found 1 drop item(s)
+[DEBUG] 11-09-2025 22:31:04 - previous_quantity: 305, current_quantity: 306
+[DEBUG] 11-09-2025 22:31:04 - drop item 100300 x1
+[DEBUG] 11-09-2025 22:31:06 - scan_drop_log: found 1 drop item(s)
+[DEBUG] 11-09-2025 22:31:06 - previous_quantity: 288, current_quantity: 279
+[DEBUG] 11-09-2025 22:31:14 - scan_drop_log: found 1 drop item(s)
+[DEBUG] 11-09-2025 22:31:14 - previous_quantity: 306, current_quantity: 307
+[DEBUG] 11-09-2025 22:31:14 - drop item 100300 x1
+[DEBUG] 11-09-2025 22:31:22 - scan_drop_log: found 2 drop item(s)
+[DEBUG] 11-09-2025 22:31:22 - previous_quantity: 889, current_quantity: 893
+[DEBUG] 11-09-2025 22:31:22 - drop item 100200 x4
+[DEBUG] 11-09-2025 22:31:22 - previous_quantity: 307, current_quantity: 308
+[DEBUG] 11-09-2025 22:31:22 - drop item 100300 x1
+[DEBUG] 11-09-2025 22:31:23 - scan_drop_log: found 3 drop item(s)
+[DEBUG] 11-09-2025 22:31:23 - previous_quantity: 893, current_quantity: 896
+[DEBUG] 11-09-2025 22:31:23 - drop item 100200 x3
+[DEBUG] 11-09-2025 22:31:23 - previous_quantity: 308, current_quantity: 309
+[DEBUG] 11-09-2025 22:31:23 - drop item 100300 x1
+[DEBUG] 11-09-2025 22:31:23 - previous_quantity: 896, current_quantity: 897
+[DEBUG] 11-09-2025 22:31:23 - drop item 100200 x1
+[DEBUG] 11-09-2025 22:31:27 - scan_drop_log: found 1 drop item(s)
+[DEBUG] 11-09-2025 22:31:27 - previous_quantity: 888, current_quantity: 889
+[DEBUG] 11-09-2025 22:31:27 - drop item 5140 x1
+[DEBUG] 11-09-2025 22:31:28 - scan_drop_log: found 1 drop item(s)
+[DEBUG] 11-09-2025 22:31:28 - previous_quantity: 897, current_quantity: 898
+[DEBUG] 11-09-2025 22:31:28 - drop item 100200 x1
+[DEBUG] 11-09-2025 22:32:01 - scan_drop_log: found 1 drop item(s)
+[DEBUG] 11-09-2025 22:32:01 - previous_quantity: 889, current_quantity: 890
+[DEBUG] 11-09-2025 22:32:01 - drop item 5140 x1
+[DEBUG] 11-09-2025 22:32:02 - profit logged: map #4, profit=-2.99, duration=72.59s
